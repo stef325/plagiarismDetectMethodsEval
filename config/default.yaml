@@ -1,0 +1,16 @@
+project:
+  name: plagiarism-detect-methods-eval
+  version: "0.1.0"
+
+dataset:
+  name: POP909
+  path: data/raw/POP909
+
+paths:
+  processed: data/processed
+  results: data/results
+  logs: logs
+
+experiment:
+  random_seed: 42
+  

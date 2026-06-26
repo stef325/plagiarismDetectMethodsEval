@@ -38,20 +38,30 @@
 
 ### 1.1 Configuração do ambiente
 
-* [ ] Configurar Docker
-* [ ] Definir versão do Python
-* [ ] Criar `requirements.txt`
-* [ ] Configurar Git e GitHub
-* [ ] Definir padrão de versionamento
-* [ ] Configurar estrutura de diretórios
+* [x] Configurar Docker
+* [x] Definir versão do Python
+* [x] Criar `requirements.txt`
+* [x] Configurar Git e GitHub
+* [x] Definir padrão de versionamento
+* [x] Configurar estrutura de diretórios
 
 ### 1.2 Estrutura do projeto
 
-* [ ] Criar estrutura de módulos (`src`)
-* [ ] Criar diretório de documentação
-* [ ] Criar diretório de dados
-* [ ] Criar diretório de resultados
-* [ ] Criar script principal de execução
+* [x] Criar estrutura de módulos (`src`)
+    - [x] Pré Processamento
+    - [x] Transformações
+    - [x] Métricas
+    - [x] Experimento
+* [x] Criar diretório de documentação
+* [x] Criar diretório de dados
+    - [x] Dados brutos
+    - [x] Dados processados
+    - [x] Dados resultados
+* [x] Criar diretório de notebooks
+* [x] Criar `.gitignore`
+* [x] Criar diretório de configurações
+    - [x] Criar `default.yaml`
+* [x] Criar script principal de execução
 
 ### 1.3 Reprodutibilidade
 
