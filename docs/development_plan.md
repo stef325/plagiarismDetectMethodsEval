@@ -74,28 +74,33 @@
 
 # Etapa 2 — Pré-processamento dos dados
 
-## 2.1 Carregamento do dataset
+## 2.1 Conhecimento do dataset
 
 * [ ] Baixar POP909
 * [ ] Organizar estrutura dos dados
+* [ ] Inspecionar estrutura dos arquivos
+* [ ] Documentar organização do dataset
+
+## 2.2 Carregamento
+
 * [ ] Implementar carregamento dos arquivos MIDI
 * [ ] Validar integridade dos arquivos
 
-## 2.2 Limpeza dos dados
+## 2.3 Limpeza dos dados
 
 * [ ] Identificar arquivos inválidos
-* [ ] Padronizar tempos (tempo map)
+* [ ] Padronizar tempos
 * [ ] Padronizar resolução temporal
 * [ ] Remover inconsistências
 
-## 2.3 Preparação dos dados
+## 2.4 Preparação dos dados
 
 * [ ] Selecionar subconjunto do dataset
 * [ ] Extrair trechos de 8/16 compassos
 * [ ] Salvar segmentos processados
 * [ ] Registrar metadados dos segmentos
 
-## 2.4 Extração das representações musicais
+## 2.5 Extração das representações musicais
 
 * [ ] Extrair melodia
 * [ ] Extrair harmonia
