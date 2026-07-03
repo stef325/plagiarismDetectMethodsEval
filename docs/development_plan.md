@@ -77,7 +77,7 @@
 ## 2.1 Conhecimento do dataset
 
 * [x] Baixar POP909
-* [ ] Organizar estrutura dos dados
+* [x] Organizar estrutura dos dados
 * [ ] Inspecionar estrutura dos arquivos
 * [ ] Documentar organização do dataset
 
