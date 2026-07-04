@@ -29,6 +29,40 @@ MIT License, conforme a documentação oficial do repositório.
 **Localização no projeto:**  
 `data/raw/POP909`
 
+**Estrutura**
+Cada música possui a seguinte organização:
+
+001/
+├── 001.mid
+├── beat_audio.txt
+├── beat_midi.txt
+├── chord_audio.txt
+├── chord_midi.txt
+├── key_audio.txt
+└── versions/
+    ├──001-v1.mid
+    ...
+
+**Descrição dos arquivos (explicação dada do próprio repositório)**
+
+- `001.mid`: arquivo MIDI da música arranjada. A trilha `MELODY` representa a melodia principal, a trilha `BRIDGE` representa a submelodia e a trilha `PIANO` representa o acompanhamento.
+- `beat_audio.txt` / `beat_midi.txt`: informações de batidas extraídas do áudio bruto ou do MIDI bruto. A primeira coluna representa o tempo, em segundos, e a segunda coluna representa a ordem da batida.
+- `chord_audio.txt` / `chord_midi.txt`: informações de acordes extraídas do áudio bruto ou do MIDI bruto. A primeira e a segunda colunas representam, respectivamente, o tempo de início e o tempo de fim, em segundos, e a terceira coluna representa o nome do acorde.
+- `key_audio.txt`: informações de mudança de tonalidade extraídas do áudio bruto. A primeira e a segunda colunas representam, respectivamente, o tempo de início e o tempo de fim, em segundos, e a terceira coluna representa a mudança de tonalidade.
+- `versions/`: contém diferentes versões da mesma música arranjada.
+
+**Arquivos utilizados neste projeto**
+
+| Arquivo | Utilização |
+|---------|------------|
+| *.mid | Sim |
+| beat_audio.txt | Possivelmente  |
+| beat_midi.txt | Possivelmente |
+| chord_audio.txt | Possivelmente |
+| chord_midi.txt | Possivelmente |
+| key_audio.txt | Possivelmente |
+| versions/ | Não |
+
 ## Integridade dos dados brutos
 
 Para facilitar a validação reprodutível dos dados, este projeto registra:

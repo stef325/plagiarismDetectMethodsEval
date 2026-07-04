@@ -78,8 +78,8 @@
 
 * [x] Baixar POP909
 * [x] Organizar estrutura dos dados
-* [ ] Inspecionar estrutura dos arquivos
-* [ ] Documentar organização do dataset
+* [x] Inspecionar estrutura dos arquivos
+* [x] Documentar organização do dataset
 
 ## 2.2 Carregamento
 
