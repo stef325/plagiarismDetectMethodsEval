@@ -83,7 +83,7 @@
 
 ## 2.2 Carregamento
 
-* [ ] Implementar carregamento dos arquivos MIDI
+* [x] Implementar carregamento dos arquivos MIDI
 * [ ] Validar integridade dos arquivos
 
 ## 2.3 Limpeza dos dados
