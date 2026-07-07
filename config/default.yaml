@@ -14,10 +14,15 @@ paths:
   segments: data/processed/segments
   representations: data/processed/representations
   results: data/results
+  metrics: data/results/compute_metrics
   logs: logs
 
 experiment:
   random_seed: 42
+
+metrics:
+  melody:
+    interval_ngram_n: 2
 
 subset:
   sample_size: 100
