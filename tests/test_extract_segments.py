@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+import csv
 from pathlib import Path
 from unittest.mock import patch
 
@@ -98,7 +99,22 @@ class ExtractSegmentsTestCase(unittest.TestCase):
                     "001_segment_02.mid",
                     "002_segment_01.mid",
                     "002_segment_02.mid",
+                    "segments_metadata.csv",
                 ],
+            )
+
+            metadata_path = output_path / "segments_metadata.csv"
+            self.assertTrue(metadata_path.exists())
+
+            with metadata_path.open("r", encoding="utf-8", newline="") as file:
+                rows = list(csv.DictReader(file))
+
+            self.assertEqual(len(rows), 4)
+            self.assertTrue(all(row["measures"] == "2" for row in rows))
+            self.assertTrue(all(row["segment_file"].endswith(".mid") for row in rows))
+            self.assertEqual(
+                {row["source_file"] for row in rows},
+                {"001.mid", "002.mid"},
             )
 
     def test_extract_segments_is_reproducible_with_same_seed(self) -> None:
@@ -135,7 +151,10 @@ class ExtractSegmentsTestCase(unittest.TestCase):
             first_files = sorted(path.name for path in first_output.iterdir())
             second_files = sorted(path.name for path in second_output.iterdir())
             self.assertEqual(first_files, second_files)
-            self.assertEqual(first_files, ["001_segment_01.mid", "001_segment_02.mid"])
+            self.assertEqual(
+                first_files,
+                ["001_segment_01.mid", "001_segment_02.mid", "segments_metadata.csv"],
+            )
 
 
 if __name__ == "__main__":

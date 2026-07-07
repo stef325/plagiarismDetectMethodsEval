@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
+import csv
 from pathlib import Path
 import hashlib
 import random
@@ -19,6 +20,7 @@ class SegmentExtractionSummary:
 
     source_path: Path
     output_path: Path
+    metadata_path: Path
     available_files: int
     segments_per_song: int
     measures_per_segment: int
@@ -73,6 +75,7 @@ def extract_segments(
 
     loader = POP909Loader(source_root)
     segments_created = 0
+    metadata_entries: list[dict[str, str | int | float]] = []
 
     print("Iniciando a extracao de segmentos do dataset POP909...")
 
@@ -101,15 +104,30 @@ def extract_segments(
             start_time = float(downbeats[start_index])
             end_time = float(downbeats[start_index + measures_per_segment])
             segment_midi = _extract_midi_segment(midi, start_time, end_time)
-            segment_path = segments_root / (
-                f"{source_file.stem}_segment_{segment_index:02d}.mid"
-            )
+            segment_name = f"{source_file.stem}_segment_{segment_index:02d}.mid"
+            segment_path = segments_root / segment_name
             segment_midi.write(str(segment_path))
+            metadata_entries.append(
+                {
+                    "source_file": source_file.name,
+                    "segment_file": segment_name,
+                    "start_measure": start_index + 1,
+                    "end_measure": start_index + measures_per_segment,
+                    "measures": measures_per_segment,
+                    "start_time_seconds": f"{start_time:.6f}",
+                    "end_time_seconds": f"{end_time:.6f}",
+                    "random_seed": random_seed,
+                }
+            )
             segments_created += 1
+
+    metadata_path = segments_root / "segments_metadata.csv"
+    _write_metadata_csv(metadata_path, metadata_entries)
 
     summary = SegmentExtractionSummary(
         source_path=source_root,
         output_path=segments_root,
+        metadata_path=metadata_path,
         available_files=len(source_files),
         segments_per_song=segments_per_song,
         measures_per_segment=measures_per_segment,
@@ -194,3 +212,28 @@ def _print_segment_summary(summary: SegmentExtractionSummary) -> None:
     print(f"Compassos por segmento: {summary.measures_per_segment}")
     print(f"Segmentos criados: {summary.segments_created}")
     print(f"Seed utilizada: {summary.random_seed}")
+    print(f"Metadados gerados em: {summary.metadata_path.as_posix()}")
+
+
+def _write_metadata_csv(
+    metadata_path: Path,
+    metadata_entries: list[dict[str, str | int | float]],
+) -> None:
+    """Escreve os metadados dos segmentos em CSV."""
+
+    with metadata_path.open("w", encoding="utf-8", newline="") as file:
+        writer = csv.DictWriter(
+            file,
+            fieldnames=[
+                "source_file",
+                "segment_file",
+                "start_measure",
+                "end_measure",
+                "measures",
+                "start_time_seconds",
+                "end_time_seconds",
+                "random_seed",
+            ],
+        )
+        writer.writeheader()
+        writer.writerows(metadata_entries)

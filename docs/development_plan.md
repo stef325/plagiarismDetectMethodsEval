@@ -96,7 +96,7 @@
 * [x] Selecionar subconjunto do dataset
 * [x] Extrair trechos de 8/16 compassos
 * [x] Salvar segmentos processados
-* [ ] Registrar metadados dos segmentos
+* [x] Registrar metadados dos segmentos
 
 ## 2.5 Extração das representações musicais
 
