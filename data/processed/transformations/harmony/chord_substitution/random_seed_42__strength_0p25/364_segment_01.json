@@ -1,0 +1,130 @@
+{
+  "segment_file": "364_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.611998,
+      "chord": "A2-F3-F4"
+    },
+    {
+      "start": 0.335309,
+      "end": 1.345926,
+      "chord": "A3-D4"
+    },
+    {
+      "start": 0.57917,
+      "end": 0.8031,
+      "chord": "C4"
+    },
+    {
+      "start": 0.823031,
+      "end": 1.335374,
+      "chord": "D#3-F#3"
+    },
+    {
+      "start": 1.066892,
+      "end": 1.599166,
+      "chord": "C4"
+    },
+    {
+      "start": 1.310753,
+      "end": 2.892333,
+      "chord": "G2"
+    },
+    {
+      "start": 1.554614,
+      "end": 1.789096,
+      "chord": "D4"
+    },
+    {
+      "start": 1.798476,
+      "end": 3.139712,
+      "chord": "B2-G3"
+    },
+    {
+      "start": 2.286198,
+      "end": 3.261642,
+      "chord": "A4-A4"
+    },
+    {
+      "start": 2.530059,
+      "end": 2.753989,
+      "chord": "G4"
+    },
+    {
+      "start": 2.77392,
+      "end": 3.261642,
+      "chord": "A#3-A#4"
+    },
+    {
+      "start": 3.017781,
+      "end": 3.261642,
+      "chord": "D5"
+    },
+    {
+      "start": 3.261642,
+      "end": 4.940532,
+      "chord": "F#2-A#4"
+    },
+    {
+      "start": 3.750537,
+      "end": 4.343776,
+      "chord": "A3"
+    },
+    {
+      "start": 4.238259,
+      "end": 5.186738,
+      "chord": "A#3-C4"
+    },
+    {
+      "start": 4.725981,
+      "end": 5.200807,
+      "chord": "A3-C4"
+    },
+    {
+      "start": 5.213703,
+      "end": 6.648732,
+      "chord": "A#2-D4"
+    },
+    {
+      "start": 5.701425,
+      "end": 6.336871,
+      "chord": "F3"
+    },
+    {
+      "start": 5.945286,
+      "end": 6.062527,
+      "chord": "D4"
+    },
+    {
+      "start": 6.189148,
+      "end": 7.164592,
+      "chord": "G3-B3-B3"
+    },
+    {
+      "start": 6.433009,
+      "end": 6.640525,
+      "chord": "C#4"
+    },
+    {
+      "start": 6.67687,
+      "end": 7.197419,
+      "chord": "F3-F4"
+    },
+    {
+      "start": 7.164592,
+      "end": 7.804727,
+      "chord": "C2-E4"
+    },
+    {
+      "start": 7.652314,
+      "end": 7.804727,
+      "chord": "C3-G3"
+    }
+  ],
+  "transformation": "chord_substitution",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}
