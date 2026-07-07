@@ -1,0 +1,118 @@
+{
+  "segment_file": "371_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 65,
+      "duration": 0.057633
+    },
+    {
+      "pitch": 65,
+      "duration": 0.131733
+    },
+    {
+      "pitch": 60,
+      "duration": 0.670194
+    },
+    {
+      "pitch": 65,
+      "duration": 0.082333
+    },
+    {
+      "pitch": 65,
+      "duration": 0.11362
+    },
+    {
+      "pitch": 53,
+      "duration": 0.670194
+    },
+    {
+      "pitch": 65,
+      "duration": 0.08398
+    },
+    {
+      "pitch": 65,
+      "duration": 0.121853
+    },
+    {
+      "pitch": 48,
+      "duration": 0.602681
+    },
+    {
+      "pitch": 65,
+      "duration": 0.085627
+    },
+    {
+      "pitch": 65,
+      "duration": 0.278287
+    },
+    {
+      "pitch": 69,
+      "duration": 0.161373
+    },
+    {
+      "pitch": 72,
+      "duration": 0.204187
+    },
+    {
+      "pitch": 69,
+      "duration": 0.1482
+    },
+    {
+      "pitch": 67,
+      "duration": 0.25688
+    },
+    {
+      "pitch": 69,
+      "duration": 0.876027
+    },
+    {
+      "pitch": 64,
+      "duration": 0.082333
+    },
+    {
+      "pitch": 64,
+      "duration": 0.11362
+    },
+    {
+      "pitch": 45,
+      "duration": 0.607621
+    },
+    {
+      "pitch": 64,
+      "duration": 0.07904
+    },
+    {
+      "pitch": 64,
+      "duration": 0.130087
+    },
+    {
+      "pitch": 52,
+      "duration": 0.571394
+    },
+    {
+      "pitch": 64,
+      "duration": 0.072453
+    },
+    {
+      "pitch": 64,
+      "duration": 0.072453
+    },
+    {
+      "pitch": 65,
+      "duration": 0.082333
+    },
+    {
+      "pitch": 65,
+      "duration": 0.171253
+    },
+    {
+      "pitch": 69,
+      "duration": 0.01482
+    }
+  ],
+  "transformation": "transpose",
+  "parameters": {
+    "semitones": 2,
+    "random_seed": 42
+  }
+}
