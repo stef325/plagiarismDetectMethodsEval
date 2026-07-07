@@ -93,7 +93,7 @@
 
 ## 2.4 Preparação dos dados
 
-* [ ] Selecionar subconjunto do dataset
+* [x] Selecionar subconjunto do dataset
 * [ ] Extrair trechos de 8/16 compassos
 * [ ] Salvar segmentos processados
 * [ ] Registrar metadados dos segmentos

@@ -8,9 +8,14 @@ dataset:
 
 paths:
   processed: data/processed
+  subset: data/processed/subset
   results: data/results
   logs: logs
 
 experiment:
+  random_seed: 42
+
+subset:
+  sample_size: 100
   random_seed: 42
   
