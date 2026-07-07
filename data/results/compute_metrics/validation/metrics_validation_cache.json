@@ -1,0 +1,377 @@
+{
+  "fingerprint": "f162b0630c8f90a351002b70e60c2d37776e17a6306c6cd14bbc385db7f49f75",
+  "records": [
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "global_simple_average",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "metricas identicas"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade intermediaria",
+      "metric": "global_simple_average",
+      "obtained_result": "0.437500",
+      "status": "PASS",
+      "test_case": "metricas diferentes"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade ponderada calculada corretamente",
+      "metric": "global_weighted_average",
+      "obtained_result": "0.637500",
+      "status": "PASS",
+      "test_case": "pesos validos"
+    },
+    {
+      "error_message": "",
+      "expected_result": "ValueError",
+      "metric": "global_weighted_average",
+      "obtained_result": "PASS",
+      "status": "PASS",
+      "test_case": "pesos ausentes"
+    },
+    {
+      "error_message": "",
+      "expected_result": "ValueError",
+      "metric": "global_weighted_average",
+      "obtained_result": "PASS",
+      "status": "PASS",
+      "test_case": "pesos negativos"
+    },
+    {
+      "error_message": "",
+      "expected_result": "ValueError",
+      "metric": "global_weighted_average",
+      "obtained_result": "PASS",
+      "status": "PASS",
+      "test_case": "soma dos pesos invalida"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "harmony_chord_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "progressões iguais"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade alta",
+      "metric": "harmony_chord_ngram_similarity",
+      "obtained_result": "0.333333",
+      "status": "PASS",
+      "test_case": "substituicao simples"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "harmony_chord_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencia vazia"
+    },
+    {
+      "error_message": "",
+      "expected_result": "ValueError",
+      "metric": "harmony_chord_ngram_similarity",
+      "obtained_result": "PASS",
+      "status": "PASS",
+      "test_case": "parametro n invalido"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "harmony_harmonic_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "progressões iguais"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade intermediaria",
+      "metric": "harmony_harmonic_edit_distance",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "reharmonizacao"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "harmony_harmonic_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencia vazia"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "harmony_pitch_class_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "progressões iguais"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade alta",
+      "metric": "harmony_pitch_class_similarity",
+      "obtained_result": "0.750000",
+      "status": "PASS",
+      "test_case": "substituicao simples"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade baixa",
+      "metric": "harmony_pitch_class_similarity",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "sequencia completamente diferente"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "harmony_pitch_class_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencia vazia"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade próxima de 1",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias identicas"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade próxima de 1",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias identicas"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade alta",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "transposicao simples"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade intermediaria",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "0.333333",
+      "status": "PASS",
+      "test_case": "alteracao de poucos intervalos"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade baixa",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "sequencias completamente diferentes"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias vazias"
+    },
+    {
+      "error_message": "",
+      "expected_result": "ValueError",
+      "metric": "melody_interval_ngram_similarity",
+      "obtained_result": "PASS",
+      "status": "PASS",
+      "test_case": "parametro n invalido"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_longest_common_subsequence",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias identicas"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_longest_common_subsequence",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "transposicao simples"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade baixa",
+      "metric": "melody_longest_common_subsequence",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "sequencias totalmente diferentes"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_longest_common_subsequence",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias vazias"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias identicas"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "transposicao simples"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade baixa",
+      "metric": "melody_edit_distance",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "sequencias diferentes"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "melody_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencias vazias"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "rhythm_rhythm_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "padrao identico"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade alta",
+      "metric": "rhythm_rhythm_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "alteracao de andamento"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade intermediaria",
+      "metric": "rhythm_rhythm_ngram_similarity",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "alteracao parcial"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade baixa",
+      "metric": "rhythm_rhythm_ngram_similarity",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "padrao completamente diferente"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "rhythm_rhythm_ngram_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencia vazia"
+    },
+    {
+      "error_message": "",
+      "expected_result": "ValueError",
+      "metric": "rhythm_rhythm_ngram_similarity",
+      "obtained_result": "PASS",
+      "status": "PASS",
+      "test_case": "parametro n invalido"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "rhythm_ioi_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "padrao identico"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade alta",
+      "metric": "rhythm_ioi_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "alteracao de andamento"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade intermediaria",
+      "metric": "rhythm_ioi_similarity",
+      "obtained_result": "0.716667",
+      "status": "PASS",
+      "test_case": "alteracao parcial"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "rhythm_ioi_similarity",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencia vazia"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "rhythm_rhythmic_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "padrao identico"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade alta",
+      "metric": "rhythm_rhythmic_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "alteracao de andamento"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade intermediaria",
+      "metric": "rhythm_rhythmic_edit_distance",
+      "obtained_result": "0.000000",
+      "status": "PASS",
+      "test_case": "alteracao parcial"
+    },
+    {
+      "error_message": "",
+      "expected_result": "similaridade máxima",
+      "metric": "rhythm_rhythmic_edit_distance",
+      "obtained_result": "1.000000",
+      "status": "PASS",
+      "test_case": "sequencia vazia"
+    }
+  ],
+  "success_rate": 100.0,
+  "tests_failed": 0,
+  "tests_passed": 46,
+  "total_tests": 46
+}
