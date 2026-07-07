@@ -10,6 +10,7 @@ paths:
   processed: data/processed
   subset: data/processed/subset
   segments: data/processed/segments
+  representations: data/processed/representations
   results: data/results
   logs: logs
 

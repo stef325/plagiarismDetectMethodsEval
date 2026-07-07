@@ -1,0 +1,34 @@
+{
+  "segment_file": "033_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 67,
+      "duration": 5.530169
+    }
+  ],
+  "harmony": [
+    {
+      "start": 1.527829,
+      "end": 7.057998,
+      "chord": "E2-B3-E4-G4"
+    }
+  ],
+  "rhythm": [
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    },
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    },
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    },
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    }
+  ]
+}
