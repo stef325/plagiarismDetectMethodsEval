@@ -111,10 +111,10 @@
 
 ## 3.1 Transformações melódicas
 
-* [ ] Transposição
-* [ ] Alteração de intervalos
-* [ ] Ornamentação
-* [ ] Simplificação melódica
+* [x] Transposição
+* [x] Alteração de intervalos
+* [x] Ornamentação
+* [x] Simplificação melódica
 
 ## 3.2 Transformações harmônicas
 

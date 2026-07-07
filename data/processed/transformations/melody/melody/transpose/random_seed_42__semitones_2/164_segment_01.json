@@ -1,0 +1,134 @@
+{
+  "segment_file": "164_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 70,
+      "duration": 0.320605
+    },
+    {
+      "pitch": 63,
+      "duration": 0.321834
+    },
+    {
+      "pitch": 51,
+      "duration": 0.472924
+    },
+    {
+      "pitch": 63,
+      "duration": 0.355
+    },
+    {
+      "pitch": 70,
+      "duration": 0.42256
+    },
+    {
+      "pitch": 63,
+      "duration": 0.230934
+    },
+    {
+      "pitch": 44,
+      "duration": 0.582249
+    },
+    {
+      "pitch": 56,
+      "duration": 0.326747
+    },
+    {
+      "pitch": 63,
+      "duration": 0.355
+    },
+    {
+      "pitch": 56,
+      "duration": 0.219879
+    },
+    {
+      "pitch": 46,
+      "duration": 0.643667
+    },
+    {
+      "pitch": 58,
+      "duration": 0.438529
+    },
+    {
+      "pitch": 65,
+      "duration": 0.190398
+    },
+    {
+      "pitch": 51,
+      "duration": 0.775103
+    },
+    {
+      "pitch": 63,
+      "duration": 0.357456
+    },
+    {
+      "pitch": 70,
+      "duration": 0.469238
+    },
+    {
+      "pitch": 63,
+      "duration": 0.255502
+    },
+    {
+      "pitch": 44,
+      "duration": 0.617871
+    },
+    {
+      "pitch": 56,
+      "duration": 0.355
+    },
+    {
+      "pitch": 63,
+      "duration": 0.399221
+    },
+    {
+      "pitch": 56,
+      "duration": 0.216194
+    },
+    {
+      "pitch": 46,
+      "duration": 0.654723
+    },
+    {
+      "pitch": 58,
+      "duration": 0.323062
+    },
+    {
+      "pitch": 65,
+      "duration": 0.413962
+    },
+    {
+      "pitch": 58,
+      "duration": 0.224792
+    },
+    {
+      "pitch": 43,
+      "duration": 0.546626
+    },
+    {
+      "pitch": 55,
+      "duration": 0.544169
+    },
+    {
+      "pitch": 62,
+      "duration": 0.237076
+    },
+    {
+      "pitch": 48,
+      "duration": 0.964273
+    },
+    {
+      "pitch": 55,
+      "duration": 0.45327
+    },
+    {
+      "pitch": 63,
+      "duration": 0.19654
+    }
+  ],
+  "transformation": "transpose",
+  "parameters": {
+    "semitones": 2,
+    "random_seed": 42
+  }
+}

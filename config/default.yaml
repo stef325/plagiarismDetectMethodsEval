@@ -11,6 +11,7 @@ paths:
   subset: data/processed/subset
   segments: data/processed/segments
   representations: data/processed/representations
+  melody_transformations: data/processed/transformations/melody
   results: data/results
   logs: logs
 
@@ -25,3 +26,15 @@ segments:
   measures_per_segment: 8
   segments_per_song: 2
   random_seed: 42
+
+melody_transformations:
+  selected: transpose
+  random_seed: 42
+  transpose:
+    semitones: 2
+  interval_modification:
+    strength: 0.25
+  ornamentation:
+    density: 0.2
+  simplification:
+    strength: 0.25
