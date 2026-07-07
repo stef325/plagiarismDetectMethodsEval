@@ -1,6 +1,6 @@
 # Relatorio de Inspecao do POP909
 
-- Data da inspecao: 2026-07-06 11:26:07
+- Data da inspecao: 2026-07-07 02:20:20
 - Caminho do dataset: `data/raw/POP909`
 - Numero de musicas: 909
 - Numero de diretorios validos: 909
