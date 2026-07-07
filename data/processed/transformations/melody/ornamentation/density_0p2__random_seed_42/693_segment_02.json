@@ -1,0 +1,138 @@
+{
+  "segment_file": "693_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 71,
+      "duration": 0.201998
+    },
+    {
+      "pitch": 73,
+      "duration": 0.125
+    },
+    {
+      "pitch": 76,
+      "duration": 1.386619
+    },
+    {
+      "pitch": 64,
+      "duration": 0.917462
+    },
+    {
+      "pitch": 74,
+      "duration": 0.286707
+    },
+    {
+      "pitch": 71,
+      "duration": 0.126412
+    },
+    {
+      "pitch": 71,
+      "duration": 0.252823
+    },
+    {
+      "pitch": 76,
+      "duration": 0.273675
+    },
+    {
+      "pitch": 55,
+      "duration": 0.131625
+    },
+    {
+      "pitch": 79,
+      "duration": 0.366203
+    },
+    {
+      "pitch": 78,
+      "duration": 0.217637
+    },
+    {
+      "pitch": 56,
+      "duration": 0.125
+    },
+    {
+      "pitch": 36,
+      "duration": 0.254127
+    },
+    {
+      "pitch": 76,
+      "duration": 0.247611
+    },
+    {
+      "pitch": 36,
+      "duration": 0.083406
+    },
+    {
+      "pitch": 76,
+      "duration": 0.139444
+    },
+    {
+      "pitch": 36,
+      "duration": 0.246307
+    },
+    {
+      "pitch": 76,
+      "duration": 0.302346
+    },
+    {
+      "pitch": 36,
+      "duration": 0.130321
+    },
+    {
+      "pitch": 76,
+      "duration": 0.170721
+    },
+    {
+      "pitch": 38,
+      "duration": 0.265856
+    },
+    {
+      "pitch": 78,
+      "duration": 0.297133
+    },
+    {
+      "pitch": 38,
+      "duration": 0.074283
+    },
+    {
+      "pitch": 78,
+      "duration": 0.173327
+    },
+    {
+      "pitch": 57,
+      "duration": 0.125
+    },
+    {
+      "pitch": 38,
+      "duration": 0.332319
+    },
+    {
+      "pitch": 78,
+      "duration": 0.407906
+    },
+    {
+      "pitch": 38,
+      "duration": 0.106864
+    },
+    {
+      "pitch": 56,
+      "duration": 0.125
+    },
+    {
+      "pitch": 76,
+      "duration": 0.181147
+    },
+    {
+      "pitch": 43,
+      "duration": 0.260643
+    },
+    {
+      "pitch": 74,
+      "duration": 0.25934
+    }
+  ],
+  "transformation": "ornamentation",
+  "parameters": {
+    "density": 0.2,
+    "random_seed": 42
+  }
+}

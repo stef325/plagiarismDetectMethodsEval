@@ -1,0 +1,98 @@
+{
+  "segment_file": "074_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 71,
+      "duration": 0.214124
+    },
+    {
+      "pitch": 74,
+      "duration": 0.320194
+    },
+    {
+      "pitch": 71,
+      "duration": 0.419326
+    },
+    {
+      "pitch": 67,
+      "duration": 0.310281
+    },
+    {
+      "pitch": 64,
+      "duration": 0.308299
+    },
+    {
+      "pitch": 69,
+      "duration": 0.367777
+    },
+    {
+      "pitch": 69,
+      "duration": 0.228002
+    },
+    {
+      "pitch": 64,
+      "duration": 0.525396
+    },
+    {
+      "pitch": 64,
+      "duration": 0.293429
+    },
+    {
+      "pitch": 69,
+      "duration": 0.232959
+    },
+    {
+      "pitch": 64,
+      "duration": 0.585866
+    },
+    {
+      "pitch": 64,
+      "duration": 0.299377
+    },
+    {
+      "pitch": 67,
+      "duration": 0.235933
+    },
+    {
+      "pitch": 62,
+      "duration": 0.281533
+    },
+    {
+      "pitch": 64,
+      "duration": 0.273603
+    },
+    {
+      "pitch": 67,
+      "duration": 0.21908
+    },
+    {
+      "pitch": 64,
+      "duration": 0.323168
+    },
+    {
+      "pitch": 69,
+      "duration": 0.272611
+    },
+    {
+      "pitch": 71,
+      "duration": 0.320194
+    },
+    {
+      "pitch": 64,
+      "duration": 0.348942
+    },
+    {
+      "pitch": 69,
+      "duration": 0.229985
+    },
+    {
+      "pitch": 71,
+      "duration": 0.023792
+    }
+  ],
+  "transformation": "simplification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

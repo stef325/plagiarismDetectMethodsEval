@@ -1,0 +1,42 @@
+{
+  "segment_file": "143_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 71,
+      "duration": 0.397884
+    },
+    {
+      "pitch": 70,
+      "duration": 0.512129
+    },
+    {
+      "pitch": 68,
+      "duration": 0.158891
+    },
+    {
+      "pitch": 70,
+      "duration": 0.518694
+    },
+    {
+      "pitch": 70,
+      "duration": 0.336166
+    },
+    {
+      "pitch": 68,
+      "duration": 0.183841
+    },
+    {
+      "pitch": 71,
+      "duration": 0.125
+    },
+    {
+      "pitch": 75,
+      "duration": 0.359803
+    }
+  ],
+  "transformation": "ornamentation",
+  "parameters": {
+    "density": 0.2,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "segment_file": "160_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 75,
+      "duration": 1.058516
+    },
+    {
+      "pitch": 65,
+      "duration": 0.628607
+    },
+    {
+      "pitch": 75,
+      "duration": 0.355849
+    },
+    {
+      "pitch": 78,
+      "duration": 0.372106
+    },
+    {
+      "pitch": 75,
+      "duration": 0.771308
+    },
+    {
+      "pitch": 65,
+      "duration": 0.455198
+    },
+    {
+      "pitch": 69,
+      "duration": 1.311404
+    },
+    {
+      "pitch": 57,
+      "duration": 0.675571
+    },
+    {
+      "pitch": 57,
+      "duration": 0.621381
+    },
+    {
+      "pitch": 69,
+      "duration": 0.363075
+    },
+    {
+      "pitch": 77,
+      "duration": 0.397395
+    },
+    {
+      "pitch": 73,
+      "duration": 0.406427
+    },
+    {
+      "pitch": 76,
+      "duration": 0.397395
+    },
+    {
+      "pitch": 68,
+      "duration": 0.437134
+    },
+    {
+      "pitch": 62,
+      "duration": 0.052384
+    }
+  ],
+  "transformation": "interval_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

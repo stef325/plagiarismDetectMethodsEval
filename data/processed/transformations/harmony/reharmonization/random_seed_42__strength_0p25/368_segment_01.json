@@ -1,0 +1,120 @@
+{
+  "segment_file": "368_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.244028,
+      "chord": "D4-C5"
+    },
+    {
+      "start": 0.220787,
+      "end": 2.44858,
+      "chord": "C2-F5"
+    },
+    {
+      "start": 0.582679,
+      "end": 2.493402,
+      "chord": "G2"
+    },
+    {
+      "start": 0.763625,
+      "end": 1.087336,
+      "chord": "F3"
+    },
+    {
+      "start": 0.944571,
+      "end": 1.782899,
+      "chord": "C#4"
+    },
+    {
+      "start": 1.306463,
+      "end": 2.061788,
+      "chord": "D#4-G5"
+    },
+    {
+      "start": 1.666695,
+      "end": 2.870234,
+      "chord": "C#4"
+    },
+    {
+      "start": 2.028587,
+      "end": 4.194958,
+      "chord": "F3-C5-F5"
+    },
+    {
+      "start": 2.390479,
+      "end": 2.870234,
+      "chord": "G4"
+    },
+    {
+      "start": 2.75071,
+      "end": 2.870234,
+      "chord": "G3"
+    },
+    {
+      "start": 3.112602,
+      "end": 5.453279,
+      "chord": "E2-B4"
+    },
+    {
+      "start": 3.293548,
+      "end": 5.494781,
+      "chord": "B2"
+    },
+    {
+      "start": 3.474494,
+      "end": 4.045553,
+      "chord": "E3"
+    },
+    {
+      "start": 3.65544,
+      "end": 3.912749,
+      "chord": "B3"
+    },
+    {
+      "start": 3.836386,
+      "end": 4.618272,
+      "chord": "E4"
+    },
+    {
+      "start": 4.196618,
+      "end": 4.86894,
+      "chord": "E3-G4"
+    },
+    {
+      "start": 4.377564,
+      "end": 4.55851,
+      "chord": "G4"
+    },
+    {
+      "start": 4.55851,
+      "end": 5.78363,
+      "chord": "B3-G4-B4"
+    },
+    {
+      "start": 4.920402,
+      "end": 5.225852,
+      "chord": "E3"
+    },
+    {
+      "start": 5.101348,
+      "end": 5.640865,
+      "chord": "D5"
+    },
+    {
+      "start": 5.282294,
+      "end": 5.78363,
+      "chord": "E4"
+    },
+    {
+      "start": 5.642525,
+      "end": 5.78363,
+      "chord": "B3-D5"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

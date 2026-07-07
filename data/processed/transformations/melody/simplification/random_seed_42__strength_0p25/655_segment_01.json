@@ -1,0 +1,50 @@
+{
+  "segment_file": "655_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 81,
+      "duration": 0.210521
+    },
+    {
+      "pitch": 80,
+      "duration": 0.242801
+    },
+    {
+      "pitch": 76,
+      "duration": 0.235783
+    },
+    {
+      "pitch": 73,
+      "duration": 0.235783
+    },
+    {
+      "pitch": 80,
+      "duration": 1.000676
+    },
+    {
+      "pitch": 68,
+      "duration": 0.548758
+    },
+    {
+      "pitch": 72,
+      "duration": 0.588055
+    },
+    {
+      "pitch": 75,
+      "duration": 0.585248
+    },
+    {
+      "pitch": 56,
+      "duration": 0.241397
+    },
+    {
+      "pitch": 68,
+      "duration": 0.319992
+    }
+  ],
+  "transformation": "simplification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

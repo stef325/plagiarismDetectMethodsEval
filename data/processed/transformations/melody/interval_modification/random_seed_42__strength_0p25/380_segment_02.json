@@ -1,0 +1,134 @@
+{
+  "segment_file": "380_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 83,
+      "duration": 0.074752
+    },
+    {
+      "pitch": 80,
+      "duration": 0.488226
+    },
+    {
+      "pitch": 78,
+      "duration": 0.49173
+    },
+    {
+      "pitch": 77,
+      "duration": 0.892355
+    },
+    {
+      "pitch": 57,
+      "duration": 1.315173
+    },
+    {
+      "pitch": 71,
+      "duration": 1.325685
+    },
+    {
+      "pitch": 66,
+      "duration": 1.019668
+    },
+    {
+      "pitch": 74,
+      "duration": 1.240421
+    },
+    {
+      "pitch": 79,
+      "duration": 1.148148
+    },
+    {
+      "pitch": 83,
+      "duration": 1.465846
+    },
+    {
+      "pitch": 83,
+      "duration": 1.04186
+    },
+    {
+      "pitch": 76,
+      "duration": 0.350401
+    },
+    {
+      "pitch": 66,
+      "duration": 1.901511
+    },
+    {
+      "pitch": 80,
+      "duration": 0.292001
+    },
+    {
+      "pitch": 61,
+      "duration": 1.613014
+    },
+    {
+      "pitch": 54,
+      "duration": 1.802231
+    },
+    {
+      "pitch": 69,
+      "duration": 1.909687
+    },
+    {
+      "pitch": 73,
+      "duration": 1.815079
+    },
+    {
+      "pitch": 76,
+      "duration": 1.749671
+    },
+    {
+      "pitch": 81,
+      "duration": 1.211221
+    },
+    {
+      "pitch": 61,
+      "duration": 0.262801
+    },
+    {
+      "pitch": 63,
+      "duration": 0.323537
+    },
+    {
+      "pitch": 65,
+      "duration": 0.467202
+    },
+    {
+      "pitch": 48,
+      "duration": 1.326853
+    },
+    {
+      "pitch": 56,
+      "duration": 1.312837
+    },
+    {
+      "pitch": 62,
+      "duration": 0.956596
+    },
+    {
+      "pitch": 65,
+      "duration": 1.184357
+    },
+    {
+      "pitch": 65,
+      "duration": 1.139972
+    },
+    {
+      "pitch": 69,
+      "duration": 1.101428
+    },
+    {
+      "pitch": 72,
+      "duration": 1.066388
+    },
+    {
+      "pitch": 62,
+      "duration": 0.007008
+    }
+  ],
+  "transformation": "interval_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

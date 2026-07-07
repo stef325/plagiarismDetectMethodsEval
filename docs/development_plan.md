@@ -118,9 +118,9 @@
 
 ## 3.2 Transformações harmônicas
 
-* [ ] Substituição de acordes
-* [ ] Reharmonização
-* [ ] Simplificação harmônica
+* [x] Substituição de acordes
+* [x] Reharmonização
+* [x] Simplificação harmônica
 
 ## 3.3 Transformações rítmicas
 

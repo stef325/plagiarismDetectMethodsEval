@@ -1,0 +1,134 @@
+{
+  "segment_file": "164_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 68,
+      "duration": 0.320605
+    },
+    {
+      "pitch": 60,
+      "duration": 0.321834
+    },
+    {
+      "pitch": 48,
+      "duration": 0.472924
+    },
+    {
+      "pitch": 60,
+      "duration": 0.355
+    },
+    {
+      "pitch": 68,
+      "duration": 0.42256
+    },
+    {
+      "pitch": 59,
+      "duration": 0.230934
+    },
+    {
+      "pitch": 40,
+      "duration": 0.582249
+    },
+    {
+      "pitch": 52,
+      "duration": 0.326747
+    },
+    {
+      "pitch": 60,
+      "duration": 0.355
+    },
+    {
+      "pitch": 52,
+      "duration": 0.219879
+    },
+    {
+      "pitch": 42,
+      "duration": 0.643667
+    },
+    {
+      "pitch": 54,
+      "duration": 0.438529
+    },
+    {
+      "pitch": 61,
+      "duration": 0.190398
+    },
+    {
+      "pitch": 47,
+      "duration": 0.775103
+    },
+    {
+      "pitch": 59,
+      "duration": 0.357456
+    },
+    {
+      "pitch": 66,
+      "duration": 0.469238
+    },
+    {
+      "pitch": 59,
+      "duration": 0.255502
+    },
+    {
+      "pitch": 40,
+      "duration": 0.617871
+    },
+    {
+      "pitch": 52,
+      "duration": 0.355
+    },
+    {
+      "pitch": 59,
+      "duration": 0.399221
+    },
+    {
+      "pitch": 52,
+      "duration": 0.216194
+    },
+    {
+      "pitch": 41,
+      "duration": 0.654723
+    },
+    {
+      "pitch": 53,
+      "duration": 0.323062
+    },
+    {
+      "pitch": 60,
+      "duration": 0.413962
+    },
+    {
+      "pitch": 52,
+      "duration": 0.224792
+    },
+    {
+      "pitch": 36,
+      "duration": 0.546626
+    },
+    {
+      "pitch": 48,
+      "duration": 0.544169
+    },
+    {
+      "pitch": 55,
+      "duration": 0.237076
+    },
+    {
+      "pitch": 41,
+      "duration": 0.964273
+    },
+    {
+      "pitch": 48,
+      "duration": 0.45327
+    },
+    {
+      "pitch": 56,
+      "duration": 0.19654
+    }
+  ],
+  "transformation": "interval_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

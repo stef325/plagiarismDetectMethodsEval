@@ -1,0 +1,120 @@
+{
+  "segment_file": "460_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.713143,
+      "chord": "C3"
+    },
+    {
+      "start": 0.101878,
+      "end": 0.37671,
+      "chord": "G3"
+    },
+    {
+      "start": 0.310371,
+      "end": 0.816205,
+      "chord": "D#4-G4"
+    },
+    {
+      "start": 0.518865,
+      "end": 0.716697,
+      "chord": "G3"
+    },
+    {
+      "start": 0.727358,
+      "end": 1.123022,
+      "chord": "C4-D#4"
+    },
+    {
+      "start": 1.144346,
+      "end": 3.717346,
+      "chord": "C3-C4"
+    },
+    {
+      "start": 1.561333,
+      "end": 2.114552,
+      "chord": "G3"
+    },
+    {
+      "start": 1.768642,
+      "end": 2.684355,
+      "chord": "C4"
+    },
+    {
+      "start": 1.977135,
+      "end": 2.061244,
+      "chord": "C4"
+    },
+    {
+      "start": 2.394123,
+      "end": 3.222174,
+      "chord": "G3"
+    },
+    {
+      "start": 2.602616,
+      "end": 2.68554,
+      "chord": "C4-D#4-G4"
+    },
+    {
+      "start": 3.019603,
+      "end": 3.120296,
+      "chord": "D#4-G4"
+    },
+    {
+      "start": 3.435406,
+      "end": 3.692469,
+      "chord": "G3"
+    },
+    {
+      "start": 3.6439,
+      "end": 3.92584,
+      "chord": "A#3-D#4-G4"
+    },
+    {
+      "start": 3.852393,
+      "end": 4.407981,
+      "chord": "G3"
+    },
+    {
+      "start": 4.060887,
+      "end": 4.512228,
+      "chord": "C4-D#4-G4"
+    },
+    {
+      "start": 4.477874,
+      "end": 6.667057,
+      "chord": "A#2-F3"
+    },
+    {
+      "start": 4.893676,
+      "end": 6.667057,
+      "chord": "F3"
+    },
+    {
+      "start": 5.310664,
+      "end": 5.419649,
+      "chord": "D4-F4-A#4"
+    },
+    {
+      "start": 5.727651,
+      "end": 6.112653,
+      "chord": "A#3"
+    },
+    {
+      "start": 5.936144,
+      "end": 6.022622,
+      "chord": "D4"
+    },
+    {
+      "start": 6.351947,
+      "end": 6.43724,
+      "chord": "D4-F4-A#4"
+    }
+  ],
+  "transformation": "simplification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "segment_file": "100_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.435731,
+      "chord": "B3"
+    },
+    {
+      "start": 0.433008,
+      "end": 2.755998,
+      "chord": "F#5"
+    },
+    {
+      "start": 0.445263,
+      "end": 2.222228,
+      "chord": "F#2-C#4-F#4-E5"
+    },
+    {
+      "start": 0.447986,
+      "end": 2.223589,
+      "chord": "F#1"
+    },
+    {
+      "start": 0.930013,
+      "end": 1.616289,
+      "chord": "F#3-A5"
+    },
+    {
+      "start": 1.413402,
+      "end": 2.239929,
+      "chord": "A3-C#4-F#4-A5"
+    },
+    {
+      "start": 1.896791,
+      "end": 2.43737,
+      "chord": "F#3-F#5"
+    },
+    {
+      "start": 2.381542,
+      "end": 3.909323,
+      "chord": "F#2"
+    },
+    {
+      "start": 2.382903,
+      "end": 3.910685,
+      "chord": "F#1"
+    },
+    {
+      "start": 2.864931,
+      "end": 3.57844,
+      "chord": "F#3-F#5"
+    },
+    {
+      "start": 3.34832,
+      "end": 4.206165,
+      "chord": "C#4-F#4-D5"
+    },
+    {
+      "start": 3.83307,
+      "end": 4.018256,
+      "chord": "F#3-E5"
+    },
+    {
+      "start": 4.074084,
+      "end": 4.233398,
+      "chord": "D5"
+    },
+    {
+      "start": 4.316459,
+      "end": 5.890537,
+      "chord": "A2-A3-C#4-E4-E5"
+    },
+    {
+      "start": 4.319183,
+      "end": 5.66314,
+      "chord": "A1"
+    },
+    {
+      "start": 5.284599,
+      "end": 6.123381,
+      "chord": "C#4-E4"
+    },
+    {
+      "start": 6.251377,
+      "end": 7.742394,
+      "chord": "F#2-F#3-A3-C#4-F#4-C#5"
+    },
+    {
+      "start": 6.2541,
+      "end": 7.697459,
+      "chord": "F#1"
+    },
+    {
+      "start": 6.736128,
+      "end": 7.079266,
+      "chord": "E5"
+    },
+    {
+      "start": 7.219516,
+      "end": 7.53406,
+      "chord": "A4"
+    },
+    {
+      "start": 7.704267,
+      "end": 7.742394,
+      "chord": "B4"
+    }
+  ],
+  "transformation": "simplification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "segment_file": "782_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 1.537077,
+      "chord": "D#2-D#3-A#3-D#4"
+    },
+    {
+      "start": 0.294539,
+      "end": 0.78061,
+      "chord": "F#4"
+    },
+    {
+      "start": 0.762905,
+      "end": 1.417974,
+      "chord": "A#4"
+    },
+    {
+      "start": 1.23288,
+      "end": 1.731827,
+      "chord": "F#4"
+    },
+    {
+      "start": 1.701246,
+      "end": 3.439511,
+      "chord": "A#2-F3-A#3-D4"
+    },
+    {
+      "start": 2.169612,
+      "end": 2.745815,
+      "chord": "F4"
+    },
+    {
+      "start": 2.637978,
+      "end": 3.341331,
+      "chord": "A#4"
+    },
+    {
+      "start": 3.107953,
+      "end": 3.576319,
+      "chord": "F4"
+    },
+    {
+      "start": 3.425026,
+      "end": 5.308146,
+      "chord": "D#4"
+    },
+    {
+      "start": 3.491015,
+      "end": 5.298489,
+      "chord": "F#4"
+    },
+    {
+      "start": 3.54252,
+      "end": 5.303317,
+      "chord": "D#5"
+    },
+    {
+      "start": 3.576319,
+      "end": 5.332289,
+      "chord": "A#2-A#3-F4"
+    },
+    {
+      "start": 3.598852,
+      "end": 5.29527,
+      "chord": "C#5"
+    },
+    {
+      "start": 5.451392,
+      "end": 7.228285,
+      "chord": "G#2-D#3-G#3-C4-G#4"
+    },
+    {
+      "start": 5.919758,
+      "end": 6.405828,
+      "chord": "F4"
+    },
+    {
+      "start": 6.388124,
+      "end": 7.386016,
+      "chord": "A#4"
+    },
+    {
+      "start": 6.858099,
+      "end": 7.329684,
+      "chord": "F4"
+    },
+    {
+      "start": 7.326465,
+      "end": 7.500291,
+      "chord": "D#2-D#3-A#3-D#4"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

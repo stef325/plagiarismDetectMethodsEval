@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import argparse
+from collections.abc import Callable
 from pathlib import Path
 import sys
 
@@ -13,6 +14,7 @@ from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
+from experiment.transform_harmonies import transform_harmonies
 from experiment.transform_melodies import transform_melodies
 from experiment.validate_representations import validate_representations
 from experiment.validate_dataset import validate_dataset
@@ -48,7 +50,9 @@ def main(argv: list[str] | None = None) -> int:
     elif args.command == "representations":
         _run_representations(config)
     elif args.command == "melody_transform":
-        _run_melody_transform(config)
+        _run_melody_transformations(config)
+    elif args.command == "harmony_transform":
+        _run_harmony_transformations(config)
     elif args.command == "validate_representations":
         _run_validate_representations(config)
     elif args.command == "all":
@@ -111,6 +115,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "melody_transform",
         help="Aplica transformacoes melódicas nas representacoes extraidas.",
+    )
+    subparsers.add_parser(
+        "harmony_transform",
+        help="Aplica transformacoes harmonicas nas representacoes extraidas.",
     )
     subparsers.add_parser(
         "validate_representations",
@@ -203,20 +211,65 @@ def _run_representations(config: dict) -> Path:
     )
 
 
-def _run_melody_transform(config: dict) -> Path:
-    """Executa o pipeline de transformacoes melodicas."""
+def _run_melody_transformations(config: dict) -> Path:
+    """Executa as transformacoes melodicas habilitadas."""
 
     melody_transform_config = config["melody_transformations"]
-    selected_transformation = melody_transform_config["selected"]
-    parameters = dict(melody_transform_config.get(selected_transformation, {}))
-
-    return transform_melodies(
+    return _run_transformations(
         source_path=Path(config["paths"]["representations"]),
-        output_path=Path(config["paths"]["melody_transformations"]),
-        transformation_name=selected_transformation,
-        parameters=parameters,
-        random_seed=melody_transform_config["random_seed"],
+        output_path=Path(config["paths"]["transformations"]),
+        transformation_section=melody_transform_config,
+        transformation_runner=transform_melodies,
     )
+
+
+def _run_harmony_transformations(config: dict) -> Path:
+    """Executa as transformacoes harmonicas habilitadas."""
+
+    harmony_transform_config = config["harmony_transformations"]
+    return _run_transformations(
+        source_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["transformations"]),
+        transformation_section=harmony_transform_config,
+        transformation_runner=transform_harmonies,
+    )
+
+
+def _run_transformations(
+    source_path: Path,
+    output_path: Path,
+    transformation_section: dict,
+    transformation_runner: Callable[..., Path],
+) -> Path:
+    """Executa uma lista de transformacoes configuradas."""
+
+    enabled_transformations = _get_enabled_transformations(transformation_section)
+    random_seed = int(transformation_section["random_seed"])
+
+    for transformation_name in enabled_transformations:
+        parameters = dict(transformation_section.get(transformation_name, {}))
+        transformation_runner(
+            source_path=source_path,
+            output_path=output_path,
+            transformation_name=transformation_name,
+            parameters=parameters,
+            random_seed=random_seed,
+        )
+
+    return output_path
+
+
+def _get_enabled_transformations(transformation_section: dict) -> list[str]:
+    """Retorna as transformacoes habilitadas na configuracao."""
+
+    enabled = transformation_section.get("enabled")
+    if enabled is None:
+        return [
+            key
+            for key in transformation_section
+            if key not in {"random_seed", "enabled"}
+        ]
+    return list(enabled)
 
 
 def _run_validate_representations(config: dict) -> Path:
@@ -248,7 +301,9 @@ def _run_all(config: dict) -> None:
     print()
     _run_representations(config)
     print()
-    _run_melody_transform(config)
+    _run_melody_transformations(config)
+    print()
+    _run_harmony_transformations(config)
     print()
     _run_validate_representations(config)
     print()
