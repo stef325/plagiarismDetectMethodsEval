@@ -230,12 +230,18 @@ class ComputeMelodyMetricsPipelineTestCase(unittest.TestCase):
             self.assertTrue(csv_path.exists())
             with csv_path.open("r", encoding="utf-8", newline="") as file:
                 rows = list(csv.DictReader(file))
-            self.assertEqual(len(rows), 3)
+            self.assertEqual(len(rows), 6)
             self.assertEqual({row["metric"] for row in rows}, {
                 "interval_ngram_similarity",
                 "longest_common_subsequence",
                 "edit_distance",
             })
+            self.assertEqual({row["comparison_type"] for row in rows}, {
+                "transformed",
+                "baseline_original",
+            })
+            baseline_rows = [row for row in rows if row["comparison_type"] == "baseline_original"]
+            self.assertTrue(all(row["value"] == "1.000000" for row in baseline_rows))
 
     def test_compute_melody_metrics_reuses_existing_rows(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:

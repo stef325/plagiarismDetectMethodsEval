@@ -90,47 +90,64 @@ def compute_melody_metrics(
             transformed = MelodyRepresentation.from_dict(
                 _load_json(metadata_path.parent / row["generated_file"])
             )
-            comparisons_found += 1
 
+            comparison_pairs = [
+                (
+                    "transformed",
+                    row.get("transformation", ""),
+                    original,
+                    transformed,
+                ),
+                (
+                    "baseline_original",
+                    "original_copy",
+                    original,
+                    MelodyRepresentation.from_dict(original.to_dict()),
+                ),
+            ]
             metric_specs = [
                 ("interval_ngram_similarity", {"n": interval_ngram_n}),
                 ("longest_common_subsequence", {}),
                 ("edit_distance", {}),
             ]
-            for metric_name, metric_parameters in metric_specs:
-                cache_key = _build_row_key(
-                    song_id=row["song_id"],
-                    segment_id=row["segment_id"],
-                    transformation=row.get("transformation", ""),
-                    metric=metric_name,
-                    metric_parameters=metric_parameters,
-                )
-                if cache_key in cached_keys:
-                    continue
+            for comparison_type, transformation_label, source_representation, target_representation in comparison_pairs:
+                comparisons_found += 1
+                for metric_name, metric_parameters in metric_specs:
+                    cache_key = _build_row_key(
+                        song_id=row["song_id"],
+                        segment_id=row["segment_id"],
+                        transformation=transformation_label,
+                        comparison_type=comparison_type,
+                        metric=metric_name,
+                        metric_parameters=metric_parameters,
+                    )
+                    if cache_key in cached_keys:
+                        continue
 
-                value = _compute_metric(
-                    metric_name=metric_name,
-                    metric_parameters=metric_parameters,
-                    original=original,
-                    transformed=transformed,
-                    interval_metric=interval_metric,
-                    lcs_metric=lcs_metric,
-                    edit_metric=edit_metric,
-                )
-                new_rows.append(
-                    {
-                        "song_id": row["song_id"],
-                        "segment_id": row["segment_id"],
-                        "transformation": row.get("transformation", ""),
-                        "metric": metric_name,
-                        "metric_parameters": json.dumps(
-                            metric_parameters, ensure_ascii=False, sort_keys=True
-                        ),
-                        "value": f"{value:.6f}",
-                    }
-                )
-                cached_keys.add(cache_key)
-                metric_rows_created += 1
+                    value = _compute_metric(
+                        metric_name=metric_name,
+                        metric_parameters=metric_parameters,
+                        original=source_representation,
+                        transformed=target_representation,
+                        interval_metric=interval_metric,
+                        lcs_metric=lcs_metric,
+                        edit_metric=edit_metric,
+                    )
+                    new_rows.append(
+                        {
+                            "song_id": row["song_id"],
+                            "segment_id": row["segment_id"],
+                            "transformation": transformation_label,
+                            "comparison_type": comparison_type,
+                            "metric": metric_name,
+                            "metric_parameters": json.dumps(
+                                metric_parameters, ensure_ascii=False, sort_keys=True
+                            ),
+                            "value": f"{value:.6f}",
+                        }
+                    )
+                    cached_keys.add(cache_key)
+                    metric_rows_created += 1
 
     all_rows = existing_rows + new_rows
     all_rows.sort(
@@ -138,6 +155,7 @@ def compute_melody_metrics(
             row.get("song_id", ""),
             row.get("segment_id", ""),
             row.get("transformation", ""),
+            row.get("comparison_type", ""),
             row.get("metric", ""),
             row.get("metric_parameters", ""),
         )
@@ -205,27 +223,30 @@ def _build_row_key(
     song_id: str,
     segment_id: str,
     transformation: str,
+    comparison_type: str,
     metric: str,
     metric_parameters: dict[str, Any],
-) -> tuple[str, str, str, str, str]:
+) -> tuple[str, str, str, str, str, str]:
     """Cria uma chave estável para reutilização de resultados."""
 
     return (
         song_id,
         segment_id,
         transformation,
+        comparison_type,
         metric,
         json.dumps(metric_parameters, ensure_ascii=False, sort_keys=True),
     )
 
 
-def row_key(row: dict[str, str]) -> tuple[str, str, str, str, str]:
+def row_key(row: dict[str, str]) -> tuple[str, str, str, str, str, str]:
     """Extrai a chave estável de uma linha do CSV."""
 
     return _build_row_key(
         song_id=row.get("song_id", ""),
         segment_id=row.get("segment_id", ""),
         transformation=row.get("transformation", ""),
+        comparison_type=row.get("comparison_type", "transformed"),
         metric=row.get("metric", ""),
         metric_parameters=_load_json_field(row.get("metric_parameters", "{}")),
     )
@@ -253,6 +274,7 @@ def _write_metrics_csv(metrics_csv_path: Path, rows: list[dict[str, str]]) -> No
                 "song_id",
                 "segment_id",
                 "transformation",
+                "comparison_type",
                 "metric",
                 "metric_parameters",
                 "value",
