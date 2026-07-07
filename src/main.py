@@ -18,6 +18,7 @@ from experiment.transform_combined import transform_combined
 from experiment.transform_harmonies import transform_harmonies
 from experiment.transform_melodies import transform_melodies
 from experiment.transform_rhythms import transform_rhythms
+from experiment.validate_transformations import validate_transformations
 from experiment.validate_representations import validate_representations
 from experiment.validate_dataset import validate_dataset
 
@@ -61,6 +62,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_combined_transformations(config)
     elif args.command == "validate_representations":
         _run_validate_representations(config)
+    elif args.command == "validate_transformations":
+        _run_validate_transformations(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -137,6 +140,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "validate_representations",
         help="Valida as representacoes musicais extraidas.",
+    )
+    subparsers.add_parser(
+        "validate_transformations",
+        help="Valida as transformacoes geradas pelo experimento.",
     )
     subparsers.add_parser(
         "all",
@@ -325,6 +332,16 @@ def _run_validate_representations(config: dict) -> Path:
     )
 
 
+def _run_validate_transformations(config: dict) -> Path:
+    """Executa o pipeline de validacao das transformacoes."""
+
+    return validate_transformations(
+        transformations_path=Path(config["paths"]["transformations"]),
+        representations_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["transformation_validation"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -345,6 +362,8 @@ def _run_all(config: dict) -> None:
     _run_rhythm_transformations(config)
     print()
     _run_combined_transformations(config)
+    print()
+    _run_validate_transformations(config)
     print()
     _run_validate_representations(config)
     print()

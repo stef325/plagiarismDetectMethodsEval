@@ -137,8 +137,8 @@
 
 ## 3.5 Validação
 
-* [ ] Verificar preservação dos componentes esperados
-* [ ] Registrar parâmetros utilizados
+* [x] Verificar preservação dos componentes esperados
+* [x] Registrar parâmetros utilizados
 
 ---
 
