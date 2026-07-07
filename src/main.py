@@ -14,6 +14,7 @@ from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
+from experiment.transform_combined import transform_combined
 from experiment.transform_harmonies import transform_harmonies
 from experiment.transform_melodies import transform_melodies
 from experiment.transform_rhythms import transform_rhythms
@@ -56,6 +57,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_harmony_transformations(config)
     elif args.command == "rhythm_transform":
         _run_rhythm_transformations(config)
+    elif args.command == "combined_transform":
+        _run_combined_transformations(config)
     elif args.command == "validate_representations":
         _run_validate_representations(config)
     elif args.command == "all":
@@ -126,6 +129,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "rhythm_transform",
         help="Aplica transformacoes ritmicas nas representacoes extraidas.",
+    )
+    subparsers.add_parser(
+        "combined_transform",
+        help="Aplica transformacoes combinadas nas representacoes extraidas.",
     )
     subparsers.add_parser(
         "validate_representations",
@@ -254,6 +261,17 @@ def _run_rhythm_transformations(config: dict) -> Path:
     )
 
 
+def _run_combined_transformations(config: dict) -> Path:
+    """Executa as transformacoes combinadas habilitadas."""
+
+    combined_transform_config = config["combined_transformations"]
+    return transform_combined(
+        source_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["transformations"]),
+        transformation_section=combined_transform_config,
+    )
+
+
 def _run_transformations(
     source_path: Path,
     output_path: Path,
@@ -325,6 +343,8 @@ def _run_all(config: dict) -> None:
     _run_harmony_transformations(config)
     print()
     _run_rhythm_transformations(config)
+    print()
+    _run_combined_transformations(config)
     print()
     _run_validate_representations(config)
     print()

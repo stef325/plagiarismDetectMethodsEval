@@ -130,10 +130,10 @@
 
 ## 3.4 Transformações combinadas
 
-* [ ] Melodia + Harmonia
-* [ ] Melodia + Ritmo
-* [ ] Harmonia + Ritmo
-* [ ] Melodia + Harmonia + Ritmo
+* [x] Melodia + Harmonia
+* [x] Melodia + Ritmo
+* [x] Harmonia + Ritmo
+* [x] Melodia + Harmonia + Ritmo
 
 ## 3.5 Validação
 
