@@ -13,6 +13,7 @@ from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
+from experiment.transform_harmonies import transform_harmonies
 from experiment.transform_melodies import transform_melodies
 from experiment.validate_representations import validate_representations
 from experiment.validate_dataset import validate_dataset
@@ -49,6 +50,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_representations(config)
     elif args.command == "melody_transform":
         _run_melody_transform(config)
+    elif args.command == "harmony_transform":
+        _run_harmony_transform(config)
     elif args.command == "validate_representations":
         _run_validate_representations(config)
     elif args.command == "all":
@@ -111,6 +114,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "melody_transform",
         help="Aplica transformacoes melódicas nas representacoes extraidas.",
+    )
+    subparsers.add_parser(
+        "harmony_transform",
+        help="Aplica transformacoes harmonicas nas representacoes extraidas.",
     )
     subparsers.add_parser(
         "validate_representations",
@@ -212,12 +219,26 @@ def _run_melody_transform(config: dict) -> Path:
 
     return transform_melodies(
         source_path=Path(config["paths"]["representations"]),
-        output_path=Path(config["paths"]["melody_transformations"]),
+        output_path=Path(config["paths"]["transformations"]),
         transformation_name=selected_transformation,
         parameters=parameters,
         random_seed=melody_transform_config["random_seed"],
     )
 
+def _run_harmony_transform(config: dict) -> Path:
+    """Executa o pipeline de transformacoes harmonicas."""
+
+    harmony_transform_config = config["harmony_transformations"]
+    selected_transformation = harmony_transform_config["selected"]
+    parameters = dict(harmony_transform_config.get(selected_transformation, {}))
+
+    return transform_harmonies(
+        source_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["transformations"]),
+        transformation_name=selected_transformation,
+        parameters=parameters,
+        random_seed=harmony_transform_config["random_seed"],
+    )
 
 def _run_validate_representations(config: dict) -> Path:
     """Executa o pipeline de validacao das representacoes."""
@@ -249,6 +270,8 @@ def _run_all(config: dict) -> None:
     _run_representations(config)
     print()
     _run_melody_transform(config)
+    print()
+    _run_harmony_transform(config)
     print()
     _run_validate_representations(config)
     print()

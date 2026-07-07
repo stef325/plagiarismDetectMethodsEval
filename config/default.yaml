@@ -8,10 +8,12 @@ dataset:
 
 paths:
   processed: data/processed
+  transformations: data/processed/transformations
   subset: data/processed/subset
   segments: data/processed/segments
   representations: data/processed/representations
   melody_transformations: data/processed/transformations/melody
+  harmony_transformations: data/processed/transformations/harmony
   results: data/results
   logs: logs
 
@@ -36,5 +38,15 @@ melody_transformations:
     strength: 0.25
   ornamentation:
     density: 0.2
+  simplification:
+    strength: 0.25
+
+harmony_transformations:
+  selected: chord_substitution
+  random_seed: 42
+  chord_substitution:
+    strength: 0.25
+  reharmonization:
+    strength: 0.25
   simplification:
     strength: 0.25
