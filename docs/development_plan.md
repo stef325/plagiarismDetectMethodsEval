@@ -164,9 +164,9 @@
 
 ## 4.4 Métrica global
 
-* [ ] Média simples
-* [ ] Média ponderada
-* [ ] Configuração de pesos
+* [x] Média simples
+* [x] Média ponderada
+* [x] Configuração de pesos
 
 ## 4.5 Testes
 

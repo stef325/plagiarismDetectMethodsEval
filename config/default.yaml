@@ -27,6 +27,11 @@ metrics:
     chord_ngram_n: 2
   rhythm:
     rhythm_ngram_n: 2
+  global:
+    weights:
+      melody: 0.40
+      harmony: 0.35
+      rhythm: 0.25
 
 subset:
   sample_size: 100

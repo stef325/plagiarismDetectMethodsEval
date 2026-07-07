@@ -11,6 +11,7 @@ import yaml
 
 from experiment.clean_dataset import clean_dataset
 from experiment.compute_harmony_metrics import compute_harmony_metrics
+from experiment.compute_global_metrics import compute_global_metrics
 from experiment.compute_rhythm_metrics import compute_rhythm_metrics
 from experiment.compute_melody_metrics import compute_melody_metrics
 from experiment.extract_representations import extract_representations
@@ -73,6 +74,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_compute_harmony_metrics(config)
     elif args.command == "compute_rhythm_metrics":
         _run_compute_rhythm_metrics(config)
+    elif args.command == "compute_global_metrics":
+        _run_compute_global_metrics(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -165,6 +168,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "validate_transformations",
         help="Valida as transformacoes geradas pelo experimento.",
+    )
+    subparsers.add_parser(
+        "compute_global_metrics",
+        help="Calcula a métrica global de similaridade.",
     )
     subparsers.add_parser(
         "all",
@@ -396,6 +403,16 @@ def _run_compute_rhythm_metrics(config: dict) -> Path:
     )
 
 
+def _run_compute_global_metrics(config: dict) -> Path:
+    """Executa o pipeline de cálculo da métrica global."""
+
+    return compute_global_metrics(
+        metrics_path=Path(config["paths"]["metrics"]),
+        output_path=Path(config["paths"]["results"]) / "compute_metrics",
+        weights=dict(config["metrics"]["global"]["weights"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -424,6 +441,8 @@ def _run_all(config: dict) -> None:
     _run_compute_harmony_metrics(config)
     print()
     _run_compute_rhythm_metrics(config)
+    print()
+    _run_compute_global_metrics(config)
     print()
     _run_validate_representations(config)
     print()
