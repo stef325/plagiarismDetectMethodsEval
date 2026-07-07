@@ -158,9 +158,9 @@
 
 ## 4.3 Métricas rítmicas
 
-* [ ] Rhythm N-Gram Similarity
-* [ ] IOI Similarity
-* [ ] Edit Distance Rítmica
+* [x] Rhythm N-Gram Similarity
+* [x] IOI Similarity
+* [x] Edit Distance Rítmica
 
 ## 4.4 Métrica global
 

@@ -11,6 +11,7 @@ import yaml
 
 from experiment.clean_dataset import clean_dataset
 from experiment.compute_harmony_metrics import compute_harmony_metrics
+from experiment.compute_rhythm_metrics import compute_rhythm_metrics
 from experiment.compute_melody_metrics import compute_melody_metrics
 from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
@@ -70,6 +71,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_compute_melody_metrics(config)
     elif args.command == "compute_harmony_metrics":
         _run_compute_harmony_metrics(config)
+    elif args.command == "compute_rhythm_metrics":
+        _run_compute_rhythm_metrics(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -154,6 +157,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "compute_harmony_metrics",
         help="Calcula as metricas de similaridade harmônica.",
+    )
+    subparsers.add_parser(
+        "compute_rhythm_metrics",
+        help="Calcula as metricas de similaridade rítmica.",
     )
     subparsers.add_parser(
         "validate_transformations",
@@ -378,6 +385,17 @@ def _run_compute_harmony_metrics(config: dict) -> Path:
     )
 
 
+def _run_compute_rhythm_metrics(config: dict) -> Path:
+    """Executa o pipeline de calculo das metricas rítmicas."""
+
+    return compute_rhythm_metrics(
+        transformations_path=Path(config["paths"]["transformations"]),
+        representations_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["metrics"]),
+        rhythm_ngram_n=int(config["metrics"]["rhythm"]["rhythm_ngram_n"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -404,6 +422,8 @@ def _run_all(config: dict) -> None:
     _run_compute_melody_metrics(config)
     print()
     _run_compute_harmony_metrics(config)
+    print()
+    _run_compute_rhythm_metrics(config)
     print()
     _run_validate_representations(config)
     print()

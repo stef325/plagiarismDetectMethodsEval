@@ -25,6 +25,8 @@ metrics:
     interval_ngram_n: 2
   harmony:
     chord_ngram_n: 2
+  rhythm:
+    rhythm_ngram_n: 2
 
 subset:
   sample_size: 100
