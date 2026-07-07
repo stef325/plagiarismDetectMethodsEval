@@ -9,6 +9,7 @@ import sys
 import yaml
 
 from experiment.clean_dataset import clean_dataset
+from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
 from experiment.validate_dataset import validate_dataset
@@ -39,6 +40,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_validate(config)
     elif args.command == "subset":
         _run_subset(config)
+    elif args.command == "segments":
+        _run_segments(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -87,6 +90,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "subset",
         help="Seleciona um subconjunto aleatorio do dataset processado.",
+    )
+    subparsers.add_parser(
+        "segments",
+        help="Extrai segmentos aleatorios das musicas processadas.",
     )
     subparsers.add_parser(
         "all",
@@ -152,6 +159,20 @@ def _run_subset(config: dict) -> Path:
     )
 
 
+def _run_segments(config: dict) -> Path:
+    """Executa o pipeline de extracao de segmentos."""
+
+    segments_config = config["segments"]
+
+    return extract_segments(
+        source_path=Path(config["paths"]["subset"]),
+        output_path=Path(config["paths"]["segments"]),
+        measures_per_segment=segments_config["measures_per_segment"],
+        segments_per_song=segments_config["segments_per_song"],
+        random_seed=segments_config["random_seed"],
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -160,6 +181,8 @@ def _run_all(config: dict) -> None:
     _run_clean(config)
     print()
     _run_subset(config)
+    print()
+    _run_segments(config)
     print()
     _run_validate(config)
 
