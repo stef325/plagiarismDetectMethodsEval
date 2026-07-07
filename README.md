@@ -12,17 +12,19 @@ Além da implementação do experimento, este repositório busca garantir **repr
 
 ## Estado atual
 
-Atualmente o projeto encontra-se na fase de configuração da infraestrutura de desenvolvimento.
+Até o momento, o projeto já possui:
 
-Até o momento foram concluídas as seguintes atividades:
-
-* Estrutura inicial do projeto
-* Configuração do ambiente utilizando Docker
-* Organização dos diretórios do projeto
-* Definição das dependências Python
-* Configuração do versionamento com Git
-
-As etapas relacionadas ao processamento do dataset e implementação das métricas serão desenvolvidas nas próximas fases.
+* Estrutura de diretórios do repositório.
+* Ambiente Docker para execução reproduzível.
+* Configuração central em YAML.
+* Documentação do dataset POP909 em `docs/datasets.md`.
+* `DatasetInspector` para inspecionar a estrutura do dataset.
+* `POP909Loader` para carregar arquivos MIDI com `pretty_midi`.
+* Pipeline de inspeção do dataset.
+* Pipeline de limpeza do dataset, que copia apenas os MIDI principais para `data/processed/POP909`.
+* Pipeline de validação dos arquivos MIDI.
+* Interface de linha de comando com `argparse` para executar cada etapa do experimento.
+* Testes unitários para os componentes e pipelines já criados.
 
 ---
 
@@ -48,6 +50,17 @@ Bibliotecas Python atualmente utilizadas:
 * tqdm
 
 ---
+## Estrutura atual do experimento
+
+As etapas disponíveis no `src/experiment/` são:
+
+* `inspect_dataset`: inspeciona a estrutura do dataset bruto.
+* `clean_dataset`: prepara a área processada com apenas os MIDI principais.
+* `validate_dataset`: valida se os arquivos MIDI podem ser carregados.
+
+O arquivo `src/main.py` funciona como ponto de entrada da aplicação e expõe comandos para executar cada etapa separadamente ou o fluxo completo.
+
+---
 
 ## Estrutura do projeto
 
@@ -66,6 +79,7 @@ Bibliotecas Python atualmente utilizadas:
 │   ├── preprocessing/
 │   ├── transformations/
 │   └── main.py
+├── tests/
 ├── Dockerfile
 ├── LICENSE
 ├── requirements.txt
@@ -107,6 +121,35 @@ e verifique se todas as dependências estão instaladas corretamente:
 ```bash
 pip list
 ```
+---
+## Executar o experimento
+### Como executar com Docker
+
+Construir a imagem:
+
+```bash
+docker compose build
+```
+
+Executar todo o experimento:
+
+```bash
+docker compose run --rm app python src/main.py all
+```
+
+Executar uma etapa específica:
+
+```bash
+docker compose run --rm app python src/main.py inspect
+docker compose run --rm app python src/main.py clean
+docker compose run --rm app python src/main.py validate
+```
+
+#### Saídas geradas
+
+* Relatório da inspeção em `data/results/inspect_dataset/`.
+* Dataset limpo em `data/processed/POP909/`.
+* Relatório da validação em `data/results/validate_dataset/`.
 
 ---
 
