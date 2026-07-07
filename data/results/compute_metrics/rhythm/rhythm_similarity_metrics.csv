@@ -1,0 +1,2401 @@
+song_id,segment_id,transformation,comparison_type,metric,metric_parameters,value
+007,01,duration_scaling,transformed,ioi_similarity,{},0.220059
+007,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+007,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+007,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+007,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+007,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+007,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.201584
+007,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+007,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+007,01,tempo_change,transformed,ioi_similarity,{},1.000000
+007,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+007,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+007,02,duration_scaling,transformed,ioi_similarity,{},0.192481
+007,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+007,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+007,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+007,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+007,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+007,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.185311
+007,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+007,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+007,02,tempo_change,transformed,ioi_similarity,{},1.000000
+007,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+007,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+026,01,duration_scaling,transformed,ioi_similarity,{},0.485329
+026,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+026,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+026,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+026,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+026,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+026,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.466014
+026,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+026,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+026,01,tempo_change,transformed,ioi_similarity,{},1.000000
+026,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+026,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+026,02,duration_scaling,transformed,ioi_similarity,{},0.194288
+026,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+026,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+026,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+026,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+026,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+026,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.192997
+026,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+026,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+026,02,tempo_change,transformed,ioi_similarity,{},1.000000
+026,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+026,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+028,01,duration_scaling,transformed,ioi_similarity,{},0.177287
+028,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+028,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+028,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+028,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+028,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+028,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.168021
+028,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+028,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+028,01,tempo_change,transformed,ioi_similarity,{},1.000000
+028,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+028,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+028,02,duration_scaling,transformed,ioi_similarity,{},0.179201
+028,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+028,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+028,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+028,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+028,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+028,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.168084
+028,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+028,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+028,02,tempo_change,transformed,ioi_similarity,{},1.000000
+028,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+028,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+031,01,duration_scaling,transformed,ioi_similarity,{},0.148481
+031,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+031,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+031,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+031,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+031,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+031,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.141976
+031,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+031,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+031,01,tempo_change,transformed,ioi_similarity,{},1.000000
+031,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+031,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+031,02,duration_scaling,transformed,ioi_similarity,{},0.160458
+031,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+031,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+031,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+031,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+031,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+031,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.155201
+031,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+031,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+031,02,tempo_change,transformed,ioi_similarity,{},1.000000
+031,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+031,02,tempo_change,transformed,rhythmic_edit_distance,{},0.023810
+033,01,duration_scaling,transformed,ioi_similarity,{},0.000000
+033,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+033,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+033,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+033,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+033,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+033,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.000000
+033,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+033,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+033,01,tempo_change,transformed,ioi_similarity,{},1.000000
+033,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+033,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+033,02,duration_scaling,transformed,ioi_similarity,{},0.169907
+033,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+033,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+033,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+033,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+033,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+033,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.156338
+033,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+033,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+033,02,tempo_change,transformed,ioi_similarity,{},1.000000
+033,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+033,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+045,01,duration_scaling,transformed,ioi_similarity,{},0.172064
+045,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+045,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+045,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+045,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+045,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+045,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.167892
+045,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+045,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+045,01,tempo_change,transformed,ioi_similarity,{},1.000000
+045,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+045,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+045,02,duration_scaling,transformed,ioi_similarity,{},0.147049
+045,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+045,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+045,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+045,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+045,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+045,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.150011
+045,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+045,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+045,02,tempo_change,transformed,ioi_similarity,{},1.000000
+045,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+045,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+047,01,duration_scaling,transformed,ioi_similarity,{},0.202638
+047,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+047,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+047,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+047,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+047,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+047,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.199497
+047,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+047,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+047,01,tempo_change,transformed,ioi_similarity,{},1.000000
+047,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+047,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+047,02,duration_scaling,transformed,ioi_similarity,{},0.220603
+047,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+047,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+047,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+047,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+047,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+047,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.191244
+047,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+047,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+047,02,tempo_change,transformed,ioi_similarity,{},1.000000
+047,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+047,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+072,01,duration_scaling,transformed,ioi_similarity,{},0.347492
+072,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+072,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+072,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+072,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+072,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+072,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.341831
+072,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+072,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+072,01,tempo_change,transformed,ioi_similarity,{},1.000000
+072,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+072,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+072,02,duration_scaling,transformed,ioi_similarity,{},0.351378
+072,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+072,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+072,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+072,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+072,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+072,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.346272
+072,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+072,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+072,02,tempo_change,transformed,ioi_similarity,{},1.000000
+072,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+072,02,tempo_change,transformed,rhythmic_edit_distance,{},0.033333
+074,01,duration_scaling,transformed,ioi_similarity,{},0.158449
+074,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+074,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+074,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+074,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+074,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+074,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.148753
+074,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+074,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+074,01,tempo_change,transformed,ioi_similarity,{},1.000000
+074,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+074,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+074,02,duration_scaling,transformed,ioi_similarity,{},0.159880
+074,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+074,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+074,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+074,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+074,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+074,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.159677
+074,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+074,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+074,02,tempo_change,transformed,ioi_similarity,{},1.000000
+074,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+074,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+081,01,duration_scaling,transformed,ioi_similarity,{},0.198669
+081,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+081,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+081,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+081,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+081,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+081,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.201364
+081,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+081,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+081,01,tempo_change,transformed,ioi_similarity,{},1.000000
+081,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+081,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+081,02,duration_scaling,transformed,ioi_similarity,{},0.187258
+081,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+081,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+081,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+081,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+081,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+081,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.190823
+081,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+081,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+081,02,tempo_change,transformed,ioi_similarity,{},1.000000
+081,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+081,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+082,01,duration_scaling,transformed,ioi_similarity,{},0.207799
+082,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+082,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+082,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+082,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+082,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+082,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.196284
+082,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+082,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+082,01,tempo_change,transformed,ioi_similarity,{},1.000000
+082,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+082,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+082,02,duration_scaling,transformed,ioi_similarity,{},0.160733
+082,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+082,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+082,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+082,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+082,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+082,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.147918
+082,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+082,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+082,02,tempo_change,transformed,ioi_similarity,{},1.000000
+082,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+082,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+090,01,duration_scaling,transformed,ioi_similarity,{},0.299066
+090,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+090,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+090,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+090,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+090,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+090,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.290630
+090,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+090,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+090,01,tempo_change,transformed,ioi_similarity,{},1.000000
+090,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+090,01,tempo_change,transformed,rhythmic_edit_distance,{},0.040000
+090,02,duration_scaling,transformed,ioi_similarity,{},0.119352
+090,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+090,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+090,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+090,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+090,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+090,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.111666
+090,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+090,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+090,02,tempo_change,transformed,ioi_similarity,{},1.000000
+090,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+090,02,tempo_change,transformed,rhythmic_edit_distance,{},0.019231
+095,01,duration_scaling,transformed,ioi_similarity,{},0.314786
+095,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+095,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+095,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+095,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+095,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+095,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.304505
+095,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+095,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+095,01,tempo_change,transformed,ioi_similarity,{},1.000000
+095,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+095,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+095,02,duration_scaling,transformed,ioi_similarity,{},0.249875
+095,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+095,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+095,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+095,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+095,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+095,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.234263
+095,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+095,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+095,02,tempo_change,transformed,ioi_similarity,{},1.000000
+095,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+095,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+096,01,duration_scaling,transformed,ioi_similarity,{},0.205077
+096,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+096,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+096,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+096,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+096,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+096,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.198308
+096,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+096,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+096,01,tempo_change,transformed,ioi_similarity,{},1.000000
+096,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+096,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+096,02,duration_scaling,transformed,ioi_similarity,{},0.155231
+096,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+096,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+096,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+096,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+096,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+096,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.153824
+096,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+096,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+096,02,tempo_change,transformed,ioi_similarity,{},1.000000
+096,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+096,02,tempo_change,transformed,rhythmic_edit_distance,{},0.018519
+100,01,duration_scaling,transformed,ioi_similarity,{},0.095313
+100,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+100,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+100,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+100,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+100,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+100,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.089888
+100,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+100,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+100,01,tempo_change,transformed,ioi_similarity,{},1.000000
+100,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+100,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+100,02,duration_scaling,transformed,ioi_similarity,{},0.214340
+100,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+100,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+100,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+100,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+100,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+100,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.214515
+100,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+100,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+100,02,tempo_change,transformed,ioi_similarity,{},1.000000
+100,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+100,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+104,01,duration_scaling,transformed,ioi_similarity,{},0.171961
+104,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+104,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+104,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+104,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+104,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+104,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.154291
+104,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+104,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+104,01,tempo_change,transformed,ioi_similarity,{},1.000000
+104,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+104,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+104,02,duration_scaling,transformed,ioi_similarity,{},0.193895
+104,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+104,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+104,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+104,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+104,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+104,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.188612
+104,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+104,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+104,02,tempo_change,transformed,ioi_similarity,{},1.000000
+104,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+104,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+105,01,duration_scaling,transformed,ioi_similarity,{},0.237579
+105,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+105,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+105,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+105,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+105,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+105,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.228139
+105,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+105,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+105,01,tempo_change,transformed,ioi_similarity,{},1.000000
+105,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+105,01,tempo_change,transformed,rhythmic_edit_distance,{},0.024390
+105,02,duration_scaling,transformed,ioi_similarity,{},0.211973
+105,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+105,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+105,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+105,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+105,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+105,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.203195
+105,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+105,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+105,02,tempo_change,transformed,ioi_similarity,{},1.000000
+105,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+105,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+115,01,duration_scaling,transformed,ioi_similarity,{},0.224405
+115,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+115,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+115,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+115,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+115,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+115,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.212026
+115,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+115,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+115,01,tempo_change,transformed,ioi_similarity,{},1.000000
+115,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+115,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+115,02,duration_scaling,transformed,ioi_similarity,{},0.173639
+115,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+115,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+115,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+115,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+115,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+115,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.160391
+115,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+115,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+115,02,tempo_change,transformed,ioi_similarity,{},1.000000
+115,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+115,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+128,01,duration_scaling,transformed,ioi_similarity,{},0.196767
+128,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+128,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+128,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+128,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+128,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+128,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.192864
+128,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+128,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+128,01,tempo_change,transformed,ioi_similarity,{},1.000000
+128,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+128,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+128,02,duration_scaling,transformed,ioi_similarity,{},0.271831
+128,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+128,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+128,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+128,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+128,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+128,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.270577
+128,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+128,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+128,02,tempo_change,transformed,ioi_similarity,{},1.000000
+128,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+128,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+143,01,duration_scaling,transformed,ioi_similarity,{},0.059255
+143,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+143,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+143,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+143,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+143,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+143,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.042139
+143,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+143,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+143,01,tempo_change,transformed,ioi_similarity,{},1.000000
+143,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+143,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+143,02,duration_scaling,transformed,ioi_similarity,{},0.218536
+143,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+143,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+143,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+143,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+143,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+143,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.213743
+143,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+143,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+143,02,tempo_change,transformed,ioi_similarity,{},1.000000
+143,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+143,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+160,01,duration_scaling,transformed,ioi_similarity,{},0.196802
+160,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+160,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+160,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+160,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+160,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+160,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.201418
+160,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+160,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+160,01,tempo_change,transformed,ioi_similarity,{},1.000000
+160,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+160,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+160,02,duration_scaling,transformed,ioi_similarity,{},0.054148
+160,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+160,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+160,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+160,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+160,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+160,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.049974
+160,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+160,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+160,02,tempo_change,transformed,ioi_similarity,{},1.000000
+160,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+160,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+164,01,duration_scaling,transformed,ioi_similarity,{},0.762939
+164,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+164,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+164,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+164,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+164,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+164,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.721886
+164,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+164,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+164,01,tempo_change,transformed,ioi_similarity,{},1.000000
+164,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+164,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+164,02,duration_scaling,transformed,ioi_similarity,{},0.341768
+164,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+164,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+164,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+164,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+164,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+164,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.349644
+164,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+164,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+164,02,tempo_change,transformed,ioi_similarity,{},1.000000
+164,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+164,02,tempo_change,transformed,rhythmic_edit_distance,{},0.020833
+167,01,duration_scaling,transformed,ioi_similarity,{},0.198643
+167,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+167,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+167,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+167,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+167,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+167,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.191615
+167,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+167,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+167,01,tempo_change,transformed,ioi_similarity,{},1.000000
+167,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.009709
+167,01,tempo_change,transformed,rhythmic_edit_distance,{},0.075472
+167,02,duration_scaling,transformed,ioi_similarity,{},0.203259
+167,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+167,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+167,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+167,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+167,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+167,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.181967
+167,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+167,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+167,02,tempo_change,transformed,ioi_similarity,{},1.000000
+167,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+167,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+176,01,duration_scaling,transformed,ioi_similarity,{},0.326100
+176,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+176,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+176,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+176,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+176,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+176,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.307761
+176,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+176,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+176,01,tempo_change,transformed,ioi_similarity,{},1.000000
+176,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+176,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+176,02,duration_scaling,transformed,ioi_similarity,{},0.167489
+176,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+176,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+176,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+176,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+176,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+176,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.169254
+176,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+176,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+176,02,tempo_change,transformed,ioi_similarity,{},1.000000
+176,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+176,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+197,01,duration_scaling,transformed,ioi_similarity,{},0.173650
+197,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+197,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+197,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+197,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+197,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+197,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.174979
+197,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+197,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+197,01,tempo_change,transformed,ioi_similarity,{},1.000000
+197,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+197,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+197,02,duration_scaling,transformed,ioi_similarity,{},0.188838
+197,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+197,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+197,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+197,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+197,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+197,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.186245
+197,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+197,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+197,02,tempo_change,transformed,ioi_similarity,{},1.000000
+197,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+197,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+204,01,duration_scaling,transformed,ioi_similarity,{},0.228247
+204,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+204,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+204,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+204,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+204,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+204,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.225048
+204,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+204,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+204,01,tempo_change,transformed,ioi_similarity,{},1.000000
+204,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+204,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+204,02,duration_scaling,transformed,ioi_similarity,{},0.216534
+204,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+204,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+204,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+204,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+204,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+204,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.216305
+204,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+204,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+204,02,tempo_change,transformed,ioi_similarity,{},1.000000
+204,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+204,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+215,01,duration_scaling,transformed,ioi_similarity,{},0.244961
+215,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+215,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+215,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+215,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+215,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+215,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.251112
+215,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+215,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+215,01,tempo_change,transformed,ioi_similarity,{},1.000000
+215,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+215,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+215,02,duration_scaling,transformed,ioi_similarity,{},0.253293
+215,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+215,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+215,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+215,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+215,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+215,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.255186
+215,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+215,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+215,02,tempo_change,transformed,ioi_similarity,{},1.000000
+215,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+215,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+221,01,duration_scaling,transformed,ioi_similarity,{},0.157761
+221,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+221,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+221,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+221,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+221,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+221,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.153128
+221,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+221,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+221,01,tempo_change,transformed,ioi_similarity,{},1.000000
+221,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+221,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+221,02,duration_scaling,transformed,ioi_similarity,{},0.161909
+221,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+221,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+221,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+221,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+221,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+221,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.157680
+221,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+221,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+221,02,tempo_change,transformed,ioi_similarity,{},1.000000
+221,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+221,02,tempo_change,transformed,rhythmic_edit_distance,{},0.005682
+224,01,duration_scaling,transformed,ioi_similarity,{},0.306108
+224,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+224,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+224,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+224,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+224,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+224,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.295160
+224,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+224,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+224,01,tempo_change,transformed,ioi_similarity,{},1.000000
+224,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+224,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+224,02,duration_scaling,transformed,ioi_similarity,{},0.277012
+224,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+224,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+224,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+224,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+224,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+224,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.267668
+224,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+224,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+224,02,tempo_change,transformed,ioi_similarity,{},1.000000
+224,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.003155
+224,02,tempo_change,transformed,rhythmic_edit_distance,{},0.025000
+226,01,duration_scaling,transformed,ioi_similarity,{},0.206241
+226,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+226,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+226,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+226,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+226,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+226,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.204532
+226,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+226,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+226,01,tempo_change,transformed,ioi_similarity,{},1.000000
+226,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+226,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+226,02,duration_scaling,transformed,ioi_similarity,{},0.216369
+226,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+226,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+226,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+226,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+226,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+226,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.217392
+226,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+226,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+226,02,tempo_change,transformed,ioi_similarity,{},1.000000
+226,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+226,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+229,01,duration_scaling,transformed,ioi_similarity,{},0.342967
+229,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+229,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+229,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+229,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+229,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+229,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.332624
+229,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+229,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+229,01,tempo_change,transformed,ioi_similarity,{},1.000000
+229,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+229,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+229,02,duration_scaling,transformed,ioi_similarity,{},0.382935
+229,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+229,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+229,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+229,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+229,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+229,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.376511
+229,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+229,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+229,02,tempo_change,transformed,ioi_similarity,{},1.000000
+229,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+229,02,tempo_change,transformed,rhythmic_edit_distance,{},0.029412
+234,01,duration_scaling,transformed,ioi_similarity,{},0.165282
+234,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+234,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+234,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+234,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+234,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+234,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.164505
+234,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+234,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+234,01,tempo_change,transformed,ioi_similarity,{},1.000000
+234,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+234,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+234,02,duration_scaling,transformed,ioi_similarity,{},0.188784
+234,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+234,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+234,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+234,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+234,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+234,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.184765
+234,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+234,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+234,02,tempo_change,transformed,ioi_similarity,{},1.000000
+234,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+234,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+239,01,duration_scaling,transformed,ioi_similarity,{},0.215673
+239,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+239,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+239,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+239,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+239,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+239,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.206656
+239,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+239,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+239,01,tempo_change,transformed,ioi_similarity,{},1.000000
+239,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+239,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+239,02,duration_scaling,transformed,ioi_similarity,{},0.220677
+239,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+239,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+239,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+239,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+239,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+239,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.223758
+239,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+239,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+239,02,tempo_change,transformed,ioi_similarity,{},1.000000
+239,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+239,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+251,01,duration_scaling,transformed,ioi_similarity,{},0.201981
+251,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+251,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+251,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+251,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+251,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+251,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.201843
+251,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+251,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+251,01,tempo_change,transformed,ioi_similarity,{},1.000000
+251,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+251,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+251,02,duration_scaling,transformed,ioi_similarity,{},0.249237
+251,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+251,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+251,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+251,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+251,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+251,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.248680
+251,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+251,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+251,02,tempo_change,transformed,ioi_similarity,{},1.000000
+251,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+251,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+271,01,duration_scaling,transformed,ioi_similarity,{},0.268067
+271,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+271,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+271,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+271,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+271,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+271,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.261168
+271,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+271,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+271,01,tempo_change,transformed,ioi_similarity,{},1.000000
+271,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+271,01,tempo_change,transformed,rhythmic_edit_distance,{},0.025862
+271,02,duration_scaling,transformed,ioi_similarity,{},0.148029
+271,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+271,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+271,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+271,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+271,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+271,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.142719
+271,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+271,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+271,02,tempo_change,transformed,ioi_similarity,{},1.000000
+271,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+271,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+274,01,duration_scaling,transformed,ioi_similarity,{},0.191120
+274,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+274,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+274,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+274,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+274,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+274,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.182293
+274,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+274,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+274,01,tempo_change,transformed,ioi_similarity,{},1.000000
+274,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+274,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+274,02,duration_scaling,transformed,ioi_similarity,{},0.186309
+274,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+274,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+274,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+274,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+274,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+274,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.183942
+274,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+274,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+274,02,tempo_change,transformed,ioi_similarity,{},1.000000
+274,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+274,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+282,01,duration_scaling,transformed,ioi_similarity,{},0.263992
+282,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+282,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+282,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+282,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+282,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+282,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.262920
+282,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+282,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+282,01,tempo_change,transformed,ioi_similarity,{},1.000000
+282,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+282,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+282,02,duration_scaling,transformed,ioi_similarity,{},0.190974
+282,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+282,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+282,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+282,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+282,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+282,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.189241
+282,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+282,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+282,02,tempo_change,transformed,ioi_similarity,{},1.000000
+282,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+282,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+285,01,duration_scaling,transformed,ioi_similarity,{},0.156025
+285,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+285,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+285,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+285,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+285,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+285,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.152258
+285,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+285,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+285,01,tempo_change,transformed,ioi_similarity,{},1.000000
+285,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+285,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+285,02,duration_scaling,transformed,ioi_similarity,{},0.152247
+285,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+285,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+285,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+285,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+285,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+285,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.139806
+285,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+285,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+285,02,tempo_change,transformed,ioi_similarity,{},1.000000
+285,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+285,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+297,01,duration_scaling,transformed,ioi_similarity,{},0.117524
+297,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+297,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+297,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+297,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+297,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+297,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.114128
+297,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+297,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+297,01,tempo_change,transformed,ioi_similarity,{},1.000000
+297,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+297,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+297,02,duration_scaling,transformed,ioi_similarity,{},0.107360
+297,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+297,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+297,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+297,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+297,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+297,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.104627
+297,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+297,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+297,02,tempo_change,transformed,ioi_similarity,{},1.000000
+297,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+297,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+301,01,duration_scaling,transformed,ioi_similarity,{},0.175184
+301,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+301,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+301,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+301,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+301,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+301,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.165248
+301,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+301,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+301,01,tempo_change,transformed,ioi_similarity,{},1.000000
+301,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+301,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+301,02,duration_scaling,transformed,ioi_similarity,{},0.140911
+301,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+301,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+301,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+301,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+301,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+301,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.132696
+301,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+301,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+301,02,tempo_change,transformed,ioi_similarity,{},1.000000
+301,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+301,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+345,01,duration_scaling,transformed,ioi_similarity,{},0.266064
+345,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+345,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+345,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+345,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+345,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+345,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.269151
+345,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+345,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+345,01,tempo_change,transformed,ioi_similarity,{},1.000000
+345,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+345,01,tempo_change,transformed,rhythmic_edit_distance,{},0.024590
+345,02,duration_scaling,transformed,ioi_similarity,{},0.236142
+345,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+345,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+345,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+345,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+345,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+345,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.230455
+345,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+345,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+345,02,tempo_change,transformed,ioi_similarity,{},1.000000
+345,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+345,02,tempo_change,transformed,rhythmic_edit_distance,{},0.005917
+349,01,duration_scaling,transformed,ioi_similarity,{},0.288069
+349,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+349,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+349,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+349,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+349,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+349,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.281512
+349,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+349,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+349,01,tempo_change,transformed,ioi_similarity,{},1.000000
+349,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+349,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+349,02,duration_scaling,transformed,ioi_similarity,{},0.309894
+349,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+349,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+349,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+349,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+349,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+349,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.304225
+349,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+349,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+349,02,tempo_change,transformed,ioi_similarity,{},1.000000
+349,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+349,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+353,01,duration_scaling,transformed,ioi_similarity,{},0.294189
+353,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+353,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+353,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+353,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+353,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+353,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.291638
+353,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+353,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+353,01,tempo_change,transformed,ioi_similarity,{},1.000000
+353,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+353,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+353,02,duration_scaling,transformed,ioi_similarity,{},0.265431
+353,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+353,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+353,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+353,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+353,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+353,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.263825
+353,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+353,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+353,02,tempo_change,transformed,ioi_similarity,{},1.000000
+353,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+353,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+364,01,duration_scaling,transformed,ioi_similarity,{},0.328562
+364,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+364,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+364,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+364,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+364,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+364,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.316535
+364,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+364,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+364,01,tempo_change,transformed,ioi_similarity,{},1.000000
+364,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+364,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+364,02,duration_scaling,transformed,ioi_similarity,{},0.390687
+364,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+364,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+364,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+364,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+364,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+364,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.384312
+364,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+364,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+364,02,tempo_change,transformed,ioi_similarity,{},1.000000
+364,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+364,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+368,01,duration_scaling,transformed,ioi_similarity,{},0.325230
+368,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+368,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+368,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+368,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+368,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+368,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.321781
+368,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+368,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+368,01,tempo_change,transformed,ioi_similarity,{},1.000000
+368,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+368,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+368,02,duration_scaling,transformed,ioi_similarity,{},0.251178
+368,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+368,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+368,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+368,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+368,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+368,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.265896
+368,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+368,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+368,02,tempo_change,transformed,ioi_similarity,{},1.000000
+368,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+368,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+371,01,duration_scaling,transformed,ioi_similarity,{},0.189705
+371,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+371,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+371,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+371,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+371,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+371,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.186546
+371,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+371,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+371,01,tempo_change,transformed,ioi_similarity,{},1.000000
+371,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+371,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+371,02,duration_scaling,transformed,ioi_similarity,{},0.197264
+371,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+371,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+371,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+371,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+371,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+371,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.177193
+371,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+371,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+371,02,tempo_change,transformed,ioi_similarity,{},1.000000
+371,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+371,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+374,01,duration_scaling,transformed,ioi_similarity,{},0.370760
+374,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+374,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+374,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+374,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+374,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+374,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.371689
+374,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+374,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+374,01,tempo_change,transformed,ioi_similarity,{},1.000000
+374,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+374,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+374,02,duration_scaling,transformed,ioi_similarity,{},0.383463
+374,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+374,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+374,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+374,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+374,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+374,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.377423
+374,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+374,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+374,02,tempo_change,transformed,ioi_similarity,{},1.000000
+374,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+374,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+380,01,duration_scaling,transformed,ioi_similarity,{},0.291854
+380,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+380,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+380,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+380,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+380,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+380,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.299635
+380,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+380,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+380,01,tempo_change,transformed,ioi_similarity,{},1.000000
+380,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.012987
+380,01,tempo_change,transformed,rhythmic_edit_distance,{},0.050000
+380,02,duration_scaling,transformed,ioi_similarity,{},0.169001
+380,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+380,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+380,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+380,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+380,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+380,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.165915
+380,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+380,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+380,02,tempo_change,transformed,ioi_similarity,{},1.000000
+380,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+380,02,tempo_change,transformed,rhythmic_edit_distance,{},0.027027
+388,01,duration_scaling,transformed,ioi_similarity,{},0.211490
+388,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+388,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+388,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+388,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+388,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+388,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.207927
+388,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+388,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+388,01,tempo_change,transformed,ioi_similarity,{},1.000000
+388,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+388,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+388,02,duration_scaling,transformed,ioi_similarity,{},0.150022
+388,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+388,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+388,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+388,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+388,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+388,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.156083
+388,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+388,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+388,02,tempo_change,transformed,ioi_similarity,{},1.000000
+388,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+388,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+390,01,duration_scaling,transformed,ioi_similarity,{},0.948326
+390,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+390,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+390,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+390,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+390,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+390,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.954711
+390,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+390,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+390,01,tempo_change,transformed,ioi_similarity,{},1.000000
+390,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+390,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+390,02,duration_scaling,transformed,ioi_similarity,{},0.457952
+390,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+390,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+390,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+390,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+390,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+390,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.456676
+390,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+390,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+390,02,tempo_change,transformed,ioi_similarity,{},1.000000
+390,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+390,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+430,01,duration_scaling,transformed,ioi_similarity,{},0.117680
+430,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+430,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+430,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+430,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+430,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+430,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.114338
+430,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+430,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+430,01,tempo_change,transformed,ioi_similarity,{},1.000000
+430,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+430,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+430,02,duration_scaling,transformed,ioi_similarity,{},0.185351
+430,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+430,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+430,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+430,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+430,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+430,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.177899
+430,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+430,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+430,02,tempo_change,transformed,ioi_similarity,{},1.000000
+430,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+430,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+433,01,duration_scaling,transformed,ioi_similarity,{},0.145677
+433,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+433,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+433,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+433,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+433,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+433,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.133875
+433,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+433,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+433,01,tempo_change,transformed,ioi_similarity,{},1.000000
+433,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+433,01,tempo_change,transformed,rhythmic_edit_distance,{},0.011364
+433,02,duration_scaling,transformed,ioi_similarity,{},0.134412
+433,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+433,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+433,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+433,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+433,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+433,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.128120
+433,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+433,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+433,02,tempo_change,transformed,ioi_similarity,{},1.000000
+433,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+433,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+460,01,duration_scaling,transformed,ioi_similarity,{},0.270765
+460,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+460,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+460,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+460,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+460,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+460,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.245299
+460,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+460,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+460,01,tempo_change,transformed,ioi_similarity,{},1.000000
+460,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+460,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+460,02,duration_scaling,transformed,ioi_similarity,{},0.143623
+460,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+460,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+460,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+460,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+460,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+460,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.141281
+460,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+460,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+460,02,tempo_change,transformed,ioi_similarity,{},1.000000
+460,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+460,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+465,01,duration_scaling,transformed,ioi_similarity,{},0.183013
+465,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+465,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+465,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+465,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+465,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+465,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.182735
+465,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+465,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+465,01,tempo_change,transformed,ioi_similarity,{},1.000000
+465,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+465,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+465,02,duration_scaling,transformed,ioi_similarity,{},0.299118
+465,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+465,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+465,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+465,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+465,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+465,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.301112
+465,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+465,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+465,02,tempo_change,transformed,ioi_similarity,{},1.000000
+465,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+465,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+471,01,duration_scaling,transformed,ioi_similarity,{},0.235161
+471,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+471,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+471,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+471,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+471,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+471,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.247877
+471,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+471,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+471,01,tempo_change,transformed,ioi_similarity,{},1.000000
+471,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+471,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+471,02,duration_scaling,transformed,ioi_similarity,{},0.134413
+471,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+471,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+471,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+471,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+471,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+471,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.129821
+471,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+471,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+471,02,tempo_change,transformed,ioi_similarity,{},1.000000
+471,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+471,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+518,01,duration_scaling,transformed,ioi_similarity,{},0.287173
+518,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+518,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+518,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+518,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+518,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+518,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.291116
+518,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+518,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+518,01,tempo_change,transformed,ioi_similarity,{},1.000000
+518,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+518,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+518,02,duration_scaling,transformed,ioi_similarity,{},0.164908
+518,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+518,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+518,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+518,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+518,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+518,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.159587
+518,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+518,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+518,02,tempo_change,transformed,ioi_similarity,{},1.000000
+518,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+518,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+547,01,duration_scaling,transformed,ioi_similarity,{},0.249476
+547,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+547,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+547,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+547,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+547,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+547,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.252321
+547,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+547,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+547,01,tempo_change,transformed,ioi_similarity,{},1.000000
+547,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+547,01,tempo_change,transformed,rhythmic_edit_distance,{},0.038462
+547,02,duration_scaling,transformed,ioi_similarity,{},0.257969
+547,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+547,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+547,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+547,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+547,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+547,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.245140
+547,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+547,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+547,02,tempo_change,transformed,ioi_similarity,{},1.000000
+547,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+547,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+550,01,duration_scaling,transformed,ioi_similarity,{},0.226769
+550,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+550,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+550,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+550,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+550,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+550,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.225285
+550,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+550,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+550,01,tempo_change,transformed,ioi_similarity,{},1.000000
+550,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+550,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+550,02,duration_scaling,transformed,ioi_similarity,{},0.148408
+550,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+550,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+550,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+550,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+550,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+550,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.141480
+550,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+550,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+550,02,tempo_change,transformed,ioi_similarity,{},1.000000
+550,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+550,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+559,01,duration_scaling,transformed,ioi_similarity,{},0.355017
+559,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+559,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+559,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+559,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+559,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+559,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.367913
+559,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+559,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+559,01,tempo_change,transformed,ioi_similarity,{},1.000000
+559,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+559,01,tempo_change,transformed,rhythmic_edit_distance,{},0.037037
+559,02,duration_scaling,transformed,ioi_similarity,{},0.236514
+559,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+559,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+559,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+559,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+559,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+559,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.230801
+559,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+559,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+559,02,tempo_change,transformed,ioi_similarity,{},1.000000
+559,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+559,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+566,01,duration_scaling,transformed,ioi_similarity,{},0.200930
+566,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+566,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+566,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+566,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+566,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+566,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.199887
+566,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+566,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+566,01,tempo_change,transformed,ioi_similarity,{},1.000000
+566,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+566,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+566,02,duration_scaling,transformed,ioi_similarity,{},0.221677
+566,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+566,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+566,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+566,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+566,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+566,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.217213
+566,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+566,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+566,02,tempo_change,transformed,ioi_similarity,{},1.000000
+566,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+566,02,tempo_change,transformed,rhythmic_edit_distance,{},0.010811
+575,01,duration_scaling,transformed,ioi_similarity,{},0.251772
+575,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+575,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+575,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+575,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+575,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+575,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.219923
+575,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+575,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+575,01,tempo_change,transformed,ioi_similarity,{},1.000000
+575,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+575,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+575,02,duration_scaling,transformed,ioi_similarity,{},0.171181
+575,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+575,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+575,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+575,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+575,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+575,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.137375
+575,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+575,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+575,02,tempo_change,transformed,ioi_similarity,{},1.000000
+575,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+575,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+592,01,duration_scaling,transformed,ioi_similarity,{},0.346764
+592,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+592,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+592,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+592,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+592,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+592,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.332233
+592,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+592,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+592,01,tempo_change,transformed,ioi_similarity,{},1.000000
+592,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+592,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+592,02,duration_scaling,transformed,ioi_similarity,{},0.194012
+592,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+592,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+592,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+592,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+592,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+592,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.185203
+592,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+592,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+592,02,tempo_change,transformed,ioi_similarity,{},1.000000
+592,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+592,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+604,01,duration_scaling,transformed,ioi_similarity,{},0.328674
+604,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+604,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+604,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+604,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+604,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+604,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.336016
+604,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+604,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+604,01,tempo_change,transformed,ioi_similarity,{},1.000000
+604,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+604,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+604,02,duration_scaling,transformed,ioi_similarity,{},0.512412
+604,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+604,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+604,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+604,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+604,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+604,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.510857
+604,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+604,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+604,02,tempo_change,transformed,ioi_similarity,{},1.000000
+604,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+604,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+605,01,duration_scaling,transformed,ioi_similarity,{},0.291157
+605,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+605,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+605,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+605,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+605,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+605,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.288609
+605,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+605,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+605,01,tempo_change,transformed,ioi_similarity,{},1.000000
+605,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+605,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+605,02,duration_scaling,transformed,ioi_similarity,{},0.227942
+605,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+605,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+605,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+605,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+605,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+605,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.220191
+605,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+605,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+605,02,tempo_change,transformed,ioi_similarity,{},1.000000
+605,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+605,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+617,01,duration_scaling,transformed,ioi_similarity,{},0.222314
+617,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+617,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+617,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+617,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+617,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+617,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.216091
+617,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+617,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+617,01,tempo_change,transformed,ioi_similarity,{},1.000000
+617,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+617,01,tempo_change,transformed,rhythmic_edit_distance,{},0.018868
+617,02,duration_scaling,transformed,ioi_similarity,{},0.298812
+617,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+617,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+617,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+617,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+617,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+617,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.305416
+617,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+617,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+617,02,tempo_change,transformed,ioi_similarity,{},1.000000
+617,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+617,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+619,01,duration_scaling,transformed,ioi_similarity,{},0.249069
+619,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+619,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+619,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+619,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+619,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+619,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.230699
+619,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+619,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+619,01,tempo_change,transformed,ioi_similarity,{},1.000000
+619,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+619,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+619,02,duration_scaling,transformed,ioi_similarity,{},0.225179
+619,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+619,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+619,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+619,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+619,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+619,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.218692
+619,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+619,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+619,02,tempo_change,transformed,ioi_similarity,{},1.000000
+619,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+619,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+624,01,duration_scaling,transformed,ioi_similarity,{},0.347784
+624,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+624,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+624,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+624,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+624,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+624,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.359673
+624,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+624,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+624,01,tempo_change,transformed,ioi_similarity,{},1.000000
+624,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+624,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+624,02,duration_scaling,transformed,ioi_similarity,{},0.217006
+624,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+624,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+624,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+624,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+624,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+624,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.186443
+624,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+624,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+624,02,tempo_change,transformed,ioi_similarity,{},1.000000
+624,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+624,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+634,01,duration_scaling,transformed,ioi_similarity,{},0.263000
+634,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+634,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+634,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+634,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+634,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+634,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.249619
+634,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+634,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+634,01,tempo_change,transformed,ioi_similarity,{},1.000000
+634,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+634,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+634,02,duration_scaling,transformed,ioi_similarity,{},0.202633
+634,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+634,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+634,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+634,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+634,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+634,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.199241
+634,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+634,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+634,02,tempo_change,transformed,ioi_similarity,{},1.000000
+634,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+634,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+644,01,duration_scaling,transformed,ioi_similarity,{},0.170419
+644,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+644,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+644,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+644,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+644,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+644,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.174847
+644,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+644,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+644,01,tempo_change,transformed,ioi_similarity,{},1.000000
+644,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+644,01,tempo_change,transformed,rhythmic_edit_distance,{},0.014925
+644,02,duration_scaling,transformed,ioi_similarity,{},0.191950
+644,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+644,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+644,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+644,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+644,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+644,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.191629
+644,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+644,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+644,02,tempo_change,transformed,ioi_similarity,{},1.000000
+644,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+644,02,tempo_change,transformed,rhythmic_edit_distance,{},0.044118
+651,01,duration_scaling,transformed,ioi_similarity,{},0.253162
+651,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+651,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+651,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+651,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+651,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+651,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.243358
+651,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+651,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+651,01,tempo_change,transformed,ioi_similarity,{},1.000000
+651,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.009524
+651,01,tempo_change,transformed,rhythmic_edit_distance,{},0.037037
+651,02,duration_scaling,transformed,ioi_similarity,{},0.205517
+651,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+651,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+651,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+651,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+651,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+651,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.200826
+651,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+651,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+651,02,tempo_change,transformed,ioi_similarity,{},1.000000
+651,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+651,02,tempo_change,transformed,rhythmic_edit_distance,{},0.026316
+655,01,duration_scaling,transformed,ioi_similarity,{},0.132623
+655,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+655,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+655,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+655,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+655,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+655,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.124547
+655,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+655,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+655,01,tempo_change,transformed,ioi_similarity,{},1.000000
+655,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+655,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+655,02,duration_scaling,transformed,ioi_similarity,{},0.057528
+655,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+655,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+655,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+655,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+655,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+655,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.052962
+655,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+655,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+655,02,tempo_change,transformed,ioi_similarity,{},1.000000
+655,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+655,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+664,01,duration_scaling,transformed,ioi_similarity,{},0.247605
+664,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+664,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+664,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+664,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+664,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+664,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.237000
+664,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+664,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+664,01,tempo_change,transformed,ioi_similarity,{},1.000000
+664,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+664,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+664,02,duration_scaling,transformed,ioi_similarity,{},0.182011
+664,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+664,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+664,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+664,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+664,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+664,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.175890
+664,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+664,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+664,02,tempo_change,transformed,ioi_similarity,{},1.000000
+664,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+664,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+666,01,duration_scaling,transformed,ioi_similarity,{},0.124828
+666,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+666,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+666,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+666,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+666,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+666,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.111079
+666,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+666,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+666,01,tempo_change,transformed,ioi_similarity,{},1.000000
+666,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+666,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+666,02,duration_scaling,transformed,ioi_similarity,{},0.176838
+666,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+666,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+666,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+666,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+666,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+666,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.167981
+666,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+666,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+666,02,tempo_change,transformed,ioi_similarity,{},1.000000
+666,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+666,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+678,01,duration_scaling,transformed,ioi_similarity,{},0.314664
+678,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+678,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+678,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+678,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+678,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+678,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.305951
+678,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+678,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+678,01,tempo_change,transformed,ioi_similarity,{},1.000000
+678,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+678,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+678,02,duration_scaling,transformed,ioi_similarity,{},0.182564
+678,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+678,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+678,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+678,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+678,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+678,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.171755
+678,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+678,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+678,02,tempo_change,transformed,ioi_similarity,{},1.000000
+678,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+678,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+687,01,duration_scaling,transformed,ioi_similarity,{},0.217387
+687,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+687,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+687,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+687,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+687,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+687,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.208227
+687,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+687,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+687,01,tempo_change,transformed,ioi_similarity,{},1.000000
+687,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+687,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+687,02,duration_scaling,transformed,ioi_similarity,{},0.128860
+687,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+687,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+687,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+687,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+687,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+687,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.123639
+687,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+687,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+687,02,tempo_change,transformed,ioi_similarity,{},1.000000
+687,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+687,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+693,01,duration_scaling,transformed,ioi_similarity,{},0.163725
+693,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+693,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+693,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+693,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+693,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+693,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.153095
+693,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+693,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+693,01,tempo_change,transformed,ioi_similarity,{},1.000000
+693,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+693,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+693,02,duration_scaling,transformed,ioi_similarity,{},0.111580
+693,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+693,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+693,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+693,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+693,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+693,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.111717
+693,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+693,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+693,02,tempo_change,transformed,ioi_similarity,{},1.000000
+693,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+693,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+700,01,duration_scaling,transformed,ioi_similarity,{},0.132074
+700,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+700,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+700,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+700,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+700,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+700,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.131421
+700,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+700,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+700,01,tempo_change,transformed,ioi_similarity,{},1.000000
+700,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+700,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+700,02,duration_scaling,transformed,ioi_similarity,{},0.138781
+700,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+700,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+700,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+700,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+700,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+700,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.130633
+700,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+700,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+700,02,tempo_change,transformed,ioi_similarity,{},1.000000
+700,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+700,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+715,01,duration_scaling,transformed,ioi_similarity,{},0.244035
+715,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+715,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+715,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+715,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+715,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+715,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.241877
+715,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+715,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+715,01,tempo_change,transformed,ioi_similarity,{},1.000000
+715,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+715,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+715,02,duration_scaling,transformed,ioi_similarity,{},0.129922
+715,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+715,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+715,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+715,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+715,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+715,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.126713
+715,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+715,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+715,02,tempo_change,transformed,ioi_similarity,{},1.000000
+715,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+715,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+719,01,duration_scaling,transformed,ioi_similarity,{},0.258883
+719,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+719,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+719,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+719,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+719,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+719,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.256298
+719,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+719,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+719,01,tempo_change,transformed,ioi_similarity,{},1.000000
+719,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+719,01,tempo_change,transformed,rhythmic_edit_distance,{},0.032258
+719,02,duration_scaling,transformed,ioi_similarity,{},0.257987
+719,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+719,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+719,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+719,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+719,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+719,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.255994
+719,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+719,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+719,02,tempo_change,transformed,ioi_similarity,{},1.000000
+719,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+719,02,tempo_change,transformed,rhythmic_edit_distance,{},0.049180
+722,01,duration_scaling,transformed,ioi_similarity,{},0.425679
+722,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+722,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+722,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+722,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+722,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+722,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.430662
+722,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+722,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+722,01,tempo_change,transformed,ioi_similarity,{},1.000000
+722,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+722,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+722,02,duration_scaling,transformed,ioi_similarity,{},0.414333
+722,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+722,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+722,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+722,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+722,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+722,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.405977
+722,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+722,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+722,02,tempo_change,transformed,ioi_similarity,{},1.000000
+722,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+722,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+734,01,duration_scaling,transformed,ioi_similarity,{},0.308909
+734,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+734,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+734,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+734,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+734,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+734,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.311148
+734,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+734,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+734,01,tempo_change,transformed,ioi_similarity,{},1.000000
+734,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+734,01,tempo_change,transformed,rhythmic_edit_distance,{},0.016949
+734,02,duration_scaling,transformed,ioi_similarity,{},0.279973
+734,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+734,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+734,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+734,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+734,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+734,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.288466
+734,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+734,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+734,02,tempo_change,transformed,ioi_similarity,{},1.000000
+734,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+734,02,tempo_change,transformed,rhythmic_edit_distance,{},0.048387
+748,01,duration_scaling,transformed,ioi_similarity,{},0.393614
+748,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+748,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+748,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+748,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+748,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+748,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.393492
+748,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+748,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+748,01,tempo_change,transformed,ioi_similarity,{},1.000000
+748,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+748,01,tempo_change,transformed,rhythmic_edit_distance,{},0.042553
+748,02,duration_scaling,transformed,ioi_similarity,{},0.140267
+748,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+748,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+748,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+748,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+748,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+748,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.132883
+748,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+748,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+748,02,tempo_change,transformed,ioi_similarity,{},1.000000
+748,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+748,02,tempo_change,transformed,rhythmic_edit_distance,{},0.016129
+755,01,duration_scaling,transformed,ioi_similarity,{},0.432880
+755,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+755,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+755,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+755,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+755,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+755,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.437201
+755,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+755,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+755,01,tempo_change,transformed,ioi_similarity,{},1.000000
+755,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+755,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+755,02,duration_scaling,transformed,ioi_similarity,{},0.274656
+755,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+755,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+755,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+755,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+755,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+755,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.269988
+755,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+755,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+755,02,tempo_change,transformed,ioi_similarity,{},1.000000
+755,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+755,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+759,01,duration_scaling,transformed,ioi_similarity,{},0.343781
+759,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+759,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+759,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+759,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+759,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+759,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.335900
+759,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+759,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+759,01,tempo_change,transformed,ioi_similarity,{},1.000000
+759,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+759,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+759,02,duration_scaling,transformed,ioi_similarity,{},0.346478
+759,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+759,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+759,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+759,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+759,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+759,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.333046
+759,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+759,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+759,02,tempo_change,transformed,ioi_similarity,{},1.000000
+759,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+759,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+760,01,duration_scaling,transformed,ioi_similarity,{},0.160699
+760,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+760,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+760,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+760,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+760,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+760,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.156553
+760,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+760,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+760,01,tempo_change,transformed,ioi_similarity,{},1.000000
+760,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+760,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+760,02,duration_scaling,transformed,ioi_similarity,{},0.196218
+760,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+760,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+760,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+760,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+760,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+760,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.188433
+760,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+760,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+760,02,tempo_change,transformed,ioi_similarity,{},1.000000
+760,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.010989
+760,02,tempo_change,transformed,rhythmic_edit_distance,{},0.085106
+778,01,duration_scaling,transformed,ioi_similarity,{},0.387877
+778,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+778,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+778,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+778,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+778,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+778,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.392840
+778,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+778,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+778,01,tempo_change,transformed,ioi_similarity,{},1.000000
+778,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+778,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+778,02,duration_scaling,transformed,ioi_similarity,{},0.387715
+778,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+778,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+778,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+778,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+778,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+778,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.389613
+778,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+778,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+778,02,tempo_change,transformed,ioi_similarity,{},1.000000
+778,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+778,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+782,01,duration_scaling,transformed,ioi_similarity,{},0.179342
+782,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+782,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+782,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+782,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+782,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+782,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.179367
+782,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+782,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+782,01,tempo_change,transformed,ioi_similarity,{},1.000000
+782,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+782,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+782,02,duration_scaling,transformed,ioi_similarity,{},0.143822
+782,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+782,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+782,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+782,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+782,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+782,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.144532
+782,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+782,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+782,02,tempo_change,transformed,ioi_similarity,{},1.000000
+782,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+782,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+792,01,duration_scaling,transformed,ioi_similarity,{},0.321575
+792,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+792,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+792,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+792,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+792,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+792,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.302556
+792,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+792,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+792,01,tempo_change,transformed,ioi_similarity,{},1.000000
+792,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+792,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+792,02,duration_scaling,transformed,ioi_similarity,{},0.202337
+792,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+792,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+792,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+792,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+792,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+792,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.200835
+792,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+792,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+792,02,tempo_change,transformed,ioi_similarity,{},1.000000
+792,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+792,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+825,01,duration_scaling,transformed,ioi_similarity,{},0.140064
+825,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+825,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+825,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+825,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+825,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+825,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.137652
+825,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+825,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+825,01,tempo_change,transformed,ioi_similarity,{},1.000000
+825,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+825,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+825,02,duration_scaling,transformed,ioi_similarity,{},0.217969
+825,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+825,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+825,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+825,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+825,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+825,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.213433
+825,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+825,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+825,02,tempo_change,transformed,ioi_similarity,{},1.000000
+825,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+825,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+826,01,duration_scaling,transformed,ioi_similarity,{},0.214312
+826,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+826,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+826,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+826,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+826,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+826,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.213057
+826,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+826,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+826,01,tempo_change,transformed,ioi_similarity,{},1.000000
+826,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+826,01,tempo_change,transformed,rhythmic_edit_distance,{},0.015873
+826,02,duration_scaling,transformed,ioi_similarity,{},0.177682
+826,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+826,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+826,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+826,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+826,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+826,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.171350
+826,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+826,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+826,02,tempo_change,transformed,ioi_similarity,{},1.000000
+826,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+826,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+827,01,duration_scaling,transformed,ioi_similarity,{},0.177426
+827,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+827,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+827,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+827,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+827,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+827,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.181959
+827,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+827,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+827,01,tempo_change,transformed,ioi_similarity,{},1.000000
+827,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+827,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+827,02,duration_scaling,transformed,ioi_similarity,{},0.264468
+827,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+827,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+827,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+827,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+827,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+827,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.258457
+827,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+827,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+827,02,tempo_change,transformed,ioi_similarity,{},1.000000
+827,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+827,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+829,01,duration_scaling,transformed,ioi_similarity,{},0.175683
+829,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+829,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+829,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+829,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+829,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+829,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.174952
+829,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+829,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+829,01,tempo_change,transformed,ioi_similarity,{},1.000000
+829,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+829,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+829,02,duration_scaling,transformed,ioi_similarity,{},0.262736
+829,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+829,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+829,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+829,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+829,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+829,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.264543
+829,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+829,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+829,02,tempo_change,transformed,ioi_similarity,{},1.000000
+829,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+829,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+859,01,duration_scaling,transformed,ioi_similarity,{},0.215601
+859,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+859,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+859,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+859,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+859,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+859,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.219856
+859,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+859,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+859,01,tempo_change,transformed,ioi_similarity,{},1.000000
+859,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+859,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+859,02,duration_scaling,transformed,ioi_similarity,{},0.237469
+859,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+859,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+859,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+859,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+859,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+859,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.234562
+859,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+859,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+859,02,tempo_change,transformed,ioi_similarity,{},1.000000
+859,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+859,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+866,01,duration_scaling,transformed,ioi_similarity,{},0.113400
+866,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+866,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+866,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+866,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+866,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+866,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.113381
+866,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+866,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+866,01,tempo_change,transformed,ioi_similarity,{},1.000000
+866,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+866,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+866,02,duration_scaling,transformed,ioi_similarity,{},0.405519
+866,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+866,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+866,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+866,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+866,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+866,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.387939
+866,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+866,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+866,02,tempo_change,transformed,ioi_similarity,{},1.000000
+866,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+866,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+875,01,duration_scaling,transformed,ioi_similarity,{},0.210157
+875,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+875,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+875,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+875,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+875,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+875,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.200028
+875,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+875,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+875,01,tempo_change,transformed,ioi_similarity,{},1.000000
+875,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+875,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+875,02,duration_scaling,transformed,ioi_similarity,{},0.193906
+875,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+875,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+875,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+875,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+875,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+875,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.182992
+875,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+875,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+875,02,tempo_change,transformed,ioi_similarity,{},1.000000
+875,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+875,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+881,01,duration_scaling,transformed,ioi_similarity,{},0.189937
+881,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+881,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+881,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+881,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+881,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+881,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.183726
+881,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+881,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+881,01,tempo_change,transformed,ioi_similarity,{},1.000000
+881,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+881,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+881,02,duration_scaling,transformed,ioi_similarity,{},0.366101
+881,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+881,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+881,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+881,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+881,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+881,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.365979
+881,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+881,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+881,02,tempo_change,transformed,ioi_similarity,{},1.000000
+881,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+881,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+889,01,duration_scaling,transformed,ioi_similarity,{},0.230801
+889,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+889,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+889,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+889,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+889,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+889,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.227396
+889,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+889,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+889,01,tempo_change,transformed,ioi_similarity,{},1.000000
+889,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+889,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+889,02,duration_scaling,transformed,ioi_similarity,{},0.171141
+889,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+889,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+889,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+889,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+889,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+889,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.168734
+889,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+889,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+889,02,tempo_change,transformed,ioi_similarity,{},1.000000
+889,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+889,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+894,01,duration_scaling,transformed,ioi_similarity,{},0.306703
+894,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+894,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+894,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+894,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+894,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+894,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.304590
+894,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+894,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+894,01,tempo_change,transformed,ioi_similarity,{},1.000000
+894,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+894,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+894,02,duration_scaling,transformed,ioi_similarity,{},0.221911
+894,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+894,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+894,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+894,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+894,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+894,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.224109
+894,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+894,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+894,02,tempo_change,transformed,ioi_similarity,{},1.000000
+894,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+894,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+897,01,duration_scaling,transformed,ioi_similarity,{},0.298808
+897,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+897,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+897,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+897,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+897,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+897,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.286997
+897,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+897,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+897,01,tempo_change,transformed,ioi_similarity,{},1.000000
+897,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+897,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+897,02,duration_scaling,transformed,ioi_similarity,{},0.374338
+897,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+897,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+897,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+897,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+897,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+897,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.374034
+897,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+897,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+897,02,tempo_change,transformed,ioi_similarity,{},1.000000
+897,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+897,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+900,01,duration_scaling,transformed,ioi_similarity,{},0.224507
+900,01,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+900,01,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+900,01,original_copy,baseline_original,ioi_similarity,{},1.000000
+900,01,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+900,01,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+900,01,partial_rhythm_modification,transformed,ioi_similarity,{},0.214235
+900,01,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+900,01,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+900,01,tempo_change,transformed,ioi_similarity,{},1.000000
+900,01,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+900,01,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
+900,02,duration_scaling,transformed,ioi_similarity,{},0.280450
+900,02,duration_scaling,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+900,02,duration_scaling,transformed,rhythmic_edit_distance,{},0.000000
+900,02,original_copy,baseline_original,ioi_similarity,{},1.000000
+900,02,original_copy,baseline_original,rhythm_ngram_similarity,"{""n"": 2}",1.000000
+900,02,original_copy,baseline_original,rhythmic_edit_distance,{},1.000000
+900,02,partial_rhythm_modification,transformed,ioi_similarity,{},0.279420
+900,02,partial_rhythm_modification,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+900,02,partial_rhythm_modification,transformed,rhythmic_edit_distance,{},0.000000
+900,02,tempo_change,transformed,ioi_similarity,{},1.000000
+900,02,tempo_change,transformed,rhythm_ngram_similarity,"{""n"": 2}",0.000000
+900,02,tempo_change,transformed,rhythmic_edit_distance,{},0.000000
