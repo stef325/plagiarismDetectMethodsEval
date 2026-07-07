@@ -152,9 +152,9 @@
 
 ## 4.2 Métricas harmônicas
 
-* [ ] Chord N-Gram Similarity
-* [ ] Edit Distance Harmônica
-* [ ] Pitch Class Similarity
+* [x] Chord N-Gram Similarity
+* [x] Edit Distance Harmônica
+* [x] Pitch Class Similarity
 
 ## 4.3 Métricas rítmicas
 
