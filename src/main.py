@@ -13,6 +13,7 @@ from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
+from experiment.validate_representations import validate_representations
 from experiment.validate_dataset import validate_dataset
 
 
@@ -45,6 +46,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_segments(config)
     elif args.command == "representations":
         _run_representations(config)
+    elif args.command == "validate_representations":
+        _run_validate_representations(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -101,6 +104,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "representations",
         help="Extrai melodia, harmonia e ritmo dos segmentos.",
+    )
+    subparsers.add_parser(
+        "validate_representations",
+        help="Valida as representacoes musicais extraidas.",
     )
     subparsers.add_parser(
         "all",
@@ -189,6 +196,22 @@ def _run_representations(config: dict) -> Path:
     )
 
 
+def _run_validate_representations(config: dict) -> Path:
+    """Executa o pipeline de validacao das representacoes."""
+
+    representations_root = Path(config["paths"]["representations"])
+    segments_root = Path(config["paths"]["segments"])
+    report_path = (
+        Path(config["paths"]["results"]) / "validate_representations" / "representation_validation_report.md"
+    )
+
+    return validate_representations(
+        representations_path=representations_root,
+        segments_metadata_path=segments_root / "segments_metadata.csv",
+        output_path=report_path,
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -201,6 +224,8 @@ def _run_all(config: dict) -> None:
     _run_segments(config)
     print()
     _run_representations(config)
+    print()
+    _run_validate_representations(config)
     print()
     _run_validate(config)
 

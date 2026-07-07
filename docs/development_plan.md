@@ -103,7 +103,7 @@
 * [x] Extrair melodia
 * [x] Extrair harmonia
 * [x] Extrair ritmo
-* [ ] Validar representações extraídas
+* [x] Validar representações extraídas
 
 ---
 
