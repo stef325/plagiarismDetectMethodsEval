@@ -43,6 +43,18 @@ class POP909Loader:
             key=lambda path: path.relative_to(self.dataset_path).as_posix(),
         )
 
+    def load_midi_file(self, midi_path: Path) -> pretty_midi.PrettyMIDI:
+        """Carrega um arquivo MIDI individual.
+
+        Args:
+            midi_path: Caminho do arquivo MIDI a ser carregado.
+
+        Returns:
+            O objeto `pretty_midi.PrettyMIDI` correspondente.
+        """
+
+        return pretty_midi.PrettyMIDI(str(midi_path))
+
     def load_music(self, song_id: str) -> Dict[Path, pretty_midi.PrettyMIDI]:
         """Carrega todos os arquivos MIDI associados a uma musica do POP909.
 
@@ -57,6 +69,6 @@ class POP909Loader:
 
         for midi_path in self.list_music_midi_files(song_id):
             relative_path = midi_path.relative_to(self.dataset_path)
-            loaded_midis[relative_path] = pretty_midi.PrettyMIDI(str(midi_path))
+            loaded_midis[relative_path] = self.load_midi_file(midi_path)
 
         return loaded_midis

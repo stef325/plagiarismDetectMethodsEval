@@ -115,6 +115,16 @@ class POP909LoaderTestCase(unittest.TestCase):
                 all(isinstance(value, pretty_midi.PrettyMIDI) for value in result.values())
             )
 
+    def test_load_midi_file_returns_pretty_midi_object(self) -> None:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            music_dir = _create_music_dir(root, "001")
+            loader = POP909Loader(root)
+
+            result = loader.load_midi_file(music_dir / "001.mid")
+
+            self.assertIsInstance(result, pretty_midi.PrettyMIDI)
+
     def test_load_music_returns_only_midi_files(self) -> None:
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

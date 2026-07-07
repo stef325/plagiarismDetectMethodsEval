@@ -8,9 +8,19 @@ dataset:
 
 paths:
   processed: data/processed
+  subset: data/processed/subset
+  segments: data/processed/segments
   results: data/results
   logs: logs
 
 experiment:
   random_seed: 42
-  
+
+subset:
+  sample_size: 100
+  random_seed: 42
+
+segments:
+  measures_per_segment: 8
+  segments_per_song: 2
+  random_seed: 42
