@@ -2,5 +2,5 @@
 
 from .harmony_extractor import HarmonyExtractor
 from .melody_extractor import MelodyExtractor
+from .melody_representation import MelodyNote, MelodyRepresentation
 from .rhythm_extractor import RhythmExtractor
-
