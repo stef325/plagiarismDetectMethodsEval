@@ -16,6 +16,7 @@ from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
 from experiment.transform_harmonies import transform_harmonies
 from experiment.transform_melodies import transform_melodies
+from experiment.transform_rhythms import transform_rhythms
 from experiment.validate_representations import validate_representations
 from experiment.validate_dataset import validate_dataset
 
@@ -53,6 +54,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_melody_transformations(config)
     elif args.command == "harmony_transform":
         _run_harmony_transformations(config)
+    elif args.command == "rhythm_transform":
+        _run_rhythm_transformations(config)
     elif args.command == "validate_representations":
         _run_validate_representations(config)
     elif args.command == "all":
@@ -119,6 +122,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "harmony_transform",
         help="Aplica transformacoes harmonicas nas representacoes extraidas.",
+    )
+    subparsers.add_parser(
+        "rhythm_transform",
+        help="Aplica transformacoes ritmicas nas representacoes extraidas.",
     )
     subparsers.add_parser(
         "validate_representations",
@@ -235,6 +242,18 @@ def _run_harmony_transformations(config: dict) -> Path:
     )
 
 
+def _run_rhythm_transformations(config: dict) -> Path:
+    """Executa as transformacoes ritmicas habilitadas."""
+
+    rhythm_transform_config = config["rhythm_transformations"]
+    return _run_transformations(
+        source_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["transformations"]),
+        transformation_section=rhythm_transform_config,
+        transformation_runner=transform_rhythms,
+    )
+
+
 def _run_transformations(
     source_path: Path,
     output_path: Path,
@@ -304,6 +323,8 @@ def _run_all(config: dict) -> None:
     _run_melody_transformations(config)
     print()
     _run_harmony_transformations(config)
+    print()
+    _run_rhythm_transformations(config)
     print()
     _run_validate_representations(config)
     print()

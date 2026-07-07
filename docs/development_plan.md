@@ -124,9 +124,9 @@
 
 ## 3.3 Transformações rítmicas
 
-* [ ] Alteração de andamento
-* [ ] Escalonamento de durações
-* [ ] Alteração parcial do ritmo
+* [x] Alteração de andamento
+* [x] Escalonamento de durações
+* [x] Alteração parcial do ritmo
 
 ## 3.4 Transformações combinadas
 
