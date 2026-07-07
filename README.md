@@ -116,7 +116,8 @@ A documentação do projeto encontra-se na pasta `docs`.
 
 Os principais documentos são:
 
-* Plano de desenvolvimento
+* [Plano de desenvolvimento](docs/development_plan.md)
+* [Datasets e validação de integridade](docs/datasets.md)
 * Arquitetura do projeto *(em breve)*
 * Protocolo experimental *(em breve)*
 * Documentação do ambiente *(em breve)*

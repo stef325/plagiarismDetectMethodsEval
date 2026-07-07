@@ -9,3 +9,5 @@ jupyter
 notebook
 tqdm
 pyyaml
+pytest
+pytest-cov
