@@ -1,0 +1,122 @@
+{
+  "segment_file": "374_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.584609
+    },
+    {
+      "onset": 0.584609,
+      "duration": 0.629251
+    },
+    {
+      "onset": 1.21386,
+      "duration": 0.282738
+    },
+    {
+      "onset": 1.638321,
+      "duration": 2.619046
+    },
+    {
+      "onset": 4.257367,
+      "duration": 3.139879
+    },
+    {
+      "onset": 7.397246,
+      "duration": 3.16964
+    },
+    {
+      "onset": 10.566886,
+      "duration": 0.831206
+    },
+    {
+      "onset": 11.398092,
+      "duration": 1.09056
+    },
+    {
+      "onset": 12.488652,
+      "duration": 0.671768
+    },
+    {
+      "onset": 13.16042,
+      "duration": 1.811224
+    },
+    {
+      "onset": 14.971644,
+      "duration": 1.358418
+    },
+    {
+      "onset": 16.330062,
+      "duration": 0.372024
+    },
+    {
+      "onset": 16.702086,
+      "duration": 0.905611
+    },
+    {
+      "onset": 17.607697,
+      "duration": 0.182824
+    },
+    {
+      "onset": 17.790521,
+      "duration": 0.452806
+    },
+    {
+      "onset": 18.243327,
+      "duration": 1.005527
+    },
+    {
+      "onset": 19.248854,
+      "duration": 1.696428
+    },
+    {
+      "onset": 20.945282,
+      "duration": 0.561224
+    },
+    {
+      "onset": 21.506506,
+      "duration": 1.398809
+    },
+    {
+      "onset": 22.905315,
+      "duration": 1.441326
+    },
+    {
+      "onset": 24.346641,
+      "duration": 0.221088
+    },
+    {
+      "onset": 24.567729,
+      "duration": 0.784439
+    },
+    {
+      "onset": 25.352168,
+      "duration": 0.3125
+    },
+    {
+      "onset": 25.664668,
+      "duration": 1.198979
+    },
+    {
+      "onset": 26.863647,
+      "duration": 1.198979
+    },
+    {
+      "onset": 28.062626,
+      "duration": 0.567601
+    },
+    {
+      "onset": 28.630227,
+      "duration": 0.293368
+    },
+    {
+      "onset": 28.923595,
+      "duration": 0.293368
+    }
+  ],
+  "transformation": "duration_scaling",
+  "parameters": {
+    "duration_factor": 1.2,
+    "random_seed": 42
+  }
+}

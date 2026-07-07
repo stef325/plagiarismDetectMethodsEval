@@ -1,0 +1,122 @@
+{
+  "segment_file": "374_segment_02.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.087337
+    },
+    {
+      "onset": 0.087337,
+      "duration": 0.446428
+    },
+    {
+      "onset": 0.533765,
+      "duration": 0.460601
+    },
+    {
+      "onset": 0.994366,
+      "duration": 0.332164
+    },
+    {
+      "onset": 1.32653,
+      "duration": 1.78217
+    },
+    {
+      "onset": 3.1087,
+      "duration": 0.639526
+    },
+    {
+      "onset": 3.748226,
+      "duration": 1.202876
+    },
+    {
+      "onset": 4.951102,
+      "duration": 0.364051
+    },
+    {
+      "onset": 5.315153,
+      "duration": 0.628897
+    },
+    {
+      "onset": 5.94405,
+      "duration": 0.922973
+    },
+    {
+      "onset": 6.867023,
+      "duration": 0.559807
+    },
+    {
+      "onset": 7.42683,
+      "duration": 0.317106
+    },
+    {
+      "onset": 7.743936,
+      "duration": 0.699759
+    },
+    {
+      "onset": 8.443695,
+      "duration": 0.325964
+    },
+    {
+      "onset": 8.769659,
+      "duration": 0.354308
+    },
+    {
+      "onset": 9.123967,
+      "duration": 0.871598
+    },
+    {
+      "onset": 9.995565,
+      "duration": 0.871598
+    },
+    {
+      "onset": 10.867163,
+      "duration": 0.542092
+    },
+    {
+      "onset": 11.409255,
+      "duration": 0.625354
+    },
+    {
+      "onset": 12.034609,
+      "duration": 0.731646
+    },
+    {
+      "onset": 12.766255,
+      "duration": 0.577965
+    },
+    {
+      "onset": 13.34422,
+      "duration": 0.235615
+    },
+    {
+      "onset": 13.579835,
+      "duration": 0.756005
+    },
+    {
+      "onset": 14.33584,
+      "duration": 0.749362
+    },
+    {
+      "onset": 15.085202,
+      "duration": 0.999149
+    },
+    {
+      "onset": 16.084351,
+      "duration": 0.621811
+    },
+    {
+      "onset": 16.706162,
+      "duration": 0.244473
+    },
+    {
+      "onset": 16.950635,
+      "duration": 0.244473
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

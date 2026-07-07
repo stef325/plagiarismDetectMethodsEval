@@ -1,0 +1,26 @@
+{
+  "segment_file": "033_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 1.222263,
+      "duration": 4.424135
+    },
+    {
+      "onset": 1.222263,
+      "duration": 4.424135
+    },
+    {
+      "onset": 1.222263,
+      "duration": 4.424135
+    },
+    {
+      "onset": 1.222263,
+      "duration": 4.424135
+    }
+  ],
+  "transformation": "tempo_change",
+  "parameters": {
+    "tempo_factor": 0.8,
+    "random_seed": 42
+  }
+}

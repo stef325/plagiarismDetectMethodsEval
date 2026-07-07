@@ -1,0 +1,118 @@
+{
+  "segment_file": "759_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.241036
+    },
+    {
+      "onset": 0.241036,
+      "duration": 0.647454
+    },
+    {
+      "onset": 0.88849,
+      "duration": 0.761814
+    },
+    {
+      "onset": 1.650304,
+      "duration": 0.390583
+    },
+    {
+      "onset": 2.040887,
+      "duration": 0.594672
+    },
+    {
+      "onset": 2.635559,
+      "duration": 0.680882
+    },
+    {
+      "onset": 3.316441,
+      "duration": 0.767092
+    },
+    {
+      "onset": 4.083533,
+      "duration": 0.714311
+    },
+    {
+      "onset": 4.797844,
+      "duration": 0.967662
+    },
+    {
+      "onset": 5.765506,
+      "duration": 0.649213
+    },
+    {
+      "onset": 6.414719,
+      "duration": 1.050353
+    },
+    {
+      "onset": 7.465072,
+      "duration": 0.177698
+    },
+    {
+      "onset": 7.64277,
+      "duration": 0.346598
+    },
+    {
+      "onset": 8.020158,
+      "duration": 0.65801
+    },
+    {
+      "onset": 8.678168,
+      "duration": 0.712552
+    },
+    {
+      "onset": 9.39072,
+      "duration": 0.870896
+    },
+    {
+      "onset": 10.261616,
+      "duration": 2.681304
+    },
+    {
+      "onset": 12.94292,
+      "duration": 0.45744
+    },
+    {
+      "onset": 13.40036,
+      "duration": 0.608747
+    },
+    {
+      "onset": 14.009107,
+      "duration": 0.737183
+    },
+    {
+      "onset": 14.74629,
+      "duration": 0.951828
+    },
+    {
+      "onset": 15.698118,
+      "duration": 0.5155
+    },
+    {
+      "onset": 16.213618,
+      "duration": 0.765332
+    },
+    {
+      "onset": 16.97895,
+      "duration": 0.17242
+    },
+    {
+      "onset": 17.15137,
+      "duration": 0.371231
+    },
+    {
+      "onset": 17.531398,
+      "duration": 0.299095
+    },
+    {
+      "onset": 17.830493,
+      "duration": 0.299095
+    }
+  ],
+  "transformation": "duration_scaling",
+  "parameters": {
+    "duration_factor": 1.2,
+    "random_seed": 42
+  }
+}

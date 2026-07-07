@@ -1,0 +1,138 @@
+{
+  "segment_file": "465_segment_02.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.476743
+    },
+    {
+      "onset": 1.624945,
+      "duration": 0.295179
+    },
+    {
+      "onset": 1.920124,
+      "duration": 0.223576
+    },
+    {
+      "onset": 2.1437,
+      "duration": 0.504142
+    },
+    {
+      "onset": 2.647842,
+      "duration": 0.785804
+    },
+    {
+      "onset": 3.433646,
+      "duration": 1.075503
+    },
+    {
+      "onset": 4.509149,
+      "duration": 1.449592
+    },
+    {
+      "onset": 5.958741,
+      "duration": 0.593646
+    },
+    {
+      "onset": 6.552387,
+      "duration": 0.754022
+    },
+    {
+      "onset": 7.306409,
+      "duration": 0.407698
+    },
+    {
+      "onset": 7.714107,
+      "duration": 0.480762
+    },
+    {
+      "onset": 8.194869,
+      "duration": 0.903072
+    },
+    {
+      "onset": 9.097941,
+      "duration": 0.18266
+    },
+    {
+      "onset": 9.280601,
+      "duration": 1.743309
+    },
+    {
+      "onset": 11.02391,
+      "duration": 0.397469
+    },
+    {
+      "onset": 11.421379,
+      "duration": 0.835853
+    },
+    {
+      "onset": 12.257232,
+      "duration": 1.433517
+    },
+    {
+      "onset": 13.690749,
+      "duration": 0.910379
+    },
+    {
+      "onset": 14.601128,
+      "duration": 0.607893
+    },
+    {
+      "onset": 15.209021,
+      "duration": 0.372627
+    },
+    {
+      "onset": 15.581648,
+      "duration": 0.561132
+    },
+    {
+      "onset": 16.14278,
+      "duration": 0.140283
+    },
+    {
+      "onset": 16.283063,
+      "duration": 0.511449
+    },
+    {
+      "onset": 16.794512,
+      "duration": 0.231247
+    },
+    {
+      "onset": 17.025759,
+      "duration": 0.549442
+    },
+    {
+      "onset": 17.575201,
+      "duration": 1.874825
+    },
+    {
+      "onset": 19.450026,
+      "duration": 1.874825
+    },
+    {
+      "onset": 21.324851,
+      "duration": 0.915127
+    },
+    {
+      "onset": 22.239978,
+      "duration": 0.667806
+    },
+    {
+      "onset": 22.907784,
+      "duration": 0.524162
+    },
+    {
+      "onset": 23.431946,
+      "duration": 0.875308
+    },
+    {
+      "onset": 24.307254,
+      "duration": 0.319217
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

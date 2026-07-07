@@ -1,0 +1,162 @@
+{
+  "segment_file": "875_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.07927
+    },
+    {
+      "onset": 0.07927,
+      "duration": 0.226999
+    },
+    {
+      "onset": 0.306269,
+      "duration": 0.414364
+    },
+    {
+      "onset": 0.720633,
+      "duration": 0.132116
+    },
+    {
+      "onset": 0.852749,
+      "duration": 0.153735
+    },
+    {
+      "onset": 1.006484,
+      "duration": 0.175354
+    },
+    {
+      "onset": 1.181838,
+      "duration": 0.732644
+    },
+    {
+      "onset": 1.914482,
+      "duration": 0.105392
+    },
+    {
+      "onset": 2.019874,
+      "duration": 0.14863
+    },
+    {
+      "onset": 2.168504,
+      "duration": 1.24189
+    },
+    {
+      "onset": 3.410394,
+      "duration": 0.520057
+    },
+    {
+      "onset": 3.930451,
+      "duration": 0.120105
+    },
+    {
+      "onset": 4.050556,
+      "duration": 0.318279
+    },
+    {
+      "onset": 4.368835,
+      "duration": 0.420369
+    },
+    {
+      "onset": 4.789204,
+      "duration": 0.304467
+    },
+    {
+      "onset": 5.093671,
+      "duration": 0.648269
+    },
+    {
+      "onset": 5.74194,
+      "duration": 2.752817
+    },
+    {
+      "onset": 8.494757,
+      "duration": 1.876407
+    },
+    {
+      "onset": 10.371164,
+      "duration": 0.109296
+    },
+    {
+      "onset": 10.48046,
+      "duration": 0.14773
+    },
+    {
+      "onset": 10.62819,
+      "duration": 0.332692
+    },
+    {
+      "onset": 10.960882,
+      "duration": 0.092782
+    },
+    {
+      "onset": 11.053664,
+      "duration": 0.461205
+    },
+    {
+      "onset": 11.514869,
+      "duration": 0.153134
+    },
+    {
+      "onset": 11.668003,
+      "duration": 0.226999
+    },
+    {
+      "onset": 11.895002,
+      "duration": 0.194571
+    },
+    {
+      "onset": 12.089573,
+      "duration": 0.289454
+    },
+    {
+      "onset": 12.379027,
+      "duration": 0.116502
+    },
+    {
+      "onset": 12.495529,
+      "duration": 0.156137
+    },
+    {
+      "onset": 12.651666,
+      "duration": 0.174153
+    },
+    {
+      "onset": 12.825819,
+      "duration": 0.27384
+    },
+    {
+      "onset": 13.099659,
+      "duration": 0.27384
+    },
+    {
+      "onset": 13.373499,
+      "duration": 0.345904
+    },
+    {
+      "onset": 13.719403,
+      "duration": 0.510448
+    },
+    {
+      "onset": 14.229851,
+      "duration": 0.515252
+    },
+    {
+      "onset": 14.745103,
+      "duration": 0.75186
+    },
+    {
+      "onset": 15.496963,
+      "duration": 0.199375
+    },
+    {
+      "onset": 15.696338,
+      "duration": 0.347105
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "segment_file": "759_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.170734
+    },
+    {
+      "onset": 0.170734,
+      "duration": 0.539545
+    },
+    {
+      "onset": 0.710279,
+      "duration": 0.634845
+    },
+    {
+      "onset": 1.345124,
+      "duration": 0.244115
+    },
+    {
+      "onset": 1.589239,
+      "duration": 0.49556
+    },
+    {
+      "onset": 2.084799,
+      "duration": 0.567402
+    },
+    {
+      "onset": 2.652201,
+      "duration": 0.639243
+    },
+    {
+      "onset": 3.291444,
+      "duration": 0.446444
+    },
+    {
+      "onset": 3.737888,
+      "duration": 1.007981
+    },
+    {
+      "onset": 4.745869,
+      "duration": 0.541011
+    },
+    {
+      "onset": 5.28688,
+      "duration": 0.875294
+    },
+    {
+      "onset": 6.162174,
+      "duration": 0.148082
+    },
+    {
+      "onset": 6.310256,
+      "duration": 0.288832
+    },
+    {
+      "onset": 6.599088,
+      "duration": 0.548342
+    },
+    {
+      "onset": 7.14743,
+      "duration": 0.593793
+    },
+    {
+      "onset": 7.741223,
+      "duration": 0.725747
+    },
+    {
+      "onset": 8.46697,
+      "duration": 2.23442
+    },
+    {
+      "onset": 10.70139,
+      "duration": 0.3812
+    },
+    {
+      "onset": 11.08259,
+      "duration": 0.507289
+    },
+    {
+      "onset": 11.589879,
+      "duration": 0.614319
+    },
+    {
+      "onset": 12.204198,
+      "duration": 0.594892
+    },
+    {
+      "onset": 12.79909,
+      "duration": 0.322187
+    },
+    {
+      "onset": 13.121277,
+      "duration": 0.637777
+    },
+    {
+      "onset": 13.759054,
+      "duration": 0.107762
+    },
+    {
+      "onset": 13.866816,
+      "duration": 0.309359
+    },
+    {
+      "onset": 14.176175,
+      "duration": 0.249246
+    },
+    {
+      "onset": 14.425421,
+      "duration": 0.249246
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "segment_file": "390_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 1.715197
+    },
+    {
+      "onset": 2.253625,
+      "duration": 0.719383
+    },
+    {
+      "onset": 2.973008,
+      "duration": 0.188172
+    },
+    {
+      "onset": 3.16118,
+      "duration": 0.179846
+    },
+    {
+      "onset": 3.341026,
+      "duration": 0.183176
+    },
+    {
+      "onset": 3.524202,
+      "duration": 0.186506
+    },
+    {
+      "onset": 3.710708,
+      "duration": 0.208156
+    },
+    {
+      "onset": 3.918864,
+      "duration": 0.199829
+    },
+    {
+      "onset": 4.118693,
+      "duration": 0.204824
+    },
+    {
+      "onset": 4.323517,
+      "duration": 0.927539
+    },
+    {
+      "onset": 5.251056,
+      "duration": 0.519554
+    }
+  ],
+  "transformation": "duration_scaling",
+  "parameters": {
+    "duration_factor": 1.2,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "segment_file": "390_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 1.643731
+    },
+    {
+      "onset": 1.967759,
+      "duration": 0.509563
+    },
+    {
+      "onset": 2.567245,
+      "duration": 0.15681
+    },
+    {
+      "onset": 2.724055,
+      "duration": 0.149872
+    },
+    {
+      "onset": 2.873927,
+      "duration": 0.152647
+    },
+    {
+      "onset": 3.026574,
+      "duration": 0.155422
+    },
+    {
+      "onset": 3.181996,
+      "duration": 0.173463
+    },
+    {
+      "onset": 3.355459,
+      "duration": 0.166524
+    },
+    {
+      "onset": 3.521983,
+      "duration": 0.170687
+    },
+    {
+      "onset": 3.69267,
+      "duration": 0.772949
+    },
+    {
+      "onset": 4.465619,
+      "duration": 0.368018
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

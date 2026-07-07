@@ -55,3 +55,16 @@ harmony_transformations:
     strength: 0.25
   simplification:
     strength: 0.25
+
+rhythm_transformations:
+  random_seed: 42
+  enabled:
+    - tempo_change
+    - duration_scaling
+    - partial_rhythm_modification
+  tempo_change:
+    tempo_factor: 0.8
+  duration_scaling:
+    duration_factor: 1.2
+  partial_rhythm_modification:
+    strength: 0.25
