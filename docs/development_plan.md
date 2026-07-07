@@ -146,9 +146,9 @@
 
 ## 4.1 Métricas melódicas
 
-* [ ] Interval N-Gram Similarity
-* [ ] Longest Common Subsequence (LCS)
-* [ ] Edit Distance
+* [x] Interval N-Gram Similarity
+* [x] Longest Common Subsequence (LCS)
+* [x] Edit Distance
 
 ## 4.2 Métricas harmônicas
 
