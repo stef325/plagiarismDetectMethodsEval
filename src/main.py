@@ -10,6 +10,7 @@ import sys
 import yaml
 
 from experiment.clean_dataset import clean_dataset
+from experiment.compute_melody_metrics import compute_melody_metrics
 from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
@@ -64,6 +65,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_validate_representations(config)
     elif args.command == "validate_transformations":
         _run_validate_transformations(config)
+    elif args.command == "compute_melody_metrics":
+        _run_compute_melody_metrics(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -140,6 +143,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "validate_representations",
         help="Valida as representacoes musicais extraidas.",
+    )
+    subparsers.add_parser(
+        "compute_melody_metrics",
+        help="Calcula as metricas de similaridade melódica.",
     )
     subparsers.add_parser(
         "validate_transformations",
@@ -342,6 +349,17 @@ def _run_validate_transformations(config: dict) -> Path:
     )
 
 
+def _run_compute_melody_metrics(config: dict) -> Path:
+    """Executa o pipeline de calculo das metricas melódicas."""
+
+    return compute_melody_metrics(
+        transformations_path=Path(config["paths"]["transformations"]),
+        representations_path=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["metrics"]),
+        interval_ngram_n=int(config["metrics"]["melody"]["interval_ngram_n"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -364,6 +382,8 @@ def _run_all(config: dict) -> None:
     _run_combined_transformations(config)
     print()
     _run_validate_transformations(config)
+    print()
+    _run_compute_melody_metrics(config)
     print()
     _run_validate_representations(config)
     print()
