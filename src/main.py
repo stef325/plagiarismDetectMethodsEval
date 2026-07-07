@@ -25,6 +25,7 @@ from experiment.transform_rhythms import transform_rhythms
 from experiment.validate_transformations import validate_transformations
 from experiment.validate_representations import validate_representations
 from experiment.validate_dataset import validate_dataset
+from experiment.validate_metrics import validate_metrics
 
 
 DEFAULT_CONFIG_PATH = Path("config/default.yaml")
@@ -76,6 +77,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_compute_rhythm_metrics(config)
     elif args.command == "compute_global_metrics":
         _run_compute_global_metrics(config)
+    elif args.command == "validate_metrics":
+        _run_validate_metrics(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -172,6 +175,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "compute_global_metrics",
         help="Calcula a métrica global de similaridade.",
+    )
+    subparsers.add_parser(
+        "validate_metrics",
+        help="Executa a validação automatizada das métricas.",
     )
     subparsers.add_parser(
         "all",
@@ -413,6 +420,15 @@ def _run_compute_global_metrics(config: dict) -> Path:
     )
 
 
+def _run_validate_metrics(config: dict) -> Path:
+    """Executa o pipeline de validação das métricas."""
+
+    return validate_metrics(
+        tests_path=Path("tests/metrics"),
+        output_path=Path(config["paths"]["metrics"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -443,6 +459,8 @@ def _run_all(config: dict) -> None:
     _run_compute_rhythm_metrics(config)
     print()
     _run_compute_global_metrics(config)
+    print()
+    _run_validate_metrics(config)
     print()
     _run_validate_representations(config)
     print()

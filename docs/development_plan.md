@@ -170,9 +170,9 @@
 
 ## 4.5 Testes
 
-* [ ] Testes unitários
-* [ ] Testes de consistência
-* [ ] Validação contra casos conhecidos
+* [x] Testes unitários
+* [x] Testes de consistência
+* [x] Validação contra casos conhecidos
 
 ---
 
