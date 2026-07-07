@@ -100,9 +100,9 @@
 
 ## 2.5 Extração das representações musicais
 
-* [ ] Extrair melodia
-* [ ] Extrair harmonia
-* [ ] Extrair ritmo
+* [x] Extrair melodia
+* [x] Extrair harmonia
+* [x] Extrair ritmo
 * [ ] Validar representações extraídas
 
 ---

@@ -9,6 +9,7 @@ import sys
 import yaml
 
 from experiment.clean_dataset import clean_dataset
+from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
 from experiment.select_subset import select_subset
@@ -42,6 +43,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_subset(config)
     elif args.command == "segments":
         _run_segments(config)
+    elif args.command == "representations":
+        _run_representations(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -94,6 +97,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "segments",
         help="Extrai segmentos aleatorios das musicas processadas.",
+    )
+    subparsers.add_parser(
+        "representations",
+        help="Extrai melodia, harmonia e ritmo dos segmentos.",
     )
     subparsers.add_parser(
         "all",
@@ -173,6 +180,15 @@ def _run_segments(config: dict) -> Path:
     )
 
 
+def _run_representations(config: dict) -> Path:
+    """Executa o pipeline de extracao das representacoes."""
+
+    return extract_representations(
+        source_path=Path(config["paths"]["segments"]),
+        output_path=Path(config["paths"]["representations"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -183,6 +199,8 @@ def _run_all(config: dict) -> None:
     _run_subset(config)
     print()
     _run_segments(config)
+    print()
+    _run_representations(config)
     print()
     _run_validate(config)
 
