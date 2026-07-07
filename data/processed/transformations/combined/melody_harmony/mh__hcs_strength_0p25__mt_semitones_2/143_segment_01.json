@@ -1,0 +1,235 @@
+{
+  "segment_file": "143_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 73,
+      "duration": 0.397884
+    },
+    {
+      "pitch": 72,
+      "duration": 0.512129
+    },
+    {
+      "pitch": 70,
+      "duration": 0.158891
+    },
+    {
+      "pitch": 72,
+      "duration": 0.518694
+    },
+    {
+      "pitch": 72,
+      "duration": 0.336166
+    },
+    {
+      "pitch": 70,
+      "duration": 0.183841
+    },
+    {
+      "pitch": 77,
+      "duration": 0.359803
+    }
+  ],
+  "harmony": [
+    {
+      "start": 0.157578,
+      "end": 0.634251,
+      "chord": "D#1-F2-F3-D#4-G#4"
+    },
+    {
+      "start": 0.674959,
+      "end": 1.187088,
+      "chord": "D#2-D#3-D#4-F#4-A#4"
+    },
+    {
+      "start": 1.451031,
+      "end": 1.609922,
+      "chord": "C#2-C#3-C#4-F#4-G#4"
+    },
+    {
+      "start": 1.708408,
+      "end": 2.227102,
+      "chord": "D#2-D#3-D#4-F#4-A#4"
+    },
+    {
+      "start": 2.74317,
+      "end": 3.079337,
+      "chord": "D#2-D#3-D#4-F#4-A#4"
+    },
+    {
+      "start": 3.519242,
+      "end": 3.703083,
+      "chord": "F#2-F#3-F#4-B4-C#5"
+    },
+    {
+      "start": 3.777933,
+      "end": 4.137736,
+      "chord": "D#2-D#3-D#4-F#4-A#4-D#5"
+    }
+  ],
+  "rhythm": [
+    {
+      "onset": 0.157578,
+      "duration": 0.397884
+    },
+    {
+      "onset": 0.157578,
+      "duration": 0.474047
+    },
+    {
+      "onset": 0.157578,
+      "duration": 0.474047
+    },
+    {
+      "onset": 0.157578,
+      "duration": 0.476673
+    },
+    {
+      "onset": 0.157578,
+      "duration": 0.476673
+    },
+    {
+      "onset": 0.674959,
+      "duration": 0.210104
+    },
+    {
+      "onset": 0.674959,
+      "duration": 0.21667
+    },
+    {
+      "onset": 0.674959,
+      "duration": 0.240306
+    },
+    {
+      "onset": 0.674959,
+      "duration": 0.240306
+    },
+    {
+      "onset": 0.674959,
+      "duration": 0.512129
+    },
+    {
+      "onset": 1.451031,
+      "duration": 0.135254
+    },
+    {
+      "onset": 1.451031,
+      "duration": 0.135254
+    },
+    {
+      "onset": 1.451031,
+      "duration": 0.135254
+    },
+    {
+      "onset": 1.451031,
+      "duration": 0.156265
+    },
+    {
+      "onset": 1.451031,
+      "duration": 0.158891
+    },
+    {
+      "onset": 1.708408,
+      "duration": 0.190407
+    },
+    {
+      "onset": 1.708408,
+      "duration": 0.202225
+    },
+    {
+      "onset": 1.708408,
+      "duration": 0.244246
+    },
+    {
+      "onset": 1.708408,
+      "duration": 0.244246
+    },
+    {
+      "onset": 1.708408,
+      "duration": 0.518694
+    },
+    {
+      "onset": 2.74317,
+      "duration": 0.214043
+    },
+    {
+      "onset": 2.74317,
+      "duration": 0.228488
+    },
+    {
+      "onset": 2.74317,
+      "duration": 0.267883
+    },
+    {
+      "onset": 2.74317,
+      "duration": 0.267883
+    },
+    {
+      "onset": 2.74317,
+      "duration": 0.336166
+    },
+    {
+      "onset": 3.519242,
+      "duration": 0.132628
+    },
+    {
+      "onset": 3.519242,
+      "duration": 0.133941
+    },
+    {
+      "onset": 3.519242,
+      "duration": 0.133941
+    },
+    {
+      "onset": 3.519242,
+      "duration": 0.156265
+    },
+    {
+      "onset": 3.519242,
+      "duration": 0.183841
+    },
+    {
+      "onset": 3.777933,
+      "duration": 0.256064
+    },
+    {
+      "onset": 3.777933,
+      "duration": 0.340106
+    },
+    {
+      "onset": 3.777933,
+      "duration": 0.357177
+    },
+    {
+      "onset": 3.777933,
+      "duration": 0.359803
+    },
+    {
+      "onset": 3.777933,
+      "duration": 0.359803
+    },
+    {
+      "onset": 3.777933,
+      "duration": 0.359803
+    }
+  ],
+  "combination": "melody_harmony",
+  "individual_transformations": {
+    "melody": "transpose",
+    "harmony": "chord_substitution"
+  },
+  "parameters": {
+    "melody": {
+      "transformation": "transpose",
+      "parameters": {
+        "semitones": 2
+      }
+    },
+    "harmony": {
+      "transformation": "chord_substitution",
+      "parameters": {
+        "strength": 0.25
+      }
+    }
+  }
+}

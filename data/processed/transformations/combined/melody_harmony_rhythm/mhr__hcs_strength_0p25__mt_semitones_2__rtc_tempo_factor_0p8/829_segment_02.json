@@ -1,0 +1,241 @@
+{
+  "segment_file": "829_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 74,
+      "duration": 0.825402
+    },
+    {
+      "pitch": 70,
+      "duration": 0.357223
+    },
+    {
+      "pitch": 67,
+      "duration": 0.362636
+    },
+    {
+      "pitch": 62,
+      "duration": 0.445176
+    },
+    {
+      "pitch": 67,
+      "duration": 0.903883
+    },
+    {
+      "pitch": 72,
+      "duration": 3.108112
+    },
+    {
+      "pitch": 67,
+      "duration": 3.104053
+    },
+    {
+      "pitch": 48,
+      "duration": 3.097288
+    },
+    {
+      "pitch": 55,
+      "duration": 2.82937
+    },
+    {
+      "pitch": 60,
+      "duration": 0.865996
+    },
+    {
+      "pitch": 63,
+      "duration": 0.508772
+    },
+    {
+      "pitch": 67,
+      "duration": 0.411348
+    },
+    {
+      "pitch": 60,
+      "duration": 0.257092
+    },
+    {
+      "pitch": 72,
+      "duration": 0.953948
+    }
+  ],
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.84164,
+      "chord": "G#2-D#3-G#4-B4-D#5"
+    },
+    {
+      "start": 0.117721,
+      "end": 0.474944,
+      "chord": "B4"
+    },
+    {
+      "start": 0.385639,
+      "end": 0.748274,
+      "chord": "F4"
+    },
+    {
+      "start": 0.653556,
+      "end": 1.098732,
+      "chord": "C4"
+    },
+    {
+      "start": 0.92012,
+      "end": 1.824003,
+      "chord": "G#4"
+    },
+    {
+      "start": 1.177213,
+      "end": 4.285325,
+      "chord": "A#4"
+    },
+    {
+      "start": 1.181272,
+      "end": 4.285325,
+      "chord": "F4"
+    },
+    {
+      "start": 1.188038,
+      "end": 4.285325,
+      "chord": "A#2"
+    },
+    {
+      "start": 1.455955,
+      "end": 4.285325,
+      "chord": "F3"
+    },
+    {
+      "start": 1.99179,
+      "end": 2.857786,
+      "chord": "A#3"
+    },
+    {
+      "start": 2.259707,
+      "end": 2.76848,
+      "chord": "A#3"
+    },
+    {
+      "start": 2.795542,
+      "end": 3.20689,
+      "chord": "F4"
+    },
+    {
+      "start": 3.06346,
+      "end": 3.320552,
+      "chord": "A#3"
+    },
+    {
+      "start": 3.331377,
+      "end": 4.285325,
+      "chord": "C#4-F4-A#4"
+    }
+  ],
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.103919
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.489287
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.601867
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.660322
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.673312
+    },
+    {
+      "onset": 0.094177,
+      "duration": 0.285778
+    },
+    {
+      "onset": 0.308511,
+      "duration": 0.290109
+    },
+    {
+      "onset": 0.522845,
+      "duration": 0.356141
+    },
+    {
+      "onset": 0.736096,
+      "duration": 0.723106
+    },
+    {
+      "onset": 0.94177,
+      "duration": 2.48649
+    },
+    {
+      "onset": 0.945018,
+      "duration": 2.483242
+    },
+    {
+      "onset": 0.95043,
+      "duration": 2.47783
+    },
+    {
+      "onset": 1.164764,
+      "duration": 2.263496
+    },
+    {
+      "onset": 1.593432,
+      "duration": 0.692797
+    },
+    {
+      "onset": 1.807766,
+      "duration": 0.407018
+    },
+    {
+      "onset": 2.236434,
+      "duration": 0.329078
+    },
+    {
+      "onset": 2.450768,
+      "duration": 0.205674
+    },
+    {
+      "onset": 2.665102,
+      "duration": 0.763158
+    },
+    {
+      "onset": 2.665102,
+      "duration": 0.763158
+    },
+    {
+      "onset": 2.665102,
+      "duration": 0.763158
+    }
+  ],
+  "combination": "melody_harmony_rhythm",
+  "individual_transformations": {
+    "melody": "transpose",
+    "harmony": "chord_substitution",
+    "rhythm": "tempo_change"
+  },
+  "parameters": {
+    "melody": {
+      "transformation": "transpose",
+      "parameters": {
+        "semitones": 2
+      }
+    },
+    "harmony": {
+      "transformation": "chord_substitution",
+      "parameters": {
+        "strength": 0.25
+      }
+    },
+    "rhythm": {
+      "transformation": "tempo_change",
+      "parameters": {
+        "tempo_factor": 0.8
+      }
+    }
+  }
+}

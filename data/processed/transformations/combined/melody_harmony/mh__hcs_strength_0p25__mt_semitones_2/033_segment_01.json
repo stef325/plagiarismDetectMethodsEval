@@ -1,0 +1,53 @@
+{
+  "segment_file": "033_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 69,
+      "duration": 5.530169
+    }
+  ],
+  "harmony": [
+    {
+      "start": 1.527829,
+      "end": 7.057998,
+      "chord": "C#2-G#3-C#4-E4"
+    }
+  ],
+  "rhythm": [
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    },
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    },
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    },
+    {
+      "onset": 1.527829,
+      "duration": 5.530169
+    }
+  ],
+  "combination": "melody_harmony",
+  "individual_transformations": {
+    "melody": "transpose",
+    "harmony": "chord_substitution"
+  },
+  "parameters": {
+    "melody": {
+      "transformation": "transpose",
+      "parameters": {
+        "semitones": 2
+      }
+    },
+    "harmony": {
+      "transformation": "chord_substitution",
+      "parameters": {
+        "strength": 0.25
+      }
+    }
+  }
+}

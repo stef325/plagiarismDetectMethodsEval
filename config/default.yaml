@@ -68,3 +68,51 @@ rhythm_transformations:
     duration_factor: 1.2
   partial_rhythm_modification:
     strength: 0.25
+
+combined_transformations:
+  random_seed: 42
+  enabled:
+    - melody_harmony
+    - melody_rhythm
+    - harmony_rhythm
+    - melody_harmony_rhythm
+  melody_harmony:
+    melody:
+      transformation: transpose
+      parameters:
+        semitones: 2
+    harmony:
+      transformation: chord_substitution
+      parameters:
+        strength: 0.25
+  melody_rhythm:
+    melody:
+      transformation: transpose
+      parameters:
+        semitones: 2
+    rhythm:
+      transformation: tempo_change
+      parameters:
+        tempo_factor: 0.8
+  harmony_rhythm:
+    harmony:
+      transformation: chord_substitution
+      parameters:
+        strength: 0.25
+    rhythm:
+      transformation: tempo_change
+      parameters:
+        tempo_factor: 0.8
+  melody_harmony_rhythm:
+    melody:
+      transformation: transpose
+      parameters:
+        semitones: 2
+    harmony:
+      transformation: chord_substitution
+      parameters:
+        strength: 0.25
+    rhythm:
+      transformation: tempo_change
+      parameters:
+        tempo_factor: 0.8

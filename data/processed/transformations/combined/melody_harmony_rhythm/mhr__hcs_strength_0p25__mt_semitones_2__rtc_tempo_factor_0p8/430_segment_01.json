@@ -1,0 +1,371 @@
+{
+  "segment_file": "430_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 82,
+      "duration": 0.805107
+    },
+    {
+      "pitch": 79,
+      "duration": 0.338145
+    },
+    {
+      "pitch": 67,
+      "duration": 0.69105
+    },
+    {
+      "pitch": 81,
+      "duration": 0.430732
+    },
+    {
+      "pitch": 72,
+      "duration": 0.93795
+    },
+    {
+      "pitch": 79,
+      "duration": 0.877567
+    },
+    {
+      "pitch": 77,
+      "duration": 0.182491
+    },
+    {
+      "pitch": 84,
+      "duration": 1.049323
+    },
+    {
+      "pitch": 72,
+      "duration": 0.32741
+    },
+    {
+      "pitch": 72,
+      "duration": 0.355589
+    },
+    {
+      "pitch": 79,
+      "duration": 0.370349
+    },
+    {
+      "pitch": 81,
+      "duration": 0.150287
+    },
+    {
+      "pitch": 82,
+      "duration": 0.077827
+    },
+    {
+      "pitch": 84,
+      "duration": 0.534054
+    },
+    {
+      "pitch": 81,
+      "duration": 0.424023
+    },
+    {
+      "pitch": 84,
+      "duration": 0.150287
+    }
+  ],
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.8722,
+      "chord": "G#2-D#3-D#5-G#5-B5"
+    },
+    {
+      "start": 0.061725,
+      "end": 0.421339,
+      "chord": "F3-F5"
+    },
+    {
+      "start": 0.339487,
+      "end": 1.030537,
+      "chord": "G#3-C4-F4"
+    },
+    {
+      "start": 0.617249,
+      "end": 1.047981,
+      "chord": "G#3-A#5"
+    },
+    {
+      "start": 0.895011,
+      "end": 2.854105,
+      "chord": "C#3-C#5"
+    },
+    {
+      "start": 1.172773,
+      "end": 2.05034,
+      "chord": "A#3-F5"
+    },
+    {
+      "start": 1.450535,
+      "end": 1.755134,
+      "chord": "A#3-D4-F4-D#5"
+    },
+    {
+      "start": 1.728297,
+      "end": 2.77762,
+      "chord": "F3-D#5-A#5"
+    },
+    {
+      "start": 2.006059,
+      "end": 2.333469,
+      "chord": "A#3-D4-A#4"
+    },
+    {
+      "start": 2.283821,
+      "end": 2.63941,
+      "chord": "F3-A#4"
+    },
+    {
+      "start": 2.561583,
+      "end": 3.021836,
+      "chord": "A#3-D4-F4-D5-F5"
+    },
+    {
+      "start": 2.839345,
+      "end": 4.444192,
+      "chord": "D3-G4-C5-E5"
+    },
+    {
+      "start": 2.977555,
+      "end": 3.055382,
+      "chord": "G#5"
+    },
+    {
+      "start": 3.117107,
+      "end": 4.148986,
+      "chord": "G#2-G#3-D#4-A#5"
+    },
+    {
+      "start": 3.672631,
+      "end": 4.359656,
+      "chord": "G#3-C4-D#4-G5"
+    },
+    {
+      "start": 4.228155,
+      "end": 4.444192,
+      "chord": "D#3-A#5"
+    }
+  ],
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.371423
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.558208
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.589338
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.644086
+    },
+    {
+      "onset": 0.0,
+      "duration": 0.69776
+    },
+    {
+      "onset": 0.04938,
+      "duration": 0.270516
+    },
+    {
+      "onset": 0.04938,
+      "duration": 0.287692
+    },
+    {
+      "onset": 0.27159,
+      "duration": 0.432611
+    },
+    {
+      "onset": 0.27159,
+      "duration": 0.454081
+    },
+    {
+      "onset": 0.27159,
+      "duration": 0.55284
+    },
+    {
+      "onset": 0.493799,
+      "duration": 0.215769
+    },
+    {
+      "onset": 0.493799,
+      "duration": 0.344586
+    },
+    {
+      "onset": 0.716009,
+      "duration": 0.75036
+    },
+    {
+      "onset": 0.716009,
+      "duration": 1.567275
+    },
+    {
+      "onset": 0.938218,
+      "duration": 0.180344
+    },
+    {
+      "onset": 0.938218,
+      "duration": 0.702054
+    },
+    {
+      "onset": 1.160428,
+      "duration": 0.145993
+    },
+    {
+      "onset": 1.160428,
+      "duration": 0.14814
+    },
+    {
+      "onset": 1.160428,
+      "duration": 0.240458
+    },
+    {
+      "onset": 1.160428,
+      "duration": 0.243679
+    },
+    {
+      "onset": 1.382638,
+      "duration": 0.314529
+    },
+    {
+      "onset": 1.382638,
+      "duration": 0.634425
+    },
+    {
+      "onset": 1.382638,
+      "duration": 0.839458
+    },
+    {
+      "onset": 1.604847,
+      "duration": 0.243679
+    },
+    {
+      "onset": 1.604847,
+      "duration": 0.252267
+    },
+    {
+      "onset": 1.604847,
+      "duration": 0.261928
+    },
+    {
+      "onset": 1.827057,
+      "duration": 0.270516
+    },
+    {
+      "onset": 1.827057,
+      "duration": 0.284471
+    },
+    {
+      "onset": 2.049266,
+      "duration": 0.127744
+    },
+    {
+      "onset": 2.049266,
+      "duration": 0.190006
+    },
+    {
+      "onset": 2.049266,
+      "duration": 0.296279
+    },
+    {
+      "onset": 2.049266,
+      "duration": 0.349954
+    },
+    {
+      "onset": 2.049266,
+      "duration": 0.368202
+    },
+    {
+      "onset": 2.271476,
+      "duration": 0.07407
+    },
+    {
+      "onset": 2.271476,
+      "duration": 0.12023
+    },
+    {
+      "onset": 2.271476,
+      "duration": 0.205034
+    },
+    {
+      "onset": 2.271476,
+      "duration": 1.283878
+    },
+    {
+      "onset": 2.382044,
+      "duration": 0.062262
+    },
+    {
+      "onset": 2.493686,
+      "duration": 0.340292
+    },
+    {
+      "onset": 2.493686,
+      "duration": 0.3521
+    },
+    {
+      "onset": 2.493686,
+      "duration": 0.427243
+    },
+    {
+      "onset": 2.493686,
+      "duration": 0.825503
+    },
+    {
+      "onset": 2.938105,
+      "duration": 0.339218
+    },
+    {
+      "onset": 2.938105,
+      "duration": 0.493799
+    },
+    {
+      "onset": 2.938105,
+      "duration": 0.504534
+    },
+    {
+      "onset": 2.938105,
+      "duration": 0.54962
+    },
+    {
+      "onset": 3.382524,
+      "duration": 0.12023
+    },
+    {
+      "onset": 3.382524,
+      "duration": 0.17283
+    }
+  ],
+  "combination": "melody_harmony_rhythm",
+  "individual_transformations": {
+    "melody": "transpose",
+    "harmony": "chord_substitution",
+    "rhythm": "tempo_change"
+  },
+  "parameters": {
+    "melody": {
+      "transformation": "transpose",
+      "parameters": {
+        "semitones": 2
+      }
+    },
+    "harmony": {
+      "transformation": "chord_substitution",
+      "parameters": {
+        "strength": 0.25
+      }
+    },
+    "rhythm": {
+      "transformation": "tempo_change",
+      "parameters": {
+        "tempo_factor": 0.8
+      }
+    }
+  }
+}
