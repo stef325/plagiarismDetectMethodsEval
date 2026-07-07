@@ -89,9 +89,7 @@
 ## 2.3 Limpeza dos dados
 
 * [ ] Identificar arquivos inválidos
-* [ ] Padronizar tempos
-* [ ] Padronizar resolução temporal
-* [ ] Remover inconsistências
+* [ ] Separar a versão principal de cada música
 
 ## 2.4 Preparação dos dados
 
