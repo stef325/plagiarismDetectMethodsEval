@@ -88,8 +88,8 @@
 
 ## 2.3 Limpeza dos dados
 
-* [ ] Identificar arquivos inválidos
-* [ ] Separar a versão principal de cada música
+* [x] Identificar arquivos inválidos
+* [x] Separar a versão principal de cada música
 
 ## 2.4 Preparação dos dados
 
