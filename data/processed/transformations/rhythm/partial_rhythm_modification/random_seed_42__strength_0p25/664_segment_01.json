@@ -1,0 +1,118 @@
+{
+  "segment_file": "664_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.465368
+    },
+    {
+      "onset": 0.465368,
+      "duration": 0.644264
+    },
+    {
+      "onset": 1.109632,
+      "duration": 0.900113
+    },
+    {
+      "onset": 2.009745,
+      "duration": 0.310201
+    },
+    {
+      "onset": 2.319946,
+      "duration": 0.532909
+    },
+    {
+      "onset": 2.852855,
+      "duration": 1.661034
+    },
+    {
+      "onset": 4.513889,
+      "duration": 1.32432
+    },
+    {
+      "onset": 5.838209,
+      "duration": 0.144164
+    },
+    {
+      "onset": 5.982373,
+      "duration": 0.69265
+    },
+    {
+      "onset": 6.675023,
+      "duration": 0.520979
+    },
+    {
+      "onset": 7.196002,
+      "duration": 0.88288
+    },
+    {
+      "onset": 8.078882,
+      "duration": 0.25585
+    },
+    {
+      "onset": 8.334732,
+      "duration": 0.304898
+    },
+    {
+      "onset": 8.63963,
+      "duration": 0.270432
+    },
+    {
+      "onset": 8.910062,
+      "duration": 0.18559
+    },
+    {
+      "onset": 9.095652,
+      "duration": 1.205012
+    },
+    {
+      "onset": 10.300664,
+      "duration": 0.198847
+    },
+    {
+      "onset": 10.499511,
+      "duration": 0.308875
+    },
+    {
+      "onset": 10.808386,
+      "duration": 0.563399
+    },
+    {
+      "onset": 11.371785,
+      "duration": 1.189104
+    },
+    {
+      "onset": 12.560889,
+      "duration": 0.094452
+    },
+    {
+      "onset": 12.655341,
+      "duration": 0.690993
+    },
+    {
+      "onset": 13.346334,
+      "duration": 0.17366
+    },
+    {
+      "onset": 13.519994,
+      "duration": 0.490157
+    },
+    {
+      "onset": 14.010151,
+      "duration": 0.161729
+    },
+    {
+      "onset": 14.17188,
+      "duration": 0.385763
+    },
+    {
+      "onset": 14.557643,
+      "duration": 0.116657
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

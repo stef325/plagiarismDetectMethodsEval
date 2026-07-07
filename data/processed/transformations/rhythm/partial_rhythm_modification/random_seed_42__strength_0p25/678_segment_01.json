@@ -1,0 +1,118 @@
+{
+  "segment_file": "678_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.014071
+    },
+    {
+      "onset": 0.014071,
+      "duration": 0.515933
+    },
+    {
+      "onset": 0.530004,
+      "duration": 1.739549
+    },
+    {
+      "onset": 2.269553,
+      "duration": 1.504345
+    },
+    {
+      "onset": 3.773898,
+      "duration": 1.836114
+    },
+    {
+      "onset": 5.610012,
+      "duration": 1.549178
+    },
+    {
+      "onset": 7.15919,
+      "duration": 1.082908
+    },
+    {
+      "onset": 8.242098,
+      "duration": 0.855635
+    },
+    {
+      "onset": 9.097733,
+      "duration": 1.432955
+    },
+    {
+      "onset": 10.530688,
+      "duration": 0.260726
+    },
+    {
+      "onset": 10.791414,
+      "duration": 0.271761
+    },
+    {
+      "onset": 11.063175,
+      "duration": 2.888673
+    },
+    {
+      "onset": 13.951848,
+      "duration": 2.636224
+    },
+    {
+      "onset": 16.588072,
+      "duration": 2.495515
+    },
+    {
+      "onset": 19.083587,
+      "duration": 0.664919
+    },
+    {
+      "onset": 19.748506,
+      "duration": 0.430404
+    },
+    {
+      "onset": 20.17891,
+      "duration": 0.35729
+    },
+    {
+      "onset": 20.5362,
+      "duration": 1.328458
+    },
+    {
+      "onset": 21.864658,
+      "duration": 0.96565
+    },
+    {
+      "onset": 22.830308,
+      "duration": 0.292454
+    },
+    {
+      "onset": 23.122762,
+      "duration": 0.26176
+    },
+    {
+      "onset": 23.384522,
+      "duration": 0.757346
+    },
+    {
+      "onset": 24.141868,
+      "duration": 1.100841
+    },
+    {
+      "onset": 25.242709,
+      "duration": 0.824596
+    },
+    {
+      "onset": 26.067305,
+      "duration": 0.80011
+    },
+    {
+      "onset": 26.867415,
+      "duration": 0.499379
+    },
+    {
+      "onset": 27.366794,
+      "duration": 0.198648
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

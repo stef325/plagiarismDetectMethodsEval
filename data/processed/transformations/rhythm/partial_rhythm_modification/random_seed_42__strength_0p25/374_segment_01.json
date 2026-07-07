@@ -1,0 +1,122 @@
+{
+  "segment_file": "374_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.414098
+    },
+    {
+      "onset": 0.414098,
+      "duration": 0.524376
+    },
+    {
+      "onset": 0.938474,
+      "duration": 0.235615
+    },
+    {
+      "onset": 1.174089,
+      "duration": 1.636904
+    },
+    {
+      "onset": 2.810993,
+      "duration": 2.616566
+    },
+    {
+      "onset": 5.427559,
+      "duration": 2.641367
+    },
+    {
+      "onset": 8.068926,
+      "duration": 0.692672
+    },
+    {
+      "onset": 8.761598,
+      "duration": 0.6816
+    },
+    {
+      "onset": 9.443198,
+      "duration": 0.699759
+    },
+    {
+      "onset": 10.142957,
+      "duration": 1.509353
+    },
+    {
+      "onset": 11.65231,
+      "duration": 1.132015
+    },
+    {
+      "onset": 12.784325,
+      "duration": 0.31002
+    },
+    {
+      "onset": 13.094345,
+      "duration": 0.754676
+    },
+    {
+      "onset": 13.849021,
+      "duration": 0.152353
+    },
+    {
+      "onset": 14.001374,
+      "duration": 0.377338
+    },
+    {
+      "onset": 14.378712,
+      "duration": 0.837939
+    },
+    {
+      "onset": 15.216651,
+      "duration": 1.41369
+    },
+    {
+      "onset": 16.630341,
+      "duration": 0.467687
+    },
+    {
+      "onset": 17.098028,
+      "duration": 1.165674
+    },
+    {
+      "onset": 18.263702,
+      "duration": 1.201105
+    },
+    {
+      "onset": 19.464807,
+      "duration": 0.13818
+    },
+    {
+      "onset": 19.602987,
+      "duration": 0.653699
+    },
+    {
+      "onset": 20.256686,
+      "duration": 0.195313
+    },
+    {
+      "onset": 20.451999,
+      "duration": 0.749362
+    },
+    {
+      "onset": 21.201361,
+      "duration": 0.999149
+    },
+    {
+      "onset": 22.20051,
+      "duration": 0.473001
+    },
+    {
+      "onset": 22.673511,
+      "duration": 0.244473
+    },
+    {
+      "onset": 22.917984,
+      "duration": 0.244473
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

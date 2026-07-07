@@ -1,0 +1,82 @@
+{
+  "segment_file": "388_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 0.220034
+    },
+    {
+      "onset": 0.295568,
+      "duration": 2.731591
+    },
+    {
+      "onset": 3.027159,
+      "duration": 0.386364
+    },
+    {
+      "onset": 3.413523,
+      "duration": 0.349755
+    },
+    {
+      "onset": 3.763278,
+      "duration": 0.931136
+    },
+    {
+      "onset": 4.694414,
+      "duration": 1.016136
+    },
+    {
+      "onset": 5.71055,
+      "duration": 1.031591
+    },
+    {
+      "onset": 6.742141,
+      "duration": 1.070227
+    },
+    {
+      "onset": 7.812368,
+      "duration": 0.807017
+    },
+    {
+      "onset": 8.619385,
+      "duration": 1.201591
+    },
+    {
+      "onset": 9.820976,
+      "duration": 0.405682
+    },
+    {
+      "onset": 10.226658,
+      "duration": 1.064432
+    },
+    {
+      "onset": 11.29109,
+      "duration": 1.132045
+    },
+    {
+      "onset": 12.423135,
+      "duration": 1.222841
+    },
+    {
+      "onset": 13.645976,
+      "duration": 1.286591
+    },
+    {
+      "onset": 14.932567,
+      "duration": 0.425
+    },
+    {
+      "onset": 15.357567,
+      "duration": 0.425
+    },
+    {
+      "onset": 15.782567,
+      "duration": 0.078238
+    }
+  ],
+  "transformation": "partial_rhythm_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

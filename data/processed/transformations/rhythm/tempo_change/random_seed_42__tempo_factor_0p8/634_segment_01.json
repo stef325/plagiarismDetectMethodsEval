@@ -1,0 +1,126 @@
+{
+  "segment_file": "634_segment_01.mid",
+  "rhythm": [
+    {
+      "onset": 0.0,
+      "duration": 1.467376
+    },
+    {
+      "onset": 0.0,
+      "duration": 1.713538
+    },
+    {
+      "onset": 0.0,
+      "duration": 3.097794
+    },
+    {
+      "onset": 0.0,
+      "duration": 3.118042
+    },
+    {
+      "onset": 0.0,
+      "duration": 3.213948
+    },
+    {
+      "onset": 0.279196,
+      "duration": 0.50511
+    },
+    {
+      "onset": 0.726762,
+      "duration": 0.223783
+    },
+    {
+      "onset": 0.950544,
+      "duration": 0.223783
+    },
+    {
+      "onset": 1.174327,
+      "duration": 0.193945
+    },
+    {
+      "onset": 1.39811,
+      "duration": 0.223783
+    },
+    {
+      "onset": 1.553693,
+      "duration": 1.480164
+    },
+    {
+      "onset": 1.621893,
+      "duration": 1.560086
+    },
+    {
+      "onset": 1.661322,
+      "duration": 1.373601
+    },
+    {
+      "onset": 1.845676,
+      "duration": 0.10976
+    },
+    {
+      "onset": 2.069458,
+      "duration": 0.141729
+    },
+    {
+      "onset": 2.069458,
+      "duration": 0.466747
+    },
+    {
+      "onset": 2.293242,
+      "duration": 0.17583
+    },
+    {
+      "onset": 2.517025,
+      "duration": 0.234439
+    },
+    {
+      "onset": 2.517025,
+      "duration": 0.234439
+    },
+    {
+      "onset": 2.740807,
+      "duration": 0.127876
+    },
+    {
+      "onset": 2.96459,
+      "duration": 0.242964
+    },
+    {
+      "onset": 2.96459,
+      "duration": 0.363381
+    },
+    {
+      "onset": 3.186242,
+      "duration": 0.214192
+    },
+    {
+      "onset": 3.285346,
+      "duration": 0.290918
+    },
+    {
+      "onset": 3.334365,
+      "duration": 0.241898
+    },
+    {
+      "onset": 3.36953,
+      "duration": 0.206733
+    },
+    {
+      "onset": 3.379122,
+      "duration": 0.197142
+    },
+    {
+      "onset": 3.408959,
+      "duration": 0.155582
+    },
+    {
+      "onset": 3.408959,
+      "duration": 0.167304
+    }
+  ],
+  "transformation": "tempo_change",
+  "parameters": {
+    "tempo_factor": 0.8,
+    "random_seed": 42
+  }
+}
