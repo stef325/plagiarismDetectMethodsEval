@@ -1,0 +1,120 @@
+{
+  "segment_file": "748_segment_02.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.901971,
+      "chord": "A#2"
+    },
+    {
+      "start": 0.372132,
+      "end": 0.796833,
+      "chord": "C4-D#4"
+    },
+    {
+      "start": 0.777466,
+      "end": 1.297621,
+      "chord": "F3-A#3-D4-F4-F4"
+    },
+    {
+      "start": 0.979441,
+      "end": 1.550781,
+      "chord": "A#2"
+    },
+    {
+      "start": 1.182799,
+      "end": 1.629634,
+      "chord": "F3-G4"
+    },
+    {
+      "start": 1.384774,
+      "end": 1.458094,
+      "chord": "A#3"
+    },
+    {
+      "start": 1.588133,
+      "end": 2.895437,
+      "chord": "G2-G3-A#3-D4-F4-F4"
+    },
+    {
+      "start": 1.993466,
+      "end": 2.440302,
+      "chord": "D3"
+    },
+    {
+      "start": 2.3988,
+      "end": 3.040693,
+      "chord": "A#3"
+    },
+    {
+      "start": 2.804133,
+      "end": 3.024093,
+      "chord": "G4"
+    },
+    {
+      "start": 3.006108,
+      "end": 3.950964,
+      "chord": "G3"
+    },
+    {
+      "start": 3.209467,
+      "end": 4.154323,
+      "chord": "C2-C4-D#4-F4"
+    },
+    {
+      "start": 3.6148,
+      "end": 4.08377,
+      "chord": "G2-C4-D#4"
+    },
+    {
+      "start": 4.020134,
+      "end": 4.763015,
+      "chord": "C3-C4-D#4-D#4-F4"
+    },
+    {
+      "start": 4.425468,
+      "end": 4.751948,
+      "chord": "G3-G4"
+    },
+    {
+      "start": 4.830801,
+      "end": 6.329013,
+      "chord": "G#2-G#3-C4-D#4-F4-G4"
+    },
+    {
+      "start": 5.236135,
+      "end": 5.6138,
+      "chord": "D#4"
+    },
+    {
+      "start": 5.439493,
+      "end": 5.548781,
+      "chord": "D#4"
+    },
+    {
+      "start": 5.641468,
+      "end": 6.044035,
+      "chord": "G#3-C4-C4-D#4"
+    },
+    {
+      "start": 6.046802,
+      "end": 6.330397,
+      "chord": "A#3"
+    },
+    {
+      "start": 6.25016,
+      "end": 6.474269,
+      "chord": "G#2"
+    },
+    {
+      "start": 6.452135,
+      "end": 6.48672,
+      "chord": "A#2-F3-A#3-D4-C5"
+    }
+  ],
+  "transformation": "simplification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

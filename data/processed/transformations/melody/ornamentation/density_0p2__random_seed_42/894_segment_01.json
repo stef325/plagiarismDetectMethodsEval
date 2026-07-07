@@ -1,0 +1,134 @@
+{
+  "segment_file": "894_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 65,
+      "duration": 1.163433
+    },
+    {
+      "pitch": 61,
+      "duration": 0.214641
+    },
+    {
+      "pitch": 60,
+      "duration": 0.429281
+    },
+    {
+      "pitch": 48,
+      "duration": 0.217375
+    },
+    {
+      "pitch": 65,
+      "duration": 0.206438
+    },
+    {
+      "pitch": 66,
+      "duration": 0.125
+    },
+    {
+      "pitch": 69,
+      "duration": 0.457991
+    },
+    {
+      "pitch": 60,
+      "duration": 0.263857
+    },
+    {
+      "pitch": 72,
+      "duration": 0.347253
+    },
+    {
+      "pitch": 48,
+      "duration": 0.347253
+    },
+    {
+      "pitch": 72,
+      "duration": 0.371861
+    },
+    {
+      "pitch": 69,
+      "duration": 0.18593
+    },
+    {
+      "pitch": 69,
+      "duration": 0.416977
+    },
+    {
+      "pitch": 76,
+      "duration": 0.634351
+    },
+    {
+      "pitch": 52,
+      "duration": 0.596071
+    },
+    {
+      "pitch": 79,
+      "duration": 0.65896
+    },
+    {
+      "pitch": 64,
+      "duration": 0.354088
+    },
+    {
+      "pitch": 52,
+      "duration": 0.345885
+    },
+    {
+      "pitch": 76,
+      "duration": 2.045236
+    },
+    {
+      "pitch": 61,
+      "duration": 0.679467
+    },
+    {
+      "pitch": 76,
+      "duration": 0.791572
+    },
+    {
+      "pitch": 45,
+      "duration": 1.059531
+    },
+    {
+      "pitch": 52,
+      "duration": 0.478498
+    },
+    {
+      "pitch": 73,
+      "duration": 0.70681
+    },
+    {
+      "pitch": 66,
+      "duration": 0.125
+    },
+    {
+      "pitch": 61,
+      "duration": 0.142182
+    },
+    {
+      "pitch": 52,
+      "duration": 0.231046
+    },
+    {
+      "pitch": 57,
+      "duration": 0.114839
+    },
+    {
+      "pitch": 65,
+      "duration": 0.125
+    },
+    {
+      "pitch": 74,
+      "duration": 0.466194
+    },
+    {
+      "pitch": 57,
+      "duration": 0.061521
+    }
+  ],
+  "transformation": "ornamentation",
+  "parameters": {
+    "density": 0.2,
+    "random_seed": 42
+  }
+}

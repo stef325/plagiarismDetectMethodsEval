@@ -1,0 +1,115 @@
+{
+  "segment_file": "045_segment_02.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 3.489263,
+      "chord": "C#3-E4-G#4-C#5-E5"
+    },
+    {
+      "start": 0.144314,
+      "end": 3.433537,
+      "chord": "G#3"
+    },
+    {
+      "start": 0.644413,
+      "end": 1.49744,
+      "chord": "E4-G#4-C#5"
+    },
+    {
+      "start": 1.143084,
+      "end": 1.788926,
+      "chord": "F#4"
+    },
+    {
+      "start": 1.643183,
+      "end": 2.500495,
+      "chord": "A#4-D5-G5"
+    },
+    {
+      "start": 2.143282,
+      "end": 2.707679,
+      "chord": "E4"
+    },
+    {
+      "start": 2.643381,
+      "end": 3.412105,
+      "chord": "C#4-F4-A#4"
+    },
+    {
+      "start": 2.89343,
+      "end": 3.073466,
+      "chord": "B5"
+    },
+    {
+      "start": 3.14348,
+      "end": 3.426393,
+      "chord": "G#5"
+    },
+    {
+      "start": 3.39353,
+      "end": 3.647866,
+      "chord": "E5"
+    },
+    {
+      "start": 3.643579,
+      "end": 7.462907,
+      "chord": "F#2-A3-C#4-F#4-A5"
+    },
+    {
+      "start": 4.143678,
+      "end": 7.482911,
+      "chord": "C#3-G#5"
+    },
+    {
+      "start": 4.643777,
+      "end": 5.498232,
+      "chord": "A3-C#4-F#4-F#5"
+    },
+    {
+      "start": 5.143876,
+      "end": 5.695414,
+      "chord": "F#3-E5"
+    },
+    {
+      "start": 5.393926,
+      "end": 5.954037,
+      "chord": "C#4-F#4-A5"
+    },
+    {
+      "start": 5.643975,
+      "end": 6.485571,
+      "chord": "A3-C#4-F#4"
+    },
+    {
+      "start": 6.144075,
+      "end": 6.662749,
+      "chord": "F#3-G#5"
+    },
+    {
+      "start": 6.644174,
+      "end": 7.387178,
+      "chord": "A3-C#4-F#4-F#5"
+    },
+    {
+      "start": 6.894223,
+      "end": 7.317164,
+      "chord": "G#5"
+    },
+    {
+      "start": 7.144273,
+      "end": 7.462907,
+      "chord": "F#3"
+    },
+    {
+      "start": 7.644372,
+      "end": 8.000157,
+      "chord": "A2-C#4-E4-A4-A5"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "segment_file": "604_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.523817,
+      "chord": "D4-F4-G4"
+    },
+    {
+      "start": 0.252787,
+      "end": 0.497756,
+      "chord": "F4"
+    },
+    {
+      "start": 0.510787,
+      "end": 1.967571,
+      "chord": "C2-E4"
+    },
+    {
+      "start": 0.768786,
+      "end": 1.017664,
+      "chord": "A#4"
+    },
+    {
+      "start": 1.028089,
+      "end": 2.000147,
+      "chord": "C#3-A#4"
+    },
+    {
+      "start": 1.286088,
+      "end": 2.144783,
+      "chord": "D#4"
+    },
+    {
+      "start": 1.54539,
+      "end": 2.579994,
+      "chord": "A2-A3-C#4"
+    },
+    {
+      "start": 2.062692,
+      "end": 2.659479,
+      "chord": "C4"
+    },
+    {
+      "start": 2.579994,
+      "end": 3.795718,
+      "chord": "F3"
+    },
+    {
+      "start": 3.097296,
+      "end": 3.746203,
+      "chord": "D3-D4"
+    },
+    {
+      "start": 3.614598,
+      "end": 4.771686,
+      "chord": "F3-A#3-D4-E4-F4"
+    },
+    {
+      "start": 4.131899,
+      "end": 4.754747,
+      "chord": "G3"
+    },
+    {
+      "start": 4.389899,
+      "end": 4.557989,
+      "chord": "D4"
+    },
+    {
+      "start": 4.649201,
+      "end": 5.950926,
+      "chord": "F2-C4"
+    },
+    {
+      "start": 4.907201,
+      "end": 5.124806,
+      "chord": "D4"
+    },
+    {
+      "start": 5.166503,
+      "end": 5.86232,
+      "chord": "C3-C4"
+    },
+    {
+      "start": 5.424503,
+      "end": 6.163319,
+      "chord": "A3"
+    },
+    {
+      "start": 5.683805,
+      "end": 6.766621,
+      "chord": "A3-C4"
+    },
+    {
+      "start": 6.199804,
+      "end": 6.791378,
+      "chord": "F3"
+    },
+    {
+      "start": 6.717106,
+      "end": 7.968012,
+      "chord": "G2"
+    },
+    {
+      "start": 7.234407,
+      "end": 7.893739,
+      "chord": "D3-A#3"
+    },
+    {
+      "start": 7.751709,
+      "end": 8.275526,
+      "chord": "A#3-C4-D4"
+    },
+    {
+      "start": 8.269011,
+      "end": 8.275526,
+      "chord": "G3"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

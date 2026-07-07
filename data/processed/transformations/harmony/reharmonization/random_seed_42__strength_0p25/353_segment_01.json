@@ -1,0 +1,125 @@
+{
+  "segment_file": "353_segment_01.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.870168,
+      "chord": "E2-G#3-B3-B4"
+    },
+    {
+      "start": 0.13556,
+      "end": 0.284031,
+      "chord": "C#5"
+    },
+    {
+      "start": 0.349875,
+      "end": 1.484708,
+      "chord": "E2-B4"
+    },
+    {
+      "start": 0.564189,
+      "end": 0.68813,
+      "chord": "E5"
+    },
+    {
+      "start": 0.778503,
+      "end": 1.285886,
+      "chord": "A#3-F5"
+    },
+    {
+      "start": 0.992817,
+      "end": 1.181311,
+      "chord": "E5"
+    },
+    {
+      "start": 1.207132,
+      "end": 2.05277,
+      "chord": "F3-G#3-F#4"
+    },
+    {
+      "start": 1.63576,
+      "end": 2.017911,
+      "chord": "A3-D5"
+    },
+    {
+      "start": 2.064389,
+      "end": 3.182438,
+      "chord": "C#3"
+    },
+    {
+      "start": 2.493018,
+      "end": 3.403208,
+      "chord": "F#3-B4"
+    },
+    {
+      "start": 2.921646,
+      "end": 4.756228,
+      "chord": "A3-C#4-F#4-B4"
+    },
+    {
+      "start": 3.351566,
+      "end": 3.559425,
+      "chord": "F#2-B4"
+    },
+    {
+      "start": 3.780194,
+      "end": 5.044132,
+      "chord": "F#2-B4"
+    },
+    {
+      "start": 4.208823,
+      "end": 4.698131,
+      "chord": "F#3-C#5"
+    },
+    {
+      "start": 4.423137,
+      "end": 4.633578,
+      "chord": "A4"
+    },
+    {
+      "start": 4.637452,
+      "end": 5.452104,
+      "chord": "F#4"
+    },
+    {
+      "start": 5.06608,
+      "end": 5.50891,
+      "chord": "C#4-A4"
+    },
+    {
+      "start": 5.280394,
+      "end": 5.383678,
+      "chord": "A4"
+    },
+    {
+      "start": 5.494709,
+      "end": 6.635997,
+      "chord": "D2-B4"
+    },
+    {
+      "start": 5.923337,
+      "end": 6.859349,
+      "chord": "D3-B4"
+    },
+    {
+      "start": 6.137652,
+      "end": 6.486235,
+      "chord": "B4"
+    },
+    {
+      "start": 6.351966,
+      "end": 6.859349,
+      "chord": "A3"
+    },
+    {
+      "start": 6.780595,
+      "end": 6.859349,
+      "chord": "D2-C#5"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "segment_file": "388_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 66,
+      "duration": 0.258864
+    },
+    {
+      "pitch": 62,
+      "duration": 2.731591
+    },
+    {
+      "pitch": 67,
+      "duration": 0.386364
+    },
+    {
+      "pitch": 70,
+      "duration": 0.411477
+    },
+    {
+      "pitch": 72,
+      "duration": 1.201591
+    },
+    {
+      "pitch": 75,
+      "duration": 0.405682
+    },
+    {
+      "pitch": 74,
+      "duration": 0.425
+    },
+    {
+      "pitch": 72,
+      "duration": 0.425
+    },
+    {
+      "pitch": 70,
+      "duration": 0.104318
+    }
+  ],
+  "transformation": "interval_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

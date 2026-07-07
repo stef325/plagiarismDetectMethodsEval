@@ -1,0 +1,15 @@
+{
+  "segment_file": "033_segment_01.mid",
+  "harmony": [
+    {
+      "start": 1.527829,
+      "end": 7.057998,
+      "chord": "A2-E4-A4-C5"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

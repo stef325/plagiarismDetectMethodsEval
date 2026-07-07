@@ -1,0 +1,138 @@
+{
+  "segment_file": "889_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 62,
+      "duration": 0.019702
+    },
+    {
+      "pitch": 54,
+      "duration": 0.179285
+    },
+    {
+      "pitch": 73,
+      "duration": 0.797918
+    },
+    {
+      "pitch": 45,
+      "duration": 1.117085
+    },
+    {
+      "pitch": 58,
+      "duration": 0.407825
+    },
+    {
+      "pitch": 64,
+      "duration": 0.362511
+    },
+    {
+      "pitch": 60,
+      "duration": 0.181255
+    },
+    {
+      "pitch": 64,
+      "duration": 0.195047
+    },
+    {
+      "pitch": 77,
+      "duration": 0.732903
+    },
+    {
+      "pitch": 55,
+      "duration": 0.551647
+    },
+    {
+      "pitch": 48,
+      "duration": 1.298341
+    },
+    {
+      "pitch": 59,
+      "duration": 0.338869
+    },
+    {
+      "pitch": 71,
+      "duration": 0.265973
+    },
+    {
+      "pitch": 72,
+      "duration": 0.250211
+    },
+    {
+      "pitch": 69,
+      "duration": 0.271883
+    },
+    {
+      "pitch": 72,
+      "duration": 0.4689
+    },
+    {
+      "pitch": 60,
+      "duration": 0.338869
+    },
+    {
+      "pitch": 64,
+      "duration": 0.498453
+    },
+    {
+      "pitch": 55,
+      "duration": 0.090628
+    },
+    {
+      "pitch": 67,
+      "duration": 0.898397
+    },
+    {
+      "pitch": 55,
+      "duration": 0.12215
+    },
+    {
+      "pitch": 58,
+      "duration": 0.545737
+    },
+    {
+      "pitch": 42,
+      "duration": 1.121026
+    },
+    {
+      "pitch": 61,
+      "duration": 0.606812
+    },
+    {
+      "pitch": 78,
+      "duration": 1.05601
+    },
+    {
+      "pitch": 62,
+      "duration": 0.323108
+    },
+    {
+      "pitch": 77,
+      "duration": 0.94174
+    },
+    {
+      "pitch": 60,
+      "duration": 0.132001
+    },
+    {
+      "pitch": 63,
+      "duration": 1.481566
+    },
+    {
+      "pitch": 44,
+      "duration": 1.071771
+    },
+    {
+      "pitch": 67,
+      "duration": 1.40079
+    },
+    {
+      "pitch": 75,
+      "duration": 1.379118
+    }
+  ],
+  "transformation": "interval_modification",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}

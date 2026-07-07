@@ -1,0 +1,142 @@
+{
+  "segment_file": "719_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 63,
+      "duration": 0.293805
+    },
+    {
+      "pitch": 53,
+      "duration": 0.146902
+    },
+    {
+      "pitch": 44,
+      "duration": 1.842506
+    },
+    {
+      "pitch": 61,
+      "duration": 0.113289
+    },
+    {
+      "pitch": 61,
+      "duration": 0.601304
+    },
+    {
+      "pitch": 62,
+      "duration": 0.300652
+    },
+    {
+      "pitch": 65,
+      "duration": 1.051971
+    },
+    {
+      "pitch": 49,
+      "duration": 0.78929
+    },
+    {
+      "pitch": 61,
+      "duration": 0.526608
+    },
+    {
+      "pitch": 56,
+      "duration": 0.262682
+    },
+    {
+      "pitch": 63,
+      "duration": 0.397135
+    },
+    {
+      "pitch": 62,
+      "duration": 0.198568
+    },
+    {
+      "pitch": 63,
+      "duration": 0.39838
+    },
+    {
+      "pitch": 63,
+      "duration": 0.38593
+    },
+    {
+      "pitch": 51,
+      "duration": 0.722063
+    },
+    {
+      "pitch": 63,
+      "duration": 0.505444
+    },
+    {
+      "pitch": 61,
+      "duration": 1.100524
+    },
+    {
+      "pitch": 65,
+      "duration": 0.131963
+    },
+    {
+      "pitch": 63,
+      "duration": 0.077186
+    },
+    {
+      "pitch": 65,
+      "duration": 1.005909
+    },
+    {
+      "pitch": 61,
+      "duration": 0.112044
+    },
+    {
+      "pitch": 63,
+      "duration": 0.112044
+    },
+    {
+      "pitch": 65,
+      "duration": 0.28758
+    },
+    {
+      "pitch": 44,
+      "duration": 1.886079
+    },
+    {
+      "pitch": 51,
+      "duration": 0.125
+    },
+    {
+      "pitch": 60,
+      "duration": 0.078431
+    },
+    {
+      "pitch": 60,
+      "duration": 0.072206
+    },
+    {
+      "pitch": 60,
+      "duration": 0.085901
+    },
+    {
+      "pitch": 61,
+      "duration": 0.125
+    },
+    {
+      "pitch": 63,
+      "duration": 1.051971
+    },
+    {
+      "pitch": 63,
+      "duration": 0.20168
+    },
+    {
+      "pitch": 61,
+      "duration": 0.094615
+    },
+    {
+      "pitch": 61,
+      "duration": 0.262682
+    }
+  ],
+  "transformation": "ornamentation",
+  "parameters": {
+    "density": 0.2,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "segment_file": "687_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 71,
+      "duration": 0.235204
+    },
+    {
+      "pitch": 65,
+      "duration": 0.125
+    },
+    {
+      "pitch": 57,
+      "duration": 0.112283
+    },
+    {
+      "pitch": 69,
+      "duration": 0.148923
+    },
+    {
+      "pitch": 69,
+      "duration": 0.351032
+    },
+    {
+      "pitch": 67,
+      "duration": 0.175516
+    },
+    {
+      "pitch": 66,
+      "duration": 0.839168
+    },
+    {
+      "pitch": 69,
+      "duration": 0.152469
+    },
+    {
+      "pitch": 71,
+      "duration": 0.174925
+    },
+    {
+      "pitch": 69,
+      "duration": 0.163106
+    },
+    {
+      "pitch": 66,
+      "duration": 0.258842
+    },
+    {
+      "pitch": 64,
+      "duration": 0.25766
+    },
+    {
+      "pitch": 64,
+      "duration": 0.153651
+    },
+    {
+      "pitch": 64,
+      "duration": 0.35576
+    },
+    {
+      "pitch": 63,
+      "duration": 0.125
+    },
+    {
+      "pitch": 64,
+      "duration": 0.236385
+    },
+    {
+      "pitch": 64,
+      "duration": 0.152469
+    },
+    {
+      "pitch": 66,
+      "duration": 0.172561
+    },
+    {
+      "pitch": 64,
+      "duration": 0.140649
+    },
+    {
+      "pitch": 71,
+      "duration": 0.172561
+    }
+  ],
+  "transformation": "ornamentation",
+  "parameters": {
+    "density": 0.2,
+    "random_seed": 42
+  }
+}

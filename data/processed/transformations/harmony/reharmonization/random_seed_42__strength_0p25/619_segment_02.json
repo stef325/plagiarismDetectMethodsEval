@@ -1,0 +1,105 @@
+{
+  "segment_file": "619_segment_02.mid",
+  "harmony": [
+    {
+      "start": 0.0,
+      "end": 0.013317,
+      "chord": "B3-D4"
+    },
+    {
+      "start": 0.096182,
+      "end": 0.599286,
+      "chord": "A2-E4"
+    },
+    {
+      "start": 0.254512,
+      "end": 0.532699,
+      "chord": "A3"
+    },
+    {
+      "start": 0.411362,
+      "end": 0.568212,
+      "chord": "C#4-E4-F#4"
+    },
+    {
+      "start": 0.569692,
+      "end": 0.655515,
+      "chord": "G4"
+    },
+    {
+      "start": 0.728021,
+      "end": 1.20893,
+      "chord": "C#3-C#4-E4-F#4"
+    },
+    {
+      "start": 1.043201,
+      "end": 1.322868,
+      "chord": "E4"
+    },
+    {
+      "start": 1.359861,
+      "end": 2.189983,
+      "chord": "D3-D4-D4-F#4"
+    },
+    {
+      "start": 1.990221,
+      "end": 2.272847,
+      "chord": "F#4"
+    },
+    {
+      "start": 2.306881,
+      "end": 2.57175,
+      "chord": "E4"
+    },
+    {
+      "start": 2.622061,
+      "end": 3.4655,
+      "chord": "E3-G4"
+    },
+    {
+      "start": 2.93872,
+      "end": 3.224306,
+      "chord": "C#4-G#4"
+    },
+    {
+      "start": 3.2539,
+      "end": 3.844308,
+      "chord": "C4-D#4-D#4-G4"
+    },
+    {
+      "start": 3.56908,
+      "end": 3.7792,
+      "chord": "A2-G4"
+    },
+    {
+      "start": 3.88574,
+      "end": 4.495384,
+      "chord": "C3-D5"
+    },
+    {
+      "start": 4.20092,
+      "end": 4.424357,
+      "chord": "D3-G4"
+    },
+    {
+      "start": 4.51758,
+      "end": 4.998488,
+      "chord": "G3-B3-D4"
+    },
+    {
+      "start": 4.83276,
+      "end": 4.999968,
+      "chord": "D3-D4-F#4"
+    },
+    {
+      "start": 4.991089,
+      "end": 5.053238,
+      "chord": "F#4"
+    }
+  ],
+  "transformation": "reharmonization",
+  "parameters": {
+    "strength": 0.25,
+    "random_seed": 42
+  }
+}
