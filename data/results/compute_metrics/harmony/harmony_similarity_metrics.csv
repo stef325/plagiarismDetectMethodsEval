@@ -1,0 +1,2401 @@
+song_id,segment_id,transformation,comparison_type,metric,metric_parameters,value
+007,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.421053
+007,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+007,01,chord_substitution,transformed,pitch_class_similarity,{},0.764286
+007,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+007,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+007,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+007,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+007,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+007,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+007,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.687500
+007,01,simplification,transformed,harmonic_edit_distance,{},0.892857
+007,01,simplification,transformed,pitch_class_similarity,{},0.928571
+007,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.384615
+007,02,chord_substitution,transformed,harmonic_edit_distance,{},0.756757
+007,02,chord_substitution,transformed,pitch_class_similarity,{},0.756757
+007,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+007,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+007,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+007,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+007,02,reharmonization,transformed,harmonic_edit_distance,{},0.756757
+007,02,reharmonization,transformed,pitch_class_similarity,{},0.762162
+007,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.894737
+007,02,simplification,transformed,harmonic_edit_distance,{},0.972973
+007,02,simplification,transformed,pitch_class_similarity,{},0.986486
+026,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+026,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+026,01,chord_substitution,transformed,pitch_class_similarity,{},0.764706
+026,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+026,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+026,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+026,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+026,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+026,01,reharmonization,transformed,pitch_class_similarity,{},0.764706
+026,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.882353
+026,01,simplification,transformed,harmonic_edit_distance,{},0.941176
+026,01,simplification,transformed,pitch_class_similarity,{},0.970588
+026,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+026,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+026,02,chord_substitution,transformed,pitch_class_similarity,{},0.796078
+026,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+026,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+026,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+026,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+026,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+026,02,reharmonization,transformed,pitch_class_similarity,{},0.764706
+026,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+026,02,simplification,transformed,harmonic_edit_distance,{},0.823529
+026,02,simplification,transformed,pitch_class_similarity,{},0.901961
+028,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+028,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+028,01,chord_substitution,transformed,pitch_class_similarity,{},0.747826
+028,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+028,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+028,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+028,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+028,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+028,01,reharmonization,transformed,pitch_class_similarity,{},0.756522
+028,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.760000
+028,01,simplification,transformed,harmonic_edit_distance,{},0.913043
+028,01,simplification,transformed,pitch_class_similarity,{},0.949275
+028,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+028,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+028,02,chord_substitution,transformed,pitch_class_similarity,{},0.784615
+028,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+028,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+028,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+028,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+028,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+028,02,reharmonization,transformed,pitch_class_similarity,{},0.769231
+028,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.666667
+028,02,simplification,transformed,harmonic_edit_distance,{},0.884615
+028,02,simplification,transformed,pitch_class_similarity,{},0.948718
+031,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.368421
+031,01,chord_substitution,transformed,harmonic_edit_distance,{},0.714286
+031,01,chord_substitution,transformed,pitch_class_similarity,{},0.742857
+031,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+031,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+031,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+031,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.529412
+031,01,reharmonization,transformed,harmonic_edit_distance,{},0.714286
+031,01,reharmonization,transformed,pitch_class_similarity,{},0.728571
+031,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.368421
+031,01,simplification,transformed,harmonic_edit_distance,{},0.714286
+031,01,simplification,transformed,pitch_class_similarity,{},0.904762
+031,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+031,02,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+031,02,chord_substitution,transformed,pitch_class_similarity,{},0.756190
+031,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+031,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+031,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+031,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+031,02,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+031,02,reharmonization,transformed,pitch_class_similarity,{},0.768889
+031,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+031,02,simplification,transformed,harmonic_edit_distance,{},0.733333
+031,02,simplification,transformed,pitch_class_similarity,{},0.838889
+033,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.000000
+033,01,chord_substitution,transformed,harmonic_edit_distance,{},0.000000
+033,01,chord_substitution,transformed,pitch_class_similarity,{},0.200000
+033,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+033,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+033,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+033,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.000000
+033,01,reharmonization,transformed,harmonic_edit_distance,{},0.000000
+033,01,reharmonization,transformed,pitch_class_similarity,{},0.200000
+033,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.000000
+033,01,simplification,transformed,harmonic_edit_distance,{},0.000000
+033,01,simplification,transformed,pitch_class_similarity,{},0.333333
+033,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+033,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+033,02,chord_substitution,transformed,pitch_class_similarity,{},0.776667
+033,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+033,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+033,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+033,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+033,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+033,02,reharmonization,transformed,pitch_class_similarity,{},0.760000
+033,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.652174
+033,02,simplification,transformed,harmonic_edit_distance,{},0.900000
+033,02,simplification,transformed,pitch_class_similarity,{},0.941667
+045,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+045,01,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+045,01,chord_substitution,transformed,pitch_class_similarity,{},0.787654
+045,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+045,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+045,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+045,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+045,01,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+045,01,reharmonization,transformed,pitch_class_similarity,{},0.760494
+045,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.444444
+045,01,simplification,transformed,harmonic_edit_distance,{},0.777778
+045,01,simplification,transformed,pitch_class_similarity,{},0.861111
+045,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+045,02,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+045,02,chord_substitution,transformed,pitch_class_similarity,{},0.780952
+045,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+045,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+045,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+045,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+045,02,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+045,02,reharmonization,transformed,pitch_class_similarity,{},0.771429
+045,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.818182
+045,02,simplification,transformed,harmonic_edit_distance,{},0.904762
+045,02,simplification,transformed,pitch_class_similarity,{},0.936508
+047,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+047,01,chord_substitution,transformed,harmonic_edit_distance,{},0.760000
+047,01,chord_substitution,transformed,pitch_class_similarity,{},0.768000
+047,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+047,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+047,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+047,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.548387
+047,01,reharmonization,transformed,harmonic_edit_distance,{},0.760000
+047,01,reharmonization,transformed,pitch_class_similarity,{},0.779048
+047,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.548387
+047,01,simplification,transformed,harmonic_edit_distance,{},0.840000
+047,01,simplification,transformed,pitch_class_similarity,{},0.913333
+047,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+047,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+047,02,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+047,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+047,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+047,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+047,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+047,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+047,02,reharmonization,transformed,pitch_class_similarity,{},0.760000
+047,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.900000
+047,02,simplification,transformed,harmonic_edit_distance,{},0.950000
+047,02,simplification,transformed,pitch_class_similarity,{},0.966667
+072,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+072,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+072,01,chord_substitution,transformed,pitch_class_similarity,{},0.766667
+072,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+072,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+072,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+072,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+072,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+072,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+072,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.727273
+072,01,simplification,transformed,harmonic_edit_distance,{},0.900000
+072,01,simplification,transformed,pitch_class_similarity,{},0.962500
+072,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+072,02,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+072,02,chord_substitution,transformed,pitch_class_similarity,{},0.727273
+072,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+072,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+072,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+072,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+072,02,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+072,02,reharmonization,transformed,pitch_class_similarity,{},0.742424
+072,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.750000
+072,02,simplification,transformed,harmonic_edit_distance,{},0.909091
+072,02,simplification,transformed,pitch_class_similarity,{},0.954545
+074,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.421053
+074,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+074,01,chord_substitution,transformed,pitch_class_similarity,{},0.762245
+074,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+074,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+074,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+074,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+074,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+074,01,reharmonization,transformed,pitch_class_similarity,{},0.785714
+074,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+074,01,simplification,transformed,harmonic_edit_distance,{},0.821429
+074,01,simplification,transformed,pitch_class_similarity,{},0.889881
+074,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.400000
+074,02,chord_substitution,transformed,harmonic_edit_distance,{},0.758621
+074,02,chord_substitution,transformed,pitch_class_similarity,{},0.770443
+074,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+074,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+074,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+074,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.555556
+074,02,reharmonization,transformed,harmonic_edit_distance,{},0.758621
+074,02,reharmonization,transformed,pitch_class_similarity,{},0.791790
+074,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+074,02,simplification,transformed,harmonic_edit_distance,{},0.862069
+074,02,simplification,transformed,pitch_class_similarity,{},0.910920
+081,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+081,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+081,01,chord_substitution,transformed,pitch_class_similarity,{},0.754037
+081,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+081,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+081,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+081,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+081,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+081,01,reharmonization,transformed,pitch_class_similarity,{},0.739130
+081,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+081,01,simplification,transformed,harmonic_edit_distance,{},0.826087
+081,01,simplification,transformed,pitch_class_similarity,{},0.916667
+081,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+081,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+081,02,chord_substitution,transformed,pitch_class_similarity,{},0.782051
+081,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+081,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+081,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+081,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+081,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+081,02,reharmonization,transformed,pitch_class_similarity,{},0.769231
+081,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.785714
+081,02,simplification,transformed,harmonic_edit_distance,{},0.923077
+081,02,simplification,transformed,pitch_class_similarity,{},0.951923
+082,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+082,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+082,01,chord_substitution,transformed,pitch_class_similarity,{},0.772222
+082,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+082,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+082,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+082,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+082,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+082,01,reharmonization,transformed,pitch_class_similarity,{},0.758333
+082,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.483871
+082,01,simplification,transformed,harmonic_edit_distance,{},0.791667
+082,01,simplification,transformed,pitch_class_similarity,{},0.888889
+082,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+082,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+082,02,chord_substitution,transformed,pitch_class_similarity,{},0.776923
+082,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+082,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+082,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+082,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+082,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+082,02,reharmonization,transformed,pitch_class_similarity,{},0.807692
+082,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+082,02,simplification,transformed,harmonic_edit_distance,{},0.884615
+082,02,simplification,transformed,pitch_class_similarity,{},0.935897
+090,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+090,01,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+090,01,chord_substitution,transformed,pitch_class_similarity,{},0.755556
+090,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+090,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+090,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+090,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+090,01,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+090,01,reharmonization,transformed,pitch_class_similarity,{},0.755556
+090,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+090,01,simplification,transformed,harmonic_edit_distance,{},0.733333
+090,01,simplification,transformed,pitch_class_similarity,{},0.900000
+090,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+090,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+090,02,chord_substitution,transformed,pitch_class_similarity,{},0.788235
+090,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+090,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+090,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+090,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+090,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+090,02,reharmonization,transformed,pitch_class_similarity,{},0.776471
+090,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+090,02,simplification,transformed,harmonic_edit_distance,{},0.882353
+090,02,simplification,transformed,pitch_class_similarity,{},0.921569
+095,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+095,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+095,01,chord_substitution,transformed,pitch_class_similarity,{},0.756522
+095,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+095,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+095,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+095,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+095,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+095,01,reharmonization,transformed,pitch_class_similarity,{},0.747826
+095,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.760000
+095,01,simplification,transformed,harmonic_edit_distance,{},0.913043
+095,01,simplification,transformed,pitch_class_similarity,{},0.942029
+095,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.400000
+095,02,chord_substitution,transformed,harmonic_edit_distance,{},0.758621
+095,02,chord_substitution,transformed,pitch_class_similarity,{},0.779310
+095,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+095,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+095,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+095,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.555556
+095,02,reharmonization,transformed,harmonic_edit_distance,{},0.758621
+095,02,reharmonization,transformed,pitch_class_similarity,{},0.765517
+095,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+095,02,simplification,transformed,harmonic_edit_distance,{},0.862069
+095,02,simplification,transformed,pitch_class_similarity,{},0.913793
+096,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+096,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+096,01,chord_substitution,transformed,pitch_class_similarity,{},0.812325
+096,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+096,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+096,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+096,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+096,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+096,01,reharmonization,transformed,pitch_class_similarity,{},0.784314
+096,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+096,01,simplification,transformed,harmonic_edit_distance,{},0.764706
+096,01,simplification,transformed,pitch_class_similarity,{},0.882353
+096,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+096,02,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+096,02,chord_substitution,transformed,pitch_class_similarity,{},0.769697
+096,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+096,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+096,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+096,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+096,02,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+096,02,reharmonization,transformed,pitch_class_similarity,{},0.754545
+096,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+096,02,simplification,transformed,harmonic_edit_distance,{},0.727273
+096,02,simplification,transformed,pitch_class_similarity,{},0.863636
+100,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+100,01,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+100,01,chord_substitution,transformed,pitch_class_similarity,{},0.777778
+100,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+100,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+100,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+100,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+100,01,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+100,01,reharmonization,transformed,pitch_class_similarity,{},0.787302
+100,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.739130
+100,01,simplification,transformed,harmonic_edit_distance,{},0.904762
+100,01,simplification,transformed,pitch_class_similarity,{},0.940476
+100,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+100,02,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+100,02,chord_substitution,transformed,pitch_class_similarity,{},0.807407
+100,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+100,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+100,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+100,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+100,02,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+100,02,reharmonization,transformed,pitch_class_similarity,{},0.788889
+100,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+100,02,simplification,transformed,harmonic_edit_distance,{},0.777778
+100,02,simplification,transformed,pitch_class_similarity,{},0.879630
+104,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+104,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+104,01,chord_substitution,transformed,pitch_class_similarity,{},0.772619
+104,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+104,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+104,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+104,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+104,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+104,01,reharmonization,transformed,pitch_class_similarity,{},0.780556
+104,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+104,01,simplification,transformed,harmonic_edit_distance,{},0.833333
+104,01,simplification,transformed,pitch_class_similarity,{},0.892361
+104,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+104,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+104,02,chord_substitution,transformed,pitch_class_similarity,{},0.766667
+104,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+104,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+104,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+104,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+104,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+104,02,reharmonization,transformed,pitch_class_similarity,{},0.758333
+104,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.769231
+104,02,simplification,transformed,harmonic_edit_distance,{},0.916667
+104,02,simplification,transformed,pitch_class_similarity,{},0.944444
+105,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+105,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+105,01,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+105,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+105,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+105,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+105,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+105,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+105,01,reharmonization,transformed,pitch_class_similarity,{},0.793333
+105,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+105,01,simplification,transformed,harmonic_edit_distance,{},0.800000
+105,01,simplification,transformed,pitch_class_similarity,{},0.941667
+105,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+105,02,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+105,02,chord_substitution,transformed,pitch_class_similarity,{},0.791111
+105,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+105,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+105,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+105,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+105,02,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+105,02,reharmonization,transformed,pitch_class_similarity,{},0.733333
+105,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+105,02,simplification,transformed,harmonic_edit_distance,{},0.733333
+105,02,simplification,transformed,pitch_class_similarity,{},0.888889
+115,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+115,01,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+115,01,chord_substitution,transformed,pitch_class_similarity,{},0.746667
+115,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+115,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+115,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+115,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+115,01,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+115,01,reharmonization,transformed,pitch_class_similarity,{},0.755556
+115,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+115,01,simplification,transformed,harmonic_edit_distance,{},0.733333
+115,01,simplification,transformed,pitch_class_similarity,{},0.855556
+115,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+115,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+115,02,chord_substitution,transformed,pitch_class_similarity,{},0.782418
+115,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+115,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+115,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+115,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+115,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+115,02,reharmonization,transformed,pitch_class_similarity,{},0.794872
+115,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.666667
+115,02,simplification,transformed,harmonic_edit_distance,{},0.884615
+115,02,simplification,transformed,pitch_class_similarity,{},0.926282
+128,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+128,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+128,01,chord_substitution,transformed,pitch_class_similarity,{},0.800000
+128,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+128,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+128,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+128,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+128,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+128,01,reharmonization,transformed,pitch_class_similarity,{},0.758333
+128,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+128,01,simplification,transformed,harmonic_edit_distance,{},0.833333
+128,01,simplification,transformed,pitch_class_similarity,{},0.909722
+128,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+128,02,chord_substitution,transformed,harmonic_edit_distance,{},0.760000
+128,02,chord_substitution,transformed,pitch_class_similarity,{},0.781333
+128,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+128,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+128,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+128,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.548387
+128,02,reharmonization,transformed,harmonic_edit_distance,{},0.760000
+128,02,reharmonization,transformed,pitch_class_similarity,{},0.760000
+128,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.655172
+128,02,simplification,transformed,harmonic_edit_distance,{},0.880000
+128,02,simplification,transformed,pitch_class_similarity,{},0.933333
+143,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.333333
+143,01,chord_substitution,transformed,harmonic_edit_distance,{},0.714286
+143,01,chord_substitution,transformed,pitch_class_similarity,{},0.814286
+143,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+143,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+143,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+143,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+143,01,reharmonization,transformed,harmonic_edit_distance,{},0.714286
+143,01,reharmonization,transformed,pitch_class_similarity,{},0.814286
+143,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.333333
+143,01,simplification,transformed,harmonic_edit_distance,{},0.714286
+143,01,simplification,transformed,pitch_class_similarity,{},0.809524
+143,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+143,02,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+143,02,chord_substitution,transformed,pitch_class_similarity,{},0.746667
+143,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+143,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+143,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+143,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+143,02,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+143,02,reharmonization,transformed,pitch_class_similarity,{},0.777778
+143,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+143,02,simplification,transformed,harmonic_edit_distance,{},0.800000
+143,02,simplification,transformed,pitch_class_similarity,{},0.888889
+160,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+160,01,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+160,01,chord_substitution,transformed,pitch_class_similarity,{},0.768889
+160,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+160,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+160,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+160,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+160,01,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+160,01,reharmonization,transformed,pitch_class_similarity,{},0.746667
+160,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+160,01,simplification,transformed,harmonic_edit_distance,{},0.733333
+160,01,simplification,transformed,pitch_class_similarity,{},0.844444
+160,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+160,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+160,02,chord_substitution,transformed,pitch_class_similarity,{},0.816246
+160,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+160,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+160,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+160,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+160,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+160,02,reharmonization,transformed,pitch_class_similarity,{},0.796078
+160,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+160,02,simplification,transformed,harmonic_edit_distance,{},0.764706
+160,02,simplification,transformed,pitch_class_similarity,{},0.833333
+164,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.395349
+164,01,chord_substitution,transformed,harmonic_edit_distance,{},0.741935
+164,01,chord_substitution,transformed,pitch_class_similarity,{},0.741935
+164,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+164,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+164,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+164,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+164,01,reharmonization,transformed,harmonic_edit_distance,{},0.741935
+164,01,reharmonization,transformed,pitch_class_similarity,{},0.741935
+164,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+164,01,simplification,transformed,harmonic_edit_distance,{},1.000000
+164,01,simplification,transformed,pitch_class_similarity,{},1.000000
+164,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.414634
+164,02,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+164,02,chord_substitution,transformed,pitch_class_similarity,{},0.751111
+164,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+164,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+164,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+164,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.526316
+164,02,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+164,02,reharmonization,transformed,pitch_class_similarity,{},0.733333
+164,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.657143
+164,02,simplification,transformed,harmonic_edit_distance,{},0.866667
+164,02,simplification,transformed,pitch_class_similarity,{},0.944444
+167,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+167,01,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+167,01,chord_substitution,transformed,pitch_class_similarity,{},0.736364
+167,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+167,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+167,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+167,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+167,01,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+167,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+167,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.615385
+167,01,simplification,transformed,harmonic_edit_distance,{},0.863636
+167,01,simplification,transformed,pitch_class_similarity,{},0.924242
+167,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+167,02,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+167,02,chord_substitution,transformed,pitch_class_similarity,{},0.747826
+167,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+167,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+167,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+167,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+167,02,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+167,02,reharmonization,transformed,pitch_class_similarity,{},0.753623
+167,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.571429
+167,02,simplification,transformed,harmonic_edit_distance,{},0.869565
+167,02,simplification,transformed,pitch_class_similarity,{},0.927536
+176,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+176,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+176,01,chord_substitution,transformed,pitch_class_similarity,{},0.762500
+176,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+176,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+176,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+176,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+176,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+176,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+176,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.666667
+176,01,simplification,transformed,harmonic_edit_distance,{},0.875000
+176,01,simplification,transformed,pitch_class_similarity,{},0.958333
+176,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+176,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+176,02,chord_substitution,transformed,pitch_class_similarity,{},0.769231
+176,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+176,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+176,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+176,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+176,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+176,02,reharmonization,transformed,pitch_class_similarity,{},0.769231
+176,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+176,02,simplification,transformed,harmonic_edit_distance,{},0.769231
+176,02,simplification,transformed,pitch_class_similarity,{},0.871795
+197,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.419355
+197,01,chord_substitution,transformed,harmonic_edit_distance,{},0.755556
+197,01,chord_substitution,transformed,pitch_class_similarity,{},0.786667
+197,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+197,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+197,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+197,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.571429
+197,01,reharmonization,transformed,harmonic_edit_distance,{},0.755556
+197,01,reharmonization,transformed,pitch_class_similarity,{},0.764444
+197,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.442623
+197,01,simplification,transformed,harmonic_edit_distance,{},0.777778
+197,01,simplification,transformed,pitch_class_similarity,{},0.896296
+197,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+197,02,chord_substitution,transformed,harmonic_edit_distance,{},0.758621
+197,02,chord_substitution,transformed,pitch_class_similarity,{},0.788670
+197,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+197,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+197,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+197,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.605634
+197,02,reharmonization,transformed,harmonic_edit_distance,{},0.775862
+197,02,reharmonization,transformed,pitch_class_similarity,{},0.758621
+197,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.583333
+197,02,simplification,transformed,harmonic_edit_distance,{},0.844828
+197,02,simplification,transformed,pitch_class_similarity,{},0.905172
+204,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.389474
+204,01,chord_substitution,transformed,harmonic_edit_distance,{},0.746269
+204,01,chord_substitution,transformed,pitch_class_similarity,{},0.763184
+204,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+204,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+204,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+204,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.571429
+204,01,reharmonization,transformed,harmonic_edit_distance,{},0.746269
+204,01,reharmonization,transformed,pitch_class_similarity,{},0.749254
+204,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.714286
+204,01,simplification,transformed,harmonic_edit_distance,{},0.910448
+204,01,simplification,transformed,pitch_class_similarity,{},0.941542
+204,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.404255
+204,02,chord_substitution,transformed,harmonic_edit_distance,{},0.746269
+204,02,chord_substitution,transformed,pitch_class_similarity,{},0.762687
+204,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+204,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+204,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+204,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.571429
+204,02,reharmonization,transformed,harmonic_edit_distance,{},0.746269
+204,02,reharmonization,transformed,pitch_class_similarity,{},0.762189
+204,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.714286
+204,02,simplification,transformed,harmonic_edit_distance,{},0.910448
+204,02,simplification,transformed,pitch_class_similarity,{},0.945274
+215,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.402985
+215,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+215,01,chord_substitution,transformed,pitch_class_similarity,{},0.779167
+215,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+215,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+215,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+215,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.566667
+215,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+215,01,reharmonization,transformed,pitch_class_similarity,{},0.768056
+215,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.566667
+215,01,simplification,transformed,harmonic_edit_distance,{},0.833333
+215,01,simplification,transformed,pitch_class_similarity,{},0.920139
+215,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.384615
+215,02,chord_substitution,transformed,harmonic_edit_distance,{},0.745455
+215,02,chord_substitution,transformed,pitch_class_similarity,{},0.756364
+215,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+215,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+215,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+215,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+215,02,reharmonization,transformed,harmonic_edit_distance,{},0.745455
+215,02,reharmonization,transformed,pitch_class_similarity,{},0.745455
+215,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.714286
+215,02,simplification,transformed,harmonic_edit_distance,{},0.909091
+215,02,simplification,transformed,pitch_class_similarity,{},0.954545
+221,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.395349
+221,01,chord_substitution,transformed,harmonic_edit_distance,{},0.754098
+221,01,chord_substitution,transformed,pitch_class_similarity,{},0.798361
+221,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+221,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+221,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+221,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.578947
+221,01,reharmonization,transformed,harmonic_edit_distance,{},0.754098
+221,01,reharmonization,transformed,pitch_class_similarity,{},0.771585
+221,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+221,01,simplification,transformed,harmonic_edit_distance,{},0.803279
+221,01,simplification,transformed,pitch_class_similarity,{},0.874317
+221,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+221,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+221,02,chord_substitution,transformed,pitch_class_similarity,{},0.772727
+221,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+221,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+221,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+221,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.585366
+221,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+221,02,reharmonization,transformed,pitch_class_similarity,{},0.773737
+221,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.585366
+221,02,simplification,transformed,harmonic_edit_distance,{},0.848485
+221,02,simplification,transformed,pitch_class_similarity,{},0.919192
+224,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.386364
+224,01,chord_substitution,transformed,harmonic_edit_distance,{},0.747967
+224,01,chord_substitution,transformed,pitch_class_similarity,{},0.753465
+224,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+224,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+224,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+224,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.584416
+224,01,reharmonization,transformed,harmonic_edit_distance,{},0.747967
+224,01,reharmonization,transformed,pitch_class_similarity,{},0.753388
+224,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.544304
+224,01,simplification,transformed,harmonic_edit_distance,{},0.845528
+224,01,simplification,transformed,pitch_class_similarity,{},0.931572
+224,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.424000
+224,02,chord_substitution,transformed,harmonic_edit_distance,{},0.755556
+224,02,chord_substitution,transformed,pitch_class_similarity,{},0.764550
+224,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+224,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+224,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+224,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.589286
+224,02,reharmonization,transformed,harmonic_edit_distance,{},0.755556
+224,02,reharmonization,transformed,pitch_class_similarity,{},0.767513
+224,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.695238
+224,02,simplification,transformed,harmonic_edit_distance,{},0.900000
+224,02,simplification,transformed,pitch_class_similarity,{},0.947222
+226,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.395604
+226,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+226,01,chord_substitution,transformed,pitch_class_similarity,{},0.776711
+226,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+226,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+226,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+226,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.587500
+226,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+226,01,reharmonization,transformed,pitch_class_similarity,{},0.756324
+226,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.451429
+226,01,simplification,transformed,harmonic_edit_distance,{},0.781250
+226,01,simplification,transformed,pitch_class_similarity,{},0.878255
+226,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.383784
+226,02,chord_substitution,transformed,harmonic_edit_distance,{},0.751938
+226,02,chord_substitution,transformed,pitch_class_similarity,{},0.772093
+226,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+226,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+226,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+226,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.590062
+226,02,reharmonization,transformed,harmonic_edit_distance,{},0.759690
+226,02,reharmonization,transformed,pitch_class_similarity,{},0.771059
+226,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.532934
+226,02,simplification,transformed,harmonic_edit_distance,{},0.837209
+226,02,simplification,transformed,pitch_class_similarity,{},0.926357
+229,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.400000
+229,01,chord_substitution,transformed,harmonic_edit_distance,{},0.754386
+229,01,chord_substitution,transformed,pitch_class_similarity,{},0.760234
+229,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+229,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+229,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+229,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.577465
+229,01,reharmonization,transformed,harmonic_edit_distance,{},0.754386
+229,01,reharmonization,transformed,pitch_class_similarity,{},0.754386
+229,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.671642
+229,01,simplification,transformed,harmonic_edit_distance,{},0.894737
+229,01,simplification,transformed,pitch_class_similarity,{},0.956140
+229,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.392405
+229,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+229,02,chord_substitution,transformed,pitch_class_similarity,{},0.750000
+229,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+229,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+229,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+229,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.571429
+229,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+229,02,reharmonization,transformed,pitch_class_similarity,{},0.750000
+229,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+229,02,simplification,transformed,harmonic_edit_distance,{},1.000000
+229,02,simplification,transformed,pitch_class_similarity,{},1.000000
+234,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+234,01,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+234,01,chord_substitution,transformed,pitch_class_similarity,{},0.784993
+234,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+234,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+234,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+234,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.585366
+234,01,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+234,01,reharmonization,transformed,pitch_class_similarity,{},0.762626
+234,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.625000
+234,01,simplification,transformed,harmonic_edit_distance,{},0.863636
+234,01,simplification,transformed,pitch_class_similarity,{},0.916667
+234,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.436893
+234,02,chord_substitution,transformed,harmonic_edit_distance,{},0.746667
+234,02,chord_substitution,transformed,pitch_class_similarity,{},0.767111
+234,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+234,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+234,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+234,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.626374
+234,02,reharmonization,transformed,harmonic_edit_distance,{},0.773333
+234,02,reharmonization,transformed,pitch_class_similarity,{},0.746667
+234,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.574468
+234,02,simplification,transformed,harmonic_edit_distance,{},0.853333
+234,02,simplification,transformed,pitch_class_similarity,{},0.916667
+239,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+239,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+239,01,chord_substitution,transformed,pitch_class_similarity,{},0.770929
+239,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+239,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+239,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+239,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.584000
+239,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+239,01,reharmonization,transformed,pitch_class_similarity,{},0.770881
+239,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.636364
+239,01,simplification,transformed,harmonic_edit_distance,{},0.880000
+239,01,simplification,transformed,pitch_class_similarity,{},0.922833
+239,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.395833
+239,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+239,02,chord_substitution,transformed,pitch_class_similarity,{},0.771989
+239,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+239,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+239,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+239,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.576471
+239,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+239,02,reharmonization,transformed,pitch_class_similarity,{},0.752941
+239,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.576471
+239,02,simplification,transformed,harmonic_edit_distance,{},0.852941
+239,02,simplification,transformed,pitch_class_similarity,{},0.913480
+251,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.370787
+251,01,chord_substitution,transformed,harmonic_edit_distance,{},0.741935
+251,01,chord_substitution,transformed,pitch_class_similarity,{},0.755914
+251,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+251,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+251,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+251,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.564103
+251,01,reharmonization,transformed,harmonic_edit_distance,{},0.741935
+251,01,reharmonization,transformed,pitch_class_similarity,{},0.747312
+251,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.469880
+251,01,simplification,transformed,harmonic_edit_distance,{},0.806452
+251,01,simplification,transformed,pitch_class_similarity,{},0.909946
+251,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.393939
+251,02,chord_substitution,transformed,harmonic_edit_distance,{},0.742857
+251,02,chord_substitution,transformed,pitch_class_similarity,{},0.747619
+251,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+251,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+251,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+251,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.568182
+251,02,reharmonization,transformed,harmonic_edit_distance,{},0.742857
+251,02,reharmonization,transformed,pitch_class_similarity,{},0.755238
+251,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.516484
+251,02,simplification,transformed,harmonic_edit_distance,{},0.814286
+251,02,simplification,transformed,pitch_class_similarity,{},0.913095
+271,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.444444
+271,01,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+271,01,chord_substitution,transformed,pitch_class_similarity,{},0.770707
+271,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+271,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+271,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+271,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.585366
+271,01,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+271,01,reharmonization,transformed,pitch_class_similarity,{},0.762626
+271,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.585366
+271,01,simplification,transformed,harmonic_edit_distance,{},0.848485
+271,01,simplification,transformed,pitch_class_similarity,{},0.934343
+271,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405941
+271,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+271,02,chord_substitution,transformed,pitch_class_similarity,{},0.772354
+271,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+271,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+271,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+271,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.577778
+271,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+271,02,reharmonization,transformed,pitch_class_similarity,{},0.764947
+271,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.632184
+271,02,simplification,transformed,harmonic_edit_distance,{},0.875000
+271,02,simplification,transformed,pitch_class_similarity,{},0.935185
+274,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.376623
+274,01,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+274,01,chord_substitution,transformed,pitch_class_similarity,{},0.760670
+274,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+274,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+274,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+274,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.582090
+274,01,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+274,01,reharmonization,transformed,pitch_class_similarity,{},0.761728
+274,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.606061
+274,01,simplification,transformed,harmonic_edit_distance,{},0.870370
+274,01,simplification,transformed,pitch_class_similarity,{},0.918210
+274,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.377778
+274,02,chord_substitution,transformed,harmonic_edit_distance,{},0.746032
+274,02,chord_substitution,transformed,pitch_class_similarity,{},0.771580
+274,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+274,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+274,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+274,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.569620
+274,02,reharmonization,transformed,harmonic_edit_distance,{},0.746032
+274,02,reharmonization,transformed,pitch_class_similarity,{},0.769312
+274,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.610390
+274,02,simplification,transformed,harmonic_edit_distance,{},0.873016
+274,02,simplification,transformed,pitch_class_similarity,{},0.921958
+282,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.431373
+282,01,chord_substitution,transformed,harmonic_edit_distance,{},0.756757
+282,01,chord_substitution,transformed,pitch_class_similarity,{},0.763192
+282,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+282,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+282,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+282,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.586957
+282,01,reharmonization,transformed,harmonic_edit_distance,{},0.756757
+282,01,reharmonization,transformed,pitch_class_similarity,{},0.761261
+282,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.604396
+282,01,simplification,transformed,harmonic_edit_distance,{},0.864865
+282,01,simplification,transformed,pitch_class_similarity,{},0.947072
+282,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.400000
+282,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+282,02,chord_substitution,transformed,pitch_class_similarity,{},0.770497
+282,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+282,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+282,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+282,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.582609
+282,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+282,02,reharmonization,transformed,pitch_class_similarity,{},0.766736
+282,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.582609
+282,02,simplification,transformed,harmonic_edit_distance,{},0.858696
+282,02,simplification,transformed,pitch_class_similarity,{},0.919384
+285,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.431193
+285,01,chord_substitution,transformed,harmonic_edit_distance,{},0.746835
+285,01,chord_substitution,transformed,pitch_class_similarity,{},0.769319
+285,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+285,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+285,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+285,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.591837
+285,01,reharmonization,transformed,harmonic_edit_distance,{},0.746835
+285,01,reharmonization,transformed,pitch_class_similarity,{},0.754430
+285,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.642105
+285,01,simplification,transformed,harmonic_edit_distance,{},0.886076
+285,01,simplification,transformed,pitch_class_similarity,{},0.932489
+285,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.393258
+285,02,chord_substitution,transformed,harmonic_edit_distance,{},0.752000
+285,02,chord_substitution,transformed,pitch_class_similarity,{},0.770133
+285,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+285,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+285,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+285,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+285,02,reharmonization,transformed,harmonic_edit_distance,{},0.776000
+285,02,reharmonization,transformed,pitch_class_similarity,{},0.753600
+285,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.722222
+285,02,simplification,transformed,harmonic_edit_distance,{},0.920000
+285,02,simplification,transformed,pitch_class_similarity,{},0.947333
+297,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.384615
+297,01,chord_substitution,transformed,harmonic_edit_distance,{},0.745455
+297,01,chord_substitution,transformed,pitch_class_similarity,{},0.775758
+297,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+297,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+297,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+297,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+297,01,reharmonization,transformed,harmonic_edit_distance,{},0.745455
+297,01,reharmonization,transformed,pitch_class_similarity,{},0.771082
+297,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+297,01,simplification,transformed,harmonic_edit_distance,{},0.836364
+297,01,simplification,transformed,pitch_class_similarity,{},0.898485
+297,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.400000
+297,02,chord_substitution,transformed,harmonic_edit_distance,{},0.754386
+297,02,chord_substitution,transformed,pitch_class_similarity,{},0.781454
+297,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+297,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+297,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+297,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.577465
+297,02,reharmonization,transformed,harmonic_edit_distance,{},0.754386
+297,02,reharmonization,transformed,pitch_class_similarity,{},0.787135
+297,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.513514
+297,02,simplification,transformed,harmonic_edit_distance,{},0.842105
+297,02,simplification,transformed,pitch_class_similarity,{},0.903509
+301,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.394286
+301,01,chord_substitution,transformed,harmonic_edit_distance,{},0.747967
+301,01,chord_substitution,transformed,pitch_class_similarity,{},0.760434
+301,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+301,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+301,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+301,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.594771
+301,01,reharmonization,transformed,harmonic_edit_distance,{},0.747967
+301,01,reharmonization,transformed,pitch_class_similarity,{},0.761595
+301,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.768116
+301,01,simplification,transformed,harmonic_edit_distance,{},0.934959
+301,01,simplification,transformed,pitch_class_similarity,{},0.961382
+301,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.424000
+301,02,chord_substitution,transformed,harmonic_edit_distance,{},0.755556
+301,02,chord_substitution,transformed,pitch_class_similarity,{},0.779365
+301,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+301,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+301,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+301,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.589286
+301,02,reharmonization,transformed,harmonic_edit_distance,{},0.755556
+301,02,reharmonization,transformed,pitch_class_similarity,{},0.771217
+301,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.575221
+301,02,simplification,transformed,harmonic_edit_distance,{},0.844444
+301,02,simplification,transformed,pitch_class_similarity,{},0.907407
+345,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.384615
+345,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+345,01,chord_substitution,transformed,pitch_class_similarity,{},0.776190
+345,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+345,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+345,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+345,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575000
+345,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+345,01,reharmonization,transformed,pitch_class_similarity,{},0.758333
+345,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.575000
+345,01,simplification,transformed,harmonic_edit_distance,{},0.843750
+345,01,simplification,transformed,pitch_class_similarity,{},0.938802
+345,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.423423
+345,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+345,02,chord_substitution,transformed,pitch_class_similarity,{},0.767500
+345,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+345,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+345,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+345,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.580000
+345,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+345,02,reharmonization,transformed,pitch_class_similarity,{},0.767083
+345,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.549020
+345,02,simplification,transformed,harmonic_edit_distance,{},0.837500
+345,02,simplification,transformed,pitch_class_similarity,{},0.920833
+349,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.402985
+349,01,chord_substitution,transformed,harmonic_edit_distance,{},0.747368
+349,01,chord_substitution,transformed,pitch_class_similarity,{},0.762105
+349,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+349,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+349,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+349,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.579832
+349,01,reharmonization,transformed,harmonic_edit_distance,{},0.747368
+349,01,reharmonization,transformed,pitch_class_similarity,{},0.755990
+349,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.663717
+349,01,simplification,transformed,harmonic_edit_distance,{},0.894737
+349,01,simplification,transformed,pitch_class_similarity,{},0.945614
+349,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.383562
+349,02,chord_substitution,transformed,harmonic_edit_distance,{},0.745098
+349,02,chord_substitution,transformed,pitch_class_similarity,{},0.755556
+349,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+349,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+349,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+349,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.578125
+349,02,reharmonization,transformed,harmonic_edit_distance,{},0.745098
+349,02,reharmonization,transformed,pitch_class_similarity,{},0.748366
+349,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.655738
+349,02,simplification,transformed,harmonic_edit_distance,{},0.892157
+349,02,simplification,transformed,pitch_class_similarity,{},0.946078
+353,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+353,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+353,01,chord_substitution,transformed,pitch_class_similarity,{},0.762319
+353,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+353,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+353,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+353,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+353,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+353,01,reharmonization,transformed,pitch_class_similarity,{},0.762319
+353,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.629630
+353,01,simplification,transformed,harmonic_edit_distance,{},0.869565
+353,01,simplification,transformed,pitch_class_similarity,{},0.927536
+353,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+353,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+353,02,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+353,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+353,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+353,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+353,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+353,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+353,02,reharmonization,transformed,pitch_class_similarity,{},0.766667
+353,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+353,02,simplification,transformed,harmonic_edit_distance,{},0.800000
+353,02,simplification,transformed,pitch_class_similarity,{},0.916667
+364,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+364,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+364,01,chord_substitution,transformed,pitch_class_similarity,{},0.763889
+364,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+364,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+364,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+364,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+364,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+364,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+364,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.483871
+364,01,simplification,transformed,harmonic_edit_distance,{},0.791667
+364,01,simplification,transformed,pitch_class_similarity,{},0.916667
+364,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+364,02,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+364,02,chord_substitution,transformed,pitch_class_similarity,{},0.765432
+364,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+364,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+364,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+364,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+364,02,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+364,02,reharmonization,transformed,pitch_class_similarity,{},0.753086
+364,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+364,02,simplification,transformed,harmonic_edit_distance,{},0.851852
+364,02,simplification,transformed,pitch_class_similarity,{},0.944444
+368,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+368,01,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+368,01,chord_substitution,transformed,pitch_class_similarity,{},0.727273
+368,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+368,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+368,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+368,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+368,01,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+368,01,reharmonization,transformed,pitch_class_similarity,{},0.742424
+368,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.615385
+368,01,simplification,transformed,harmonic_edit_distance,{},0.863636
+368,01,simplification,transformed,pitch_class_similarity,{},0.931818
+368,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+368,02,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+368,02,chord_substitution,transformed,pitch_class_similarity,{},0.740260
+368,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+368,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+368,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+368,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+368,02,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+368,02,reharmonization,transformed,pitch_class_similarity,{},0.727273
+368,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.818182
+368,02,simplification,transformed,harmonic_edit_distance,{},0.909091
+368,02,simplification,transformed,pitch_class_similarity,{},0.931818
+371,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+371,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+371,01,chord_substitution,transformed,pitch_class_similarity,{},0.794444
+371,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+371,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+371,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+371,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+371,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+371,01,reharmonization,transformed,pitch_class_similarity,{},0.786111
+371,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.483871
+371,01,simplification,transformed,harmonic_edit_distance,{},0.791667
+371,01,simplification,transformed,pitch_class_similarity,{},0.871528
+371,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+371,02,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+371,02,chord_substitution,transformed,pitch_class_similarity,{},0.782716
+371,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+371,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+371,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+371,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+371,02,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+371,02,reharmonization,transformed,pitch_class_similarity,{},0.748148
+371,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.485714
+371,02,simplification,transformed,harmonic_edit_distance,{},0.814815
+371,02,simplification,transformed,pitch_class_similarity,{},0.873457
+374,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+374,01,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+374,01,chord_substitution,transformed,pitch_class_similarity,{},0.796296
+374,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+374,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+374,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+374,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+374,01,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+374,01,reharmonization,transformed,pitch_class_similarity,{},0.796296
+374,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.619048
+374,01,simplification,transformed,harmonic_edit_distance,{},0.833333
+374,01,simplification,transformed,pitch_class_similarity,{},0.944444
+374,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+374,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+374,02,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+374,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+374,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+374,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+374,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+374,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+374,02,reharmonization,transformed,pitch_class_similarity,{},0.750000
+374,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.900000
+374,02,simplification,transformed,harmonic_edit_distance,{},0.950000
+374,02,simplification,transformed,pitch_class_similarity,{},0.966667
+380,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+380,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+380,01,chord_substitution,transformed,pitch_class_similarity,{},0.759834
+380,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+380,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+380,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+380,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+380,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+380,01,reharmonization,transformed,pitch_class_similarity,{},0.759834
+380,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.760000
+380,01,simplification,transformed,harmonic_edit_distance,{},0.913043
+380,01,simplification,transformed,pitch_class_similarity,{},0.945652
+380,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.395349
+380,02,chord_substitution,transformed,harmonic_edit_distance,{},0.741935
+380,02,chord_substitution,transformed,pitch_class_similarity,{},0.752688
+380,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+380,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+380,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+380,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+380,02,reharmonization,transformed,harmonic_edit_distance,{},0.741935
+380,02,reharmonization,transformed,pitch_class_similarity,{},0.741935
+380,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.935484
+380,02,simplification,transformed,harmonic_edit_distance,{},0.967742
+380,02,simplification,transformed,pitch_class_similarity,{},0.975806
+388,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+388,01,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+388,01,chord_substitution,transformed,pitch_class_similarity,{},0.777778
+388,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+388,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+388,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+388,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+388,01,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+388,01,reharmonization,transformed,pitch_class_similarity,{},0.777778
+388,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+388,01,simplification,transformed,harmonic_edit_distance,{},1.000000
+388,01,simplification,transformed,pitch_class_similarity,{},1.000000
+388,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+388,02,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+388,02,chord_substitution,transformed,pitch_class_similarity,{},0.777778
+388,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+388,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+388,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+388,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+388,02,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+388,02,reharmonization,transformed,pitch_class_similarity,{},0.777778
+388,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+388,02,simplification,transformed,harmonic_edit_distance,{},1.000000
+388,02,simplification,transformed,pitch_class_similarity,{},1.000000
+390,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+390,01,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+390,01,chord_substitution,transformed,pitch_class_similarity,{},0.727273
+390,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+390,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+390,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+390,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+390,01,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+390,01,reharmonization,transformed,pitch_class_similarity,{},0.727273
+390,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+390,01,simplification,transformed,harmonic_edit_distance,{},1.000000
+390,01,simplification,transformed,pitch_class_similarity,{},1.000000
+390,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.360000
+390,02,chord_substitution,transformed,harmonic_edit_distance,{},0.742857
+390,02,chord_substitution,transformed,pitch_class_similarity,{},0.742857
+390,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+390,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+390,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+390,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+390,02,reharmonization,transformed,harmonic_edit_distance,{},0.742857
+390,02,reharmonization,transformed,pitch_class_similarity,{},0.761905
+390,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+390,02,simplification,transformed,harmonic_edit_distance,{},1.000000
+390,02,simplification,transformed,pitch_class_similarity,{},1.000000
+430,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+430,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+430,01,chord_substitution,transformed,pitch_class_similarity,{},0.771429
+430,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+430,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+430,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+430,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+430,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+430,01,reharmonization,transformed,pitch_class_similarity,{},0.795833
+430,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+430,01,simplification,transformed,harmonic_edit_distance,{},0.750000
+430,01,simplification,transformed,pitch_class_similarity,{},0.880208
+430,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+430,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+430,02,chord_substitution,transformed,pitch_class_similarity,{},0.744361
+430,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+430,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+430,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+430,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+430,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+430,02,reharmonization,transformed,pitch_class_similarity,{},0.736842
+430,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.714286
+430,02,simplification,transformed,harmonic_edit_distance,{},0.894737
+430,02,simplification,transformed,pitch_class_similarity,{},0.925439
+433,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.409091
+433,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+433,01,chord_substitution,transformed,pitch_class_similarity,{},0.756250
+433,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+433,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+433,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+433,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.550000
+433,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+433,01,reharmonization,transformed,pitch_class_similarity,{},0.773810
+433,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.589744
+433,01,simplification,transformed,harmonic_edit_distance,{},0.843750
+433,01,simplification,transformed,pitch_class_similarity,{},0.932292
+433,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.395349
+433,02,chord_substitution,transformed,harmonic_edit_distance,{},0.741935
+433,02,chord_substitution,transformed,pitch_class_similarity,{},0.767204
+433,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+433,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+433,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+433,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+433,02,reharmonization,transformed,harmonic_edit_distance,{},0.741935
+433,02,reharmonization,transformed,pitch_class_similarity,{},0.759140
+433,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+433,02,simplification,transformed,harmonic_edit_distance,{},0.838710
+433,02,simplification,transformed,pitch_class_similarity,{},0.898925
+460,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+460,01,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+460,01,chord_substitution,transformed,pitch_class_similarity,{},0.745455
+460,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+460,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+460,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+460,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+460,01,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+460,01,reharmonization,transformed,pitch_class_similarity,{},0.736364
+460,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.680000
+460,01,simplification,transformed,harmonic_edit_distance,{},0.909091
+460,01,simplification,transformed,pitch_class_similarity,{},0.939394
+460,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+460,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+460,02,chord_substitution,transformed,pitch_class_similarity,{},0.797436
+460,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+460,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+460,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+460,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+460,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+460,02,reharmonization,transformed,pitch_class_similarity,{},0.782051
+460,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.515152
+460,02,simplification,transformed,harmonic_edit_distance,{},0.807692
+460,02,simplification,transformed,pitch_class_similarity,{},0.910256
+465,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+465,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+465,01,chord_substitution,transformed,pitch_class_similarity,{},0.766667
+465,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+465,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+465,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+465,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+465,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+465,01,reharmonization,transformed,pitch_class_similarity,{},0.758333
+465,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.483871
+465,01,simplification,transformed,harmonic_edit_distance,{},0.791667
+465,01,simplification,transformed,pitch_class_similarity,{},0.881944
+465,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+465,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+465,02,chord_substitution,transformed,pitch_class_similarity,{},0.747368
+465,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+465,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+465,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+465,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+465,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+465,02,reharmonization,transformed,pitch_class_similarity,{},0.754386
+465,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.636364
+465,02,simplification,transformed,harmonic_edit_distance,{},0.894737
+465,02,simplification,transformed,pitch_class_similarity,{},0.964912
+471,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.409091
+471,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+471,01,chord_substitution,transformed,pitch_class_similarity,{},0.777083
+471,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+471,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+471,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+471,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.550000
+471,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+471,01,reharmonization,transformed,pitch_class_similarity,{},0.766667
+471,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.476190
+471,01,simplification,transformed,harmonic_edit_distance,{},0.812500
+471,01,simplification,transformed,pitch_class_similarity,{},0.895833
+471,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+471,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+471,02,chord_substitution,transformed,pitch_class_similarity,{},0.747368
+471,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+471,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+471,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+471,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+471,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+471,02,reharmonization,transformed,pitch_class_similarity,{},0.754386
+471,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+471,02,simplification,transformed,harmonic_edit_distance,{},0.842105
+471,02,simplification,transformed,pitch_class_similarity,{},0.938596
+518,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+518,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+518,01,chord_substitution,transformed,pitch_class_similarity,{},0.762319
+518,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+518,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+518,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+518,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+518,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+518,01,reharmonization,transformed,pitch_class_similarity,{},0.739130
+518,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.760000
+518,01,simplification,transformed,harmonic_edit_distance,{},0.913043
+518,01,simplification,transformed,pitch_class_similarity,{},0.949275
+518,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+518,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+518,02,chord_substitution,transformed,pitch_class_similarity,{},0.796639
+518,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+518,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+518,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+518,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+518,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+518,02,reharmonization,transformed,pitch_class_similarity,{},0.764706
+518,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+518,02,simplification,transformed,harmonic_edit_distance,{},0.764706
+518,02,simplification,transformed,pitch_class_similarity,{},0.877451
+547,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.368421
+547,01,chord_substitution,transformed,harmonic_edit_distance,{},0.714286
+547,01,chord_substitution,transformed,pitch_class_similarity,{},0.714286
+547,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+547,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+547,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+547,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.529412
+547,01,reharmonization,transformed,harmonic_edit_distance,{},0.714286
+547,01,reharmonization,transformed,pitch_class_similarity,{},0.738095
+547,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.529412
+547,01,simplification,transformed,harmonic_edit_distance,{},0.857143
+547,01,simplification,transformed,pitch_class_similarity,{},0.916667
+547,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+547,02,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+547,02,chord_substitution,transformed,pitch_class_similarity,{},0.755556
+547,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+547,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+547,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+547,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+547,02,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+547,02,reharmonization,transformed,pitch_class_similarity,{},0.755556
+547,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.555556
+547,02,simplification,transformed,harmonic_edit_distance,{},0.800000
+547,02,simplification,transformed,pitch_class_similarity,{},0.900000
+550,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+550,01,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+550,01,chord_substitution,transformed,pitch_class_similarity,{},0.746032
+550,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+550,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+550,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+550,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+550,01,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+550,01,reharmonization,transformed,pitch_class_similarity,{},0.777778
+550,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.625000
+550,01,simplification,transformed,harmonic_edit_distance,{},0.851852
+550,01,simplification,transformed,pitch_class_similarity,{},0.916667
+550,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+550,02,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+550,02,chord_substitution,transformed,pitch_class_similarity,{},0.771429
+550,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+550,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+550,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+550,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+550,02,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+550,02,reharmonization,transformed,pitch_class_similarity,{},0.761905
+550,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.904762
+550,02,simplification,transformed,harmonic_edit_distance,{},0.952381
+550,02,simplification,transformed,pitch_class_similarity,{},0.968254
+559,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+559,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+559,01,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+559,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+559,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+559,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+559,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+559,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+559,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+559,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.900000
+559,01,simplification,transformed,harmonic_edit_distance,{},0.950000
+559,01,simplification,transformed,pitch_class_similarity,{},0.966667
+559,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+559,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+559,02,chord_substitution,transformed,pitch_class_similarity,{},0.747368
+559,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+559,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+559,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+559,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+559,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+559,02,reharmonization,transformed,pitch_class_similarity,{},0.757895
+559,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+559,02,simplification,transformed,harmonic_edit_distance,{},0.842105
+559,02,simplification,transformed,pitch_class_similarity,{},0.912281
+566,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+566,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+566,01,chord_substitution,transformed,pitch_class_similarity,{},0.771333
+566,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+566,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+566,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+566,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.584000
+566,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+566,01,reharmonization,transformed,pitch_class_similarity,{},0.767000
+566,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.584000
+566,01,simplification,transformed,harmonic_edit_distance,{},0.860000
+566,01,simplification,transformed,pitch_class_similarity,{},0.926667
+566,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.387097
+566,02,chord_substitution,transformed,harmonic_edit_distance,{},0.747126
+566,02,chord_substitution,transformed,pitch_class_similarity,{},0.784674
+566,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+566,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+566,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+566,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.577982
+566,02,reharmonization,transformed,harmonic_edit_distance,{},0.747126
+566,02,reharmonization,transformed,pitch_class_similarity,{},0.764860
+566,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.457627
+566,02,simplification,transformed,harmonic_edit_distance,{},0.793103
+566,02,simplification,transformed,pitch_class_similarity,{},0.888889
+575,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+575,01,chord_substitution,transformed,harmonic_edit_distance,{},0.758621
+575,01,chord_substitution,transformed,pitch_class_similarity,{},0.758621
+575,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+575,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+575,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+575,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.605634
+575,01,reharmonization,transformed,harmonic_edit_distance,{},0.775862
+575,01,reharmonization,transformed,pitch_class_similarity,{},0.764368
+575,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.932203
+575,01,simplification,transformed,harmonic_edit_distance,{},0.982759
+575,01,simplification,transformed,pitch_class_similarity,{},0.991379
+575,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.411765
+575,02,chord_substitution,transformed,harmonic_edit_distance,{},0.755102
+575,02,chord_substitution,transformed,pitch_class_similarity,{},0.755102
+575,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+575,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+575,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+575,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.573770
+575,02,reharmonization,transformed,harmonic_edit_distance,{},0.755102
+575,02,reharmonization,transformed,pitch_class_similarity,{},0.755102
+575,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.846154
+575,02,simplification,transformed,harmonic_edit_distance,{},0.959184
+575,02,simplification,transformed,pitch_class_similarity,{},0.989796
+592,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+592,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+592,01,chord_substitution,transformed,pitch_class_similarity,{},0.764706
+592,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+592,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+592,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+592,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+592,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+592,01,reharmonization,transformed,pitch_class_similarity,{},0.764706
+592,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+592,01,simplification,transformed,harmonic_edit_distance,{},0.823529
+592,01,simplification,transformed,pitch_class_similarity,{},0.911765
+592,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+592,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+592,02,chord_substitution,transformed,pitch_class_similarity,{},0.794872
+592,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+592,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+592,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+592,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+592,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+592,02,reharmonization,transformed,pitch_class_similarity,{},0.769231
+592,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.846154
+592,02,simplification,transformed,harmonic_edit_distance,{},0.923077
+592,02,simplification,transformed,pitch_class_similarity,{},0.942308
+604,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+604,01,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+604,01,chord_substitution,transformed,pitch_class_similarity,{},0.747826
+604,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+604,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+604,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+604,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+604,01,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+604,01,reharmonization,transformed,pitch_class_similarity,{},0.739130
+604,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.760000
+604,01,simplification,transformed,harmonic_edit_distance,{},0.913043
+604,01,simplification,transformed,pitch_class_similarity,{},0.949275
+604,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.461538
+604,02,chord_substitution,transformed,harmonic_edit_distance,{},0.743590
+604,02,chord_substitution,transformed,pitch_class_similarity,{},0.743590
+604,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+604,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+604,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+604,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.551020
+604,02,reharmonization,transformed,harmonic_edit_distance,{},0.743590
+604,02,reharmonization,transformed,pitch_class_similarity,{},0.743590
+604,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.900000
+604,02,simplification,transformed,harmonic_edit_distance,{},0.974359
+604,02,simplification,transformed,pitch_class_similarity,{},1.000000
+605,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.419355
+605,01,chord_substitution,transformed,harmonic_edit_distance,{},0.746269
+605,01,chord_substitution,transformed,pitch_class_similarity,{},0.746269
+605,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+605,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+605,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+605,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.571429
+605,01,reharmonization,transformed,harmonic_edit_distance,{},0.746269
+605,01,reharmonization,transformed,pitch_class_similarity,{},0.746269
+605,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+605,01,simplification,transformed,harmonic_edit_distance,{},1.000000
+605,01,simplification,transformed,pitch_class_similarity,{},1.000000
+605,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.376623
+605,02,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+605,02,chord_substitution,transformed,pitch_class_similarity,{},0.740741
+605,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+605,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+605,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+605,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.582090
+605,02,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+605,02,reharmonization,transformed,pitch_class_similarity,{},0.740741
+605,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+605,02,simplification,transformed,harmonic_edit_distance,{},1.000000
+605,02,simplification,transformed,pitch_class_similarity,{},1.000000
+617,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+617,01,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+617,01,chord_substitution,transformed,pitch_class_similarity,{},0.791667
+617,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+617,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+617,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+617,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+617,01,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+617,01,reharmonization,transformed,pitch_class_similarity,{},0.793407
+617,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.666667
+617,01,simplification,transformed,harmonic_edit_distance,{},0.884615
+617,01,simplification,transformed,pitch_class_similarity,{},0.924359
+617,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+617,02,chord_substitution,transformed,harmonic_edit_distance,{},0.760000
+617,02,chord_substitution,transformed,pitch_class_similarity,{},0.773333
+617,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+617,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+617,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+617,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.548387
+617,02,reharmonization,transformed,harmonic_edit_distance,{},0.760000
+617,02,reharmonization,transformed,pitch_class_similarity,{},0.773333
+617,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.777778
+617,02,simplification,transformed,harmonic_edit_distance,{},0.920000
+617,02,simplification,transformed,pitch_class_similarity,{},0.960000
+619,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+619,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+619,01,chord_substitution,transformed,pitch_class_similarity,{},0.784314
+619,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+619,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+619,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+619,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+619,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+619,01,reharmonization,transformed,pitch_class_similarity,{},0.776471
+619,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+619,01,simplification,transformed,harmonic_edit_distance,{},0.764706
+619,01,simplification,transformed,pitch_class_similarity,{},0.911765
+619,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+619,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+619,02,chord_substitution,transformed,pitch_class_similarity,{},0.764912
+619,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+619,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+619,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+619,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+619,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+619,02,reharmonization,transformed,pitch_class_similarity,{},0.771930
+619,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+619,02,simplification,transformed,harmonic_edit_distance,{},0.842105
+619,02,simplification,transformed,pitch_class_similarity,{},0.912281
+624,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.426230
+624,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+624,01,chord_substitution,transformed,pitch_class_similarity,{},0.750000
+624,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+624,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+624,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+624,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.581818
+624,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+624,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+624,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.955056
+624,01,simplification,transformed,harmonic_edit_distance,{},0.988636
+624,01,simplification,transformed,pitch_class_similarity,{},0.994318
+624,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.451957
+624,02,chord_substitution,transformed,harmonic_edit_distance,{},0.751220
+624,02,chord_substitution,transformed,pitch_class_similarity,{},0.753821
+624,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+624,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+624,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+624,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.593750
+624,02,reharmonization,transformed,harmonic_edit_distance,{},0.760976
+624,02,reharmonization,transformed,pitch_class_similarity,{},0.751220
+624,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.924528
+624,02,simplification,transformed,harmonic_edit_distance,{},0.980488
+624,02,simplification,transformed,pitch_class_similarity,{},0.989431
+634,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+634,01,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+634,01,chord_substitution,transformed,pitch_class_similarity,{},0.771429
+634,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+634,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+634,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+634,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+634,01,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+634,01,reharmonization,transformed,pitch_class_similarity,{},0.761905
+634,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.818182
+634,01,simplification,transformed,harmonic_edit_distance,{},0.904762
+634,01,simplification,transformed,pitch_class_similarity,{},0.944444
+634,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.368421
+634,02,chord_substitution,transformed,harmonic_edit_distance,{},0.714286
+634,02,chord_substitution,transformed,pitch_class_similarity,{},0.738095
+634,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+634,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+634,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+634,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.529412
+634,02,reharmonization,transformed,harmonic_edit_distance,{},0.714286
+634,02,reharmonization,transformed,pitch_class_similarity,{},0.728571
+634,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.625000
+634,02,simplification,transformed,harmonic_edit_distance,{},0.857143
+634,02,simplification,transformed,pitch_class_similarity,{},0.928571
+644,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.384615
+644,01,chord_substitution,transformed,harmonic_edit_distance,{},0.756757
+644,01,chord_substitution,transformed,pitch_class_similarity,{},0.783784
+644,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+644,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+644,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+644,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+644,01,reharmonization,transformed,harmonic_edit_distance,{},0.756757
+644,01,reharmonization,transformed,pitch_class_similarity,{},0.762162
+644,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.636364
+644,01,simplification,transformed,harmonic_edit_distance,{},0.891892
+644,01,simplification,transformed,pitch_class_similarity,{},0.945946
+644,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+644,02,chord_substitution,transformed,harmonic_edit_distance,{},0.756098
+644,02,chord_substitution,transformed,pitch_class_similarity,{},0.764228
+644,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+644,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+644,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+644,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.568627
+644,02,reharmonization,transformed,harmonic_edit_distance,{},0.756098
+644,02,reharmonization,transformed,pitch_class_similarity,{},0.764228
+644,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.777778
+644,02,simplification,transformed,harmonic_edit_distance,{},0.926829
+644,02,simplification,transformed,pitch_class_similarity,{},0.975610
+651,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.414634
+651,01,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+651,01,chord_substitution,transformed,pitch_class_similarity,{},0.762222
+651,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+651,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+651,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+651,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.526316
+651,01,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+651,01,reharmonization,transformed,pitch_class_similarity,{},0.744444
+651,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.611111
+651,01,simplification,transformed,harmonic_edit_distance,{},0.866667
+651,01,simplification,transformed,pitch_class_similarity,{},0.919444
+651,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+651,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+651,02,chord_substitution,transformed,pitch_class_similarity,{},0.775758
+651,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+651,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+651,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+651,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+651,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+651,02,reharmonization,transformed,pitch_class_similarity,{},0.792929
+651,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+651,02,simplification,transformed,harmonic_edit_distance,{},0.818182
+651,02,simplification,transformed,pitch_class_similarity,{},0.924242
+655,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+655,01,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+655,01,chord_substitution,transformed,pitch_class_similarity,{},0.795604
+655,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+655,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+655,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+655,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+655,01,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+655,01,reharmonization,transformed,pitch_class_similarity,{},0.784615
+655,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+655,01,simplification,transformed,harmonic_edit_distance,{},0.846154
+655,01,simplification,transformed,pitch_class_similarity,{},0.891026
+655,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+655,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+655,02,chord_substitution,transformed,pitch_class_similarity,{},0.796639
+655,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+655,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+655,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+655,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+655,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+655,02,reharmonization,transformed,pitch_class_similarity,{},0.796639
+655,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+655,02,simplification,transformed,harmonic_edit_distance,{},0.764706
+655,02,simplification,transformed,pitch_class_similarity,{},0.877451
+664,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+664,01,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+664,01,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+664,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+664,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+664,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+664,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+664,01,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+664,01,reharmonization,transformed,pitch_class_similarity,{},0.746667
+664,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+664,01,simplification,transformed,harmonic_edit_distance,{},0.733333
+664,01,simplification,transformed,pitch_class_similarity,{},0.877778
+664,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+664,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+664,02,chord_substitution,transformed,pitch_class_similarity,{},0.770833
+664,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+664,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+664,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+664,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+664,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+664,02,reharmonization,transformed,pitch_class_similarity,{},0.750000
+664,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.578947
+664,02,simplification,transformed,harmonic_edit_distance,{},0.812500
+664,02,simplification,transformed,pitch_class_similarity,{},0.895833
+666,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+666,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+666,01,chord_substitution,transformed,pitch_class_similarity,{},0.757143
+666,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+666,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+666,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+666,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+666,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+666,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+666,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.652174
+666,01,simplification,transformed,harmonic_edit_distance,{},0.850000
+666,01,simplification,transformed,pitch_class_similarity,{},0.937500
+666,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.375000
+666,02,chord_substitution,transformed,harmonic_edit_distance,{},0.739130
+666,02,chord_substitution,transformed,pitch_class_similarity,{},0.756522
+666,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+666,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+666,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+666,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.517241
+666,02,reharmonization,transformed,harmonic_edit_distance,{},0.739130
+666,02,reharmonization,transformed,pitch_class_similarity,{},0.747826
+666,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.629630
+666,02,simplification,transformed,harmonic_edit_distance,{},0.869565
+666,02,simplification,transformed,pitch_class_similarity,{},0.920290
+678,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+678,01,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+678,01,chord_substitution,transformed,pitch_class_similarity,{},0.780952
+678,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+678,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+678,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+678,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+678,01,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+678,01,reharmonization,transformed,pitch_class_similarity,{},0.771429
+678,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.739130
+678,01,simplification,transformed,harmonic_edit_distance,{},0.904762
+678,01,simplification,transformed,pitch_class_similarity,{},0.936508
+678,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+678,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+678,02,chord_substitution,transformed,pitch_class_similarity,{},0.772222
+678,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+678,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+678,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+678,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+678,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+678,02,reharmonization,transformed,pitch_class_similarity,{},0.777778
+678,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.586207
+678,02,simplification,transformed,harmonic_edit_distance,{},0.833333
+678,02,simplification,transformed,pitch_class_similarity,{},0.909722
+687,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+687,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+687,01,chord_substitution,transformed,pitch_class_similarity,{},0.788235
+687,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+687,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+687,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+687,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+687,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+687,01,reharmonization,transformed,pitch_class_similarity,{},0.784314
+687,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.684211
+687,01,simplification,transformed,harmonic_edit_distance,{},0.882353
+687,01,simplification,transformed,pitch_class_similarity,{},0.921569
+687,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+687,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+687,02,chord_substitution,transformed,pitch_class_similarity,{},0.764912
+687,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+687,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+687,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+687,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+687,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+687,02,reharmonization,transformed,pitch_class_similarity,{},0.771930
+687,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+687,02,simplification,transformed,harmonic_edit_distance,{},0.842105
+687,02,simplification,transformed,pitch_class_similarity,{},0.912281
+693,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+693,01,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+693,01,chord_substitution,transformed,pitch_class_similarity,{},0.780952
+693,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+693,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+693,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+693,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+693,01,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+693,01,reharmonization,transformed,pitch_class_similarity,{},0.780952
+693,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.600000
+693,01,simplification,transformed,harmonic_edit_distance,{},0.809524
+693,01,simplification,transformed,pitch_class_similarity,{},0.888889
+693,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+693,02,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+693,02,chord_substitution,transformed,pitch_class_similarity,{},0.780247
+693,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+693,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+693,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+693,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+693,02,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+693,02,reharmonization,transformed,pitch_class_similarity,{},0.748148
+693,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+693,02,simplification,transformed,harmonic_edit_distance,{},0.851852
+693,02,simplification,transformed,pitch_class_similarity,{},0.913580
+700,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+700,01,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+700,01,chord_substitution,transformed,pitch_class_similarity,{},0.785714
+700,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+700,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+700,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+700,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+700,01,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+700,01,reharmonization,transformed,pitch_class_similarity,{},0.777778
+700,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+700,01,simplification,transformed,harmonic_edit_distance,{},0.833333
+700,01,simplification,transformed,pitch_class_similarity,{},0.893519
+700,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+700,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+700,02,chord_substitution,transformed,pitch_class_similarity,{},0.788235
+700,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+700,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+700,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+700,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+700,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+700,02,reharmonization,transformed,pitch_class_similarity,{},0.794118
+700,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+700,02,simplification,transformed,harmonic_edit_distance,{},0.764706
+700,02,simplification,transformed,pitch_class_similarity,{},0.852941
+715,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+715,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+715,01,chord_substitution,transformed,pitch_class_similarity,{},0.758333
+715,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+715,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+715,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+715,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+715,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+715,01,reharmonization,transformed,pitch_class_similarity,{},0.758333
+715,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.769231
+715,01,simplification,transformed,harmonic_edit_distance,{},0.916667
+715,01,simplification,transformed,pitch_class_similarity,{},0.944444
+715,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+715,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+715,02,chord_substitution,transformed,pitch_class_similarity,{},0.758929
+715,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+715,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+715,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+715,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+715,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+715,02,reharmonization,transformed,pitch_class_similarity,{},0.770833
+715,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.666667
+715,02,simplification,transformed,harmonic_edit_distance,{},0.875000
+715,02,simplification,transformed,pitch_class_similarity,{},0.921875
+719,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.421053
+719,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+719,01,chord_substitution,transformed,pitch_class_similarity,{},0.776190
+719,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+719,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+719,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+719,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+719,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+719,01,reharmonization,transformed,pitch_class_similarity,{},0.761905
+719,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+719,01,simplification,transformed,harmonic_edit_distance,{},0.821429
+719,01,simplification,transformed,pitch_class_similarity,{},0.898810
+719,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.421053
+719,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+719,02,chord_substitution,transformed,pitch_class_similarity,{},0.757143
+719,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+719,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+719,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+719,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+719,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+719,02,reharmonization,transformed,pitch_class_similarity,{},0.750000
+719,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.542857
+719,02,simplification,transformed,harmonic_edit_distance,{},0.821429
+719,02,simplification,transformed,pitch_class_similarity,{},0.916667
+722,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.409091
+722,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+722,01,chord_substitution,transformed,pitch_class_similarity,{},0.756250
+722,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+722,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+722,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+722,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.550000
+722,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+722,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+722,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.823529
+722,01,simplification,transformed,harmonic_edit_distance,{},0.937500
+722,01,simplification,transformed,pitch_class_similarity,{},0.963542
+722,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+722,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+722,02,chord_substitution,transformed,pitch_class_similarity,{},0.757576
+722,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+722,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+722,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+722,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+722,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+722,02,reharmonization,transformed,pitch_class_similarity,{},0.757576
+722,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.684211
+722,02,simplification,transformed,harmonic_edit_distance,{},0.909091
+722,02,simplification,transformed,pitch_class_similarity,{},0.969697
+734,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+734,01,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+734,01,chord_substitution,transformed,pitch_class_similarity,{},0.767677
+734,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+734,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+734,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+734,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+734,01,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+734,01,reharmonization,transformed,pitch_class_similarity,{},0.767677
+734,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.422222
+734,01,simplification,transformed,harmonic_edit_distance,{},0.787879
+734,01,simplification,transformed,pitch_class_similarity,{},0.909091
+734,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+734,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+734,02,chord_substitution,transformed,pitch_class_similarity,{},0.773737
+734,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+734,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+734,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+734,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+734,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+734,02,reharmonization,transformed,pitch_class_similarity,{},0.757576
+734,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+734,02,simplification,transformed,harmonic_edit_distance,{},0.848485
+734,02,simplification,transformed,pitch_class_similarity,{},0.919192
+748,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+748,01,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+748,01,chord_substitution,transformed,pitch_class_similarity,{},0.757576
+748,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+748,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+748,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+748,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+748,01,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+748,01,reharmonization,transformed,pitch_class_similarity,{},0.757576
+748,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.882353
+748,01,simplification,transformed,harmonic_edit_distance,{},0.969697
+748,01,simplification,transformed,pitch_class_similarity,{},1.000000
+748,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.354839
+748,02,chord_substitution,transformed,harmonic_edit_distance,{},0.727273
+748,02,chord_substitution,transformed,pitch_class_similarity,{},0.736364
+748,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+748,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+748,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+748,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+748,02,reharmonization,transformed,harmonic_edit_distance,{},0.727273
+748,02,reharmonization,transformed,pitch_class_similarity,{},0.757576
+748,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.680000
+748,02,simplification,transformed,harmonic_edit_distance,{},0.863636
+748,02,simplification,transformed,pitch_class_similarity,{},0.924242
+755,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+755,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+755,01,chord_substitution,transformed,pitch_class_similarity,{},0.758333
+755,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+755,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+755,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+755,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+755,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+755,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+755,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.916667
+755,01,simplification,transformed,harmonic_edit_distance,{},0.958333
+755,01,simplification,transformed,pitch_class_similarity,{},0.972222
+755,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+755,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+755,02,chord_substitution,transformed,pitch_class_similarity,{},0.776471
+755,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+755,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+755,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+755,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+755,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+755,02,reharmonization,transformed,pitch_class_similarity,{},0.784314
+755,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+755,02,simplification,transformed,harmonic_edit_distance,{},0.764706
+755,02,simplification,transformed,pitch_class_similarity,{},0.872549
+759,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+759,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+759,01,chord_substitution,transformed,pitch_class_similarity,{},0.784314
+759,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+759,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+759,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+759,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+759,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+759,01,reharmonization,transformed,pitch_class_similarity,{},0.764706
+759,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.684211
+759,01,simplification,transformed,harmonic_edit_distance,{},0.882353
+759,01,simplification,transformed,pitch_class_similarity,{},0.931373
+759,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+759,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+759,02,chord_substitution,transformed,pitch_class_similarity,{},0.776471
+759,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+759,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+759,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+759,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+759,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+759,02,reharmonization,transformed,pitch_class_similarity,{},0.784314
+759,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.882353
+759,02,simplification,transformed,harmonic_edit_distance,{},0.941176
+759,02,simplification,transformed,pitch_class_similarity,{},0.960784
+760,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+760,01,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+760,01,chord_substitution,transformed,pitch_class_similarity,{},0.778947
+760,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+760,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+760,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+760,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+760,01,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+760,01,reharmonization,transformed,pitch_class_similarity,{},0.757895
+760,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+760,01,simplification,transformed,harmonic_edit_distance,{},0.789474
+760,01,simplification,transformed,pitch_class_similarity,{},0.859649
+760,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+760,02,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+760,02,chord_substitution,transformed,pitch_class_similarity,{},0.815344
+760,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+760,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+760,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+760,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+760,02,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+760,02,reharmonization,transformed,pitch_class_similarity,{},0.807407
+760,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+760,02,simplification,transformed,harmonic_edit_distance,{},0.777778
+760,02,simplification,transformed,pitch_class_similarity,{},0.865741
+778,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+778,01,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+778,01,chord_substitution,transformed,pitch_class_similarity,{},0.757576
+778,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+778,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+778,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+778,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+778,01,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+778,01,reharmonization,transformed,pitch_class_similarity,{},0.757576
+778,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.684211
+778,01,simplification,transformed,harmonic_edit_distance,{},0.909091
+778,01,simplification,transformed,pitch_class_similarity,{},0.984848
+778,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+778,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+778,02,chord_substitution,transformed,pitch_class_similarity,{},0.757576
+778,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+778,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+778,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+778,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+778,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+778,02,reharmonization,transformed,pitch_class_similarity,{},0.767677
+778,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.684211
+778,02,simplification,transformed,harmonic_edit_distance,{},0.909091
+778,02,simplification,transformed,pitch_class_similarity,{},0.969697
+782,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+782,01,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+782,01,chord_substitution,transformed,pitch_class_similarity,{},0.777778
+782,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+782,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+782,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+782,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+782,01,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+782,01,reharmonization,transformed,pitch_class_similarity,{},0.796296
+782,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.789474
+782,01,simplification,transformed,harmonic_edit_distance,{},0.888889
+782,01,simplification,transformed,pitch_class_similarity,{},0.944444
+782,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+782,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+782,02,chord_substitution,transformed,pitch_class_similarity,{},0.788235
+782,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+782,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+782,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+782,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+782,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+782,02,reharmonization,transformed,pitch_class_similarity,{},0.796078
+782,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+782,02,simplification,transformed,harmonic_edit_distance,{},0.823529
+782,02,simplification,transformed,pitch_class_similarity,{},0.921569
+792,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+792,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+792,01,chord_substitution,transformed,pitch_class_similarity,{},0.770833
+792,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+792,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+792,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+792,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+792,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+792,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+792,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.875000
+792,01,simplification,transformed,harmonic_edit_distance,{},0.937500
+792,01,simplification,transformed,pitch_class_similarity,{},0.968750
+792,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.461538
+792,02,chord_substitution,transformed,harmonic_edit_distance,{},0.743590
+792,02,chord_substitution,transformed,pitch_class_similarity,{},0.748718
+792,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+792,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+792,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+792,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.551020
+792,02,reharmonization,transformed,harmonic_edit_distance,{},0.743590
+792,02,reharmonization,transformed,pitch_class_similarity,{},0.743590
+792,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.900000
+792,02,simplification,transformed,harmonic_edit_distance,{},0.974359
+792,02,simplification,transformed,pitch_class_similarity,{},0.982906
+825,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+825,01,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+825,01,chord_substitution,transformed,pitch_class_similarity,{},0.800000
+825,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+825,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+825,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+825,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+825,01,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+825,01,reharmonization,transformed,pitch_class_similarity,{},0.796078
+825,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+825,01,simplification,transformed,harmonic_edit_distance,{},0.823529
+825,01,simplification,transformed,pitch_class_similarity,{},0.882353
+825,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+825,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+825,02,chord_substitution,transformed,pitch_class_similarity,{},0.776471
+825,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+825,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+825,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+825,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+825,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+825,02,reharmonization,transformed,pitch_class_similarity,{},0.776471
+825,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+825,02,simplification,transformed,harmonic_edit_distance,{},0.823529
+825,02,simplification,transformed,pitch_class_similarity,{},0.901961
+826,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+826,01,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+826,01,chord_substitution,transformed,pitch_class_similarity,{},0.755556
+826,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+826,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+826,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+826,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+826,01,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+826,01,reharmonization,transformed,pitch_class_similarity,{},0.753086
+826,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+826,01,simplification,transformed,harmonic_edit_distance,{},0.814815
+826,01,simplification,transformed,pitch_class_similarity,{},0.913580
+826,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.400000
+826,02,chord_substitution,transformed,harmonic_edit_distance,{},0.758621
+826,02,chord_substitution,transformed,pitch_class_similarity,{},0.783908
+826,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+826,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+826,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+826,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.555556
+826,02,reharmonization,transformed,harmonic_edit_distance,{},0.758621
+826,02,reharmonization,transformed,pitch_class_similarity,{},0.777011
+826,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.555556
+826,02,simplification,transformed,harmonic_edit_distance,{},0.827586
+826,02,simplification,transformed,pitch_class_similarity,{},0.902299
+827,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+827,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+827,01,chord_substitution,transformed,pitch_class_similarity,{},0.762500
+827,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+827,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+827,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+827,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+827,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+827,01,reharmonization,transformed,pitch_class_similarity,{},0.770833
+827,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+827,01,simplification,transformed,harmonic_edit_distance,{},0.750000
+827,01,simplification,transformed,pitch_class_similarity,{},0.895833
+827,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+827,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+827,02,chord_substitution,transformed,pitch_class_similarity,{},0.776471
+827,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+827,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+827,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+827,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+827,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+827,02,reharmonization,transformed,pitch_class_similarity,{},0.764706
+827,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+827,02,simplification,transformed,harmonic_edit_distance,{},0.764706
+827,02,simplification,transformed,pitch_class_similarity,{},0.931373
+829,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+829,01,chord_substitution,transformed,harmonic_edit_distance,{},0.733333
+829,01,chord_substitution,transformed,pitch_class_similarity,{},0.768889
+829,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+829,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+829,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+829,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.473684
+829,01,reharmonization,transformed,harmonic_edit_distance,{},0.733333
+829,01,reharmonization,transformed,pitch_class_similarity,{},0.733333
+829,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.555556
+829,01,simplification,transformed,harmonic_edit_distance,{},0.800000
+829,01,simplification,transformed,pitch_class_similarity,{},0.888889
+829,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.368421
+829,02,chord_substitution,transformed,harmonic_edit_distance,{},0.714286
+829,02,chord_substitution,transformed,pitch_class_similarity,{},0.728571
+829,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+829,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+829,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+829,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.529412
+829,02,reharmonization,transformed,harmonic_edit_distance,{},0.714286
+829,02,reharmonization,transformed,pitch_class_similarity,{},0.714286
+829,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.857143
+829,02,simplification,transformed,harmonic_edit_distance,{},0.928571
+829,02,simplification,transformed,pitch_class_similarity,{},0.952381
+859,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+859,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+859,01,chord_substitution,transformed,pitch_class_similarity,{},0.804167
+859,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+859,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+859,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+859,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+859,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+859,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+859,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.428571
+859,01,simplification,transformed,harmonic_edit_distance,{},0.750000
+859,01,simplification,transformed,pitch_class_similarity,{},0.848958
+859,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.454545
+859,02,chord_substitution,transformed,harmonic_edit_distance,{},0.764706
+859,02,chord_substitution,transformed,pitch_class_similarity,{},0.784314
+859,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+859,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+859,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+859,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+859,02,reharmonization,transformed,harmonic_edit_distance,{},0.764706
+859,02,reharmonization,transformed,pitch_class_similarity,{},0.764706
+859,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.523810
+859,02,simplification,transformed,harmonic_edit_distance,{},0.823529
+859,02,simplification,transformed,pitch_class_similarity,{},0.941176
+866,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+866,01,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+866,01,chord_substitution,transformed,pitch_class_similarity,{},0.757895
+866,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+866,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+866,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+866,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+866,01,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+866,01,reharmonization,transformed,pitch_class_similarity,{},0.764912
+866,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+866,01,simplification,transformed,harmonic_edit_distance,{},0.789474
+866,01,simplification,transformed,pitch_class_similarity,{},0.903509
+866,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+866,02,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+866,02,chord_substitution,transformed,pitch_class_similarity,{},0.761905
+866,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+866,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+866,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+866,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+866,02,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+866,02,reharmonization,transformed,pitch_class_similarity,{},0.761905
+866,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.904762
+866,02,simplification,transformed,harmonic_edit_distance,{},0.952381
+866,02,simplification,transformed,pitch_class_similarity,{},0.968254
+875,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.478261
+875,01,chord_substitution,transformed,harmonic_edit_distance,{},0.777778
+875,01,chord_substitution,transformed,pitch_class_similarity,{},0.788889
+875,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+875,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+875,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+875,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.545455
+875,01,reharmonization,transformed,harmonic_edit_distance,{},0.777778
+875,01,reharmonization,transformed,pitch_class_similarity,{},0.777778
+875,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.619048
+875,01,simplification,transformed,harmonic_edit_distance,{},0.833333
+875,01,simplification,transformed,pitch_class_similarity,{},0.907407
+875,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.440000
+875,02,chord_substitution,transformed,harmonic_edit_distance,{},0.736842
+875,02,chord_substitution,transformed,pitch_class_similarity,{},0.764912
+875,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+875,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+875,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+875,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.500000
+875,02,reharmonization,transformed,harmonic_edit_distance,{},0.736842
+875,02,reharmonization,transformed,pitch_class_similarity,{},0.754386
+875,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.565217
+875,02,simplification,transformed,harmonic_edit_distance,{},0.842105
+875,02,simplification,transformed,pitch_class_similarity,{},0.938596
+881,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.405405
+881,01,chord_substitution,transformed,harmonic_edit_distance,{},0.740741
+881,01,chord_substitution,transformed,pitch_class_similarity,{},0.757407
+881,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+881,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+881,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+881,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.575758
+881,01,reharmonization,transformed,harmonic_edit_distance,{},0.740741
+881,01,reharmonization,transformed,pitch_class_similarity,{},0.765432
+881,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.485714
+881,01,simplification,transformed,harmonic_edit_distance,{},0.814815
+881,01,simplification,transformed,pitch_class_similarity,{},0.890123
+881,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+881,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+881,02,chord_substitution,transformed,pitch_class_similarity,{},0.757576
+881,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+881,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+881,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+881,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+881,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+881,02,reharmonization,transformed,pitch_class_similarity,{},0.757576
+881,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",1.000000
+881,02,simplification,transformed,harmonic_edit_distance,{},1.000000
+881,02,simplification,transformed,pitch_class_similarity,{},1.000000
+889,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.409091
+889,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+889,01,chord_substitution,transformed,pitch_class_similarity,{},0.760417
+889,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+889,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+889,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+889,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.550000
+889,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+889,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+889,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.675676
+889,01,simplification,transformed,harmonic_edit_distance,{},0.875000
+889,01,simplification,transformed,pitch_class_similarity,{},0.937500
+889,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.437500
+889,02,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+889,02,chord_substitution,transformed,pitch_class_similarity,{},0.780556
+889,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+889,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+889,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+889,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.533333
+889,02,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+889,02,reharmonization,transformed,pitch_class_similarity,{},0.774306
+889,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.642857
+889,02,simplification,transformed,harmonic_edit_distance,{},0.875000
+889,02,simplification,transformed,pitch_class_similarity,{},0.913194
+894,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+894,01,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+894,01,chord_substitution,transformed,pitch_class_similarity,{},0.769231
+894,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+894,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+894,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+894,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+894,01,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+894,01,reharmonization,transformed,pitch_class_similarity,{},0.782051
+894,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.562500
+894,01,simplification,transformed,harmonic_edit_distance,{},0.846154
+894,01,simplification,transformed,pitch_class_similarity,{},0.923077
+894,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.470588
+894,02,chord_substitution,transformed,harmonic_edit_distance,{},0.769231
+894,02,chord_substitution,transformed,pitch_class_similarity,{},0.787546
+894,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+894,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+894,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+894,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+894,02,reharmonization,transformed,harmonic_edit_distance,{},0.769231
+894,02,reharmonization,transformed,pitch_class_similarity,{},0.789744
+894,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.612903
+894,02,simplification,transformed,harmonic_edit_distance,{},0.846154
+894,02,simplification,transformed,pitch_class_similarity,{},0.932692
+897,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.461538
+897,01,chord_substitution,transformed,harmonic_edit_distance,{},0.743590
+897,01,chord_substitution,transformed,pitch_class_similarity,{},0.743590
+897,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+897,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+897,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+897,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.551020
+897,01,reharmonization,transformed,harmonic_edit_distance,{},0.743590
+897,01,reharmonization,transformed,pitch_class_similarity,{},0.743590
+897,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.767442
+897,01,simplification,transformed,harmonic_edit_distance,{},0.923077
+897,01,simplification,transformed,pitch_class_similarity,{},0.961538
+897,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.391304
+897,02,chord_substitution,transformed,harmonic_edit_distance,{},0.757576
+897,02,chord_substitution,transformed,pitch_class_similarity,{},0.757576
+897,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+897,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+897,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+897,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.560976
+897,02,reharmonization,transformed,harmonic_edit_distance,{},0.757576
+897,02,reharmonization,transformed,pitch_class_similarity,{},0.757576
+897,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.777778
+897,02,simplification,transformed,harmonic_edit_distance,{},0.939394
+897,02,simplification,transformed,pitch_class_similarity,{},0.984848
+900,01,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.407407
+900,01,chord_substitution,transformed,harmonic_edit_distance,{},0.750000
+900,01,chord_substitution,transformed,pitch_class_similarity,{},0.760000
+900,01,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+900,01,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+900,01,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+900,01,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.520000
+900,01,reharmonization,transformed,harmonic_edit_distance,{},0.750000
+900,01,reharmonization,transformed,pitch_class_similarity,{},0.750000
+900,01,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.727273
+900,01,simplification,transformed,harmonic_edit_distance,{},0.900000
+900,01,simplification,transformed,pitch_class_similarity,{},0.941667
+900,02,chord_substitution,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+900,02,chord_substitution,transformed,harmonic_edit_distance,{},0.761905
+900,02,chord_substitution,transformed,pitch_class_similarity,{},0.787302
+900,02,original_copy,baseline_original,chord_ngram_similarity,"{""n"": 2}",1.000000
+900,02,original_copy,baseline_original,harmonic_edit_distance,{},1.000000
+900,02,original_copy,baseline_original,pitch_class_similarity,{},1.000000
+900,02,reharmonization,transformed,chord_ngram_similarity,"{""n"": 2}",0.538462
+900,02,reharmonization,transformed,harmonic_edit_distance,{},0.761905
+900,02,reharmonization,transformed,pitch_class_similarity,{},0.771429
+900,02,simplification,transformed,chord_ngram_similarity,"{""n"": 2}",0.481481
+900,02,simplification,transformed,harmonic_edit_distance,{},0.761905
+900,02,simplification,transformed,pitch_class_similarity,{},0.896825
