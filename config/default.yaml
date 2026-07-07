@@ -15,6 +15,7 @@ paths:
   representations: data/processed/representations
   results: data/results
   metrics: data/results/compute_metrics
+  experiment_pairs: data/results/experiment/pairs
   logs: logs
 
 experiment:
