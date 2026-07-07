@@ -1,0 +1,38 @@
+{
+  "segment_file": "143_segment_01.mid",
+  "melody": [
+    {
+      "pitch": 73,
+      "duration": 0.397884
+    },
+    {
+      "pitch": 72,
+      "duration": 0.512129
+    },
+    {
+      "pitch": 70,
+      "duration": 0.158891
+    },
+    {
+      "pitch": 72,
+      "duration": 0.518694
+    },
+    {
+      "pitch": 72,
+      "duration": 0.336166
+    },
+    {
+      "pitch": 70,
+      "duration": 0.183841
+    },
+    {
+      "pitch": 77,
+      "duration": 0.359803
+    }
+  ],
+  "transformation": "transpose",
+  "parameters": {
+    "semitones": 2,
+    "random_seed": 42
+  }
+}

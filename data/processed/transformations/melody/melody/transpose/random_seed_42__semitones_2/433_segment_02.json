@@ -1,0 +1,134 @@
+{
+  "segment_file": "433_segment_02.mid",
+  "melody": [
+    {
+      "pitch": 73,
+      "duration": 0.316599
+    },
+    {
+      "pitch": 63,
+      "duration": 0.167164
+    },
+    {
+      "pitch": 83,
+      "duration": 1.508277
+    },
+    {
+      "pitch": 51,
+      "duration": 0.991588
+    },
+    {
+      "pitch": 56,
+      "duration": 0.274808
+    },
+    {
+      "pitch": 71,
+      "duration": 0.150701
+    },
+    {
+      "pitch": 71,
+      "duration": 0.177295
+    },
+    {
+      "pitch": 70,
+      "duration": 0.155767
+    },
+    {
+      "pitch": 82,
+      "duration": 0.296337
+    },
+    {
+      "pitch": 83,
+      "duration": 0.282406
+    },
+    {
+      "pitch": 85,
+      "duration": 1.500679
+    },
+    {
+      "pitch": 68,
+      "duration": 0.374853
+    },
+    {
+      "pitch": 61,
+      "duration": 0.155767
+    },
+    {
+      "pitch": 61,
+      "duration": 0.150701
+    },
+    {
+      "pitch": 73,
+      "duration": 0.159566
+    },
+    {
+      "pitch": 71,
+      "duration": 0.150701
+    },
+    {
+      "pitch": 83,
+      "duration": 0.505292
+    },
+    {
+      "pitch": 70,
+      "duration": 0.143103
+    },
+    {
+      "pitch": 82,
+      "duration": 1.016916
+    },
+    {
+      "pitch": 54,
+      "duration": 0.34446
+    },
+    {
+      "pitch": 61,
+      "duration": 0.197558
+    },
+    {
+      "pitch": 85,
+      "duration": 0.533152
+    },
+    {
+      "pitch": 71,
+      "duration": 0.144369
+    },
+    {
+      "pitch": 82,
+      "duration": 0.491361
+    },
+    {
+      "pitch": 70,
+      "duration": 0.144369
+    },
+    {
+      "pitch": 85,
+      "duration": 1.563998
+    },
+    {
+      "pitch": 56,
+      "duration": 0.327996
+    },
+    {
+      "pitch": 68,
+      "duration": 0.136771
+    },
+    {
+      "pitch": 70,
+      "duration": 0.134238
+    },
+    {
+      "pitch": 71,
+      "duration": 0.135504
+    },
+    {
+      "pitch": 70,
+      "duration": 0.064586
+    }
+  ],
+  "transformation": "transpose",
+  "parameters": {
+    "semitones": 2,
+    "random_seed": 42
+  }
+}
