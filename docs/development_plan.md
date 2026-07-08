@@ -180,9 +180,9 @@
 
 ## 5.1 Formação dos pares
 
-* [ ] Gerar pares positivos
-* [ ] Gerar pares negativos
-* [ ] Balancear o conjunto experimental
+* [x] Gerar pares positivos
+* [x] Gerar pares negativos
+* [x] Balancear o conjunto experimental
 
 ## 5.2 Execução das métricas
 

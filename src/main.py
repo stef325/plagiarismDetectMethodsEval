@@ -10,6 +10,7 @@ import sys
 import yaml
 
 from experiment.clean_dataset import clean_dataset
+from experiment.build_experiment_pairs import build_experiment_pairs
 from experiment.compute_harmony_metrics import compute_harmony_metrics
 from experiment.compute_global_metrics import compute_global_metrics
 from experiment.compute_rhythm_metrics import compute_rhythm_metrics
@@ -79,6 +80,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_compute_global_metrics(config)
     elif args.command == "validate_metrics":
         _run_validate_metrics(config)
+    elif args.command == "build_experiment_pairs":
+        _run_build_experiment_pairs(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -179,6 +182,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "validate_metrics",
         help="Executa a validação automatizada das métricas.",
+    )
+    subparsers.add_parser(
+        "build_experiment_pairs",
+        help="Forma os pares experimentais positivos e negativos.",
     )
     subparsers.add_parser(
         "all",
@@ -426,6 +433,17 @@ def _run_validate_metrics(config: dict) -> Path:
     return validate_metrics(
         tests_path=Path("tests/metrics"),
         output_path=Path(config["paths"]["metrics"]),
+    )
+
+
+def _run_build_experiment_pairs(config: dict) -> Path:
+    """Executa o pipeline de formação dos pares experimentais."""
+
+    return build_experiment_pairs(
+        representations_path=Path(config["paths"]["representations"]),
+        transformations_path=Path(config["paths"]["transformations"]),
+        output_path=Path(config["paths"]["experiment_pairs"]),
+        random_seed=int(config["experiment"]["random_seed"]),
     )
 
 
