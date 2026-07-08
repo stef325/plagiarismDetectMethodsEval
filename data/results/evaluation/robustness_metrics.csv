@@ -1,0 +1,29 @@
+record_type,metric_name,threshold,true_positives,true_negatives,false_positives,false_negatives,precision,recall,f1_score,false_negative_rate,mean_similarity_drop,transformation_name,category,pair_count
+metric_summary,interval_ngram_similarity,0.700000,1011,2796,4,1789,0.996059,0.361071,0.530013,0.638929,0.548446,,,
+metric_summary,lcs_similarity,0.700000,1339,2796,4,1461,0.997022,0.478214,0.646392,0.521786,0.492450,,,
+metric_summary,edit_distance_similarity,0.700000,1336,2796,4,1464,0.997015,0.477143,0.645411,0.522857,0.493176,,,
+metric_summary,chord_ngram_similarity,0.700000,257,2800,0,2543,1.000000,0.091786,0.168139,0.908214,0.723205,,,
+metric_summary,harmonic_edit_distance,0.700000,1394,2800,0,1406,1.000000,0.497857,0.664759,0.502143,0.600634,,,
+metric_summary,pitch_class_similarity,0.700000,1394,2800,0,1406,1.000000,0.497857,0.664759,0.502143,0.589699,,,
+metric_summary,rhythm_ngram_similarity,0.700000,200,2800,0,2600,1.000000,0.071429,0.133333,0.928571,0.928505,,,
+metric_summary,ioi_similarity,0.700000,1004,2800,0,1796,1.000000,0.358571,0.527865,0.641429,0.609720,,,
+metric_summary,rhythmic_edit_distance,0.700000,200,2800,0,2600,1.000000,0.071429,0.133333,0.928571,0.927151,,,
+metric_summary,simple_average,0.700000,399,2800,0,2401,1.000000,0.142500,0.249453,0.857500,0.656998,,,
+metric_summary,weighted_average,0.700000,779,2800,0,2021,1.000000,0.278214,0.435317,0.721786,0.633237,,,
+transformation_drop,,0.700000,,,,,,,,,0.782163,chord_substitution,Harmonia,200
+transformation_drop,,0.700000,,,,,,,,,0.972835,duration_scaling,Ritmo,200
+transformation_drop,,0.700000,,,,,,,,,0.335315,harmony_rhythm,Transformacoes combinadas,200
+transformation_drop,,0.700000,,,,,,,,,0.780633,interval_modification,Melodia,200
+transformation_drop,,0.700000,,,,,,,,,0.118708,melody_harmony,Transformacoes combinadas,200
+transformation_drop,,0.700000,,,,,,,,,0.335315,melody_harmony_rhythm,Transformacoes combinadas,200
+transformation_drop,,0.700000,,,,,,,,,0.216607,melody_rhythm,Transformacoes combinadas,200
+transformation_drop,,0.700000,,,,,,,,,0.785272,ornamentation,Melodia,200
+transformation_drop,,0.700000,,,,,,,,,0.973396,partial_rhythm_modification,Ritmo,200
+transformation_drop,,0.700000,,,,,,,,,0.769785,reharmonization,Harmonia,200
+transformation_drop,,0.700000,,,,,,,,,0.773976,simplification,Melodia,400
+transformation_drop,,0.700000,,,,,,,,,0.889152,tempo_change,Ritmo,200
+transformation_drop,,0.700000,,,,,,,,,0.660606,transpose,Melodia,200
+transformation_drop,,0.700000,,,,,,,,,0.760148,Harmonia,Harmonia,600
+transformation_drop,,0.700000,,,,,,,,,0.761491,Melodia,Melodia,800
+transformation_drop,,0.700000,,,,,,,,,0.945128,Ritmo,Ritmo,600
+transformation_drop,,0.700000,,,,,,,,,0.251486,Transformacoes combinadas,Transformacoes combinadas,800
