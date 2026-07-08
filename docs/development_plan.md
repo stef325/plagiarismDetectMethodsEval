@@ -211,9 +211,9 @@
 
 ## 6.1 Consolidação dos resultados
 
-* [ ] Gerar tabelas 
-* [ ] Organizar resultados por experimento
-* [ ] Consolidar estatísticas
+* [x] Gerar tabelas 
+* [x] Organizar resultados por experimento
+* [x] Consolidar estatísticas
 
 ## 6.2 Visualização
 

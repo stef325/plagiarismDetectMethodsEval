@@ -19,6 +19,7 @@ from experiment.compute_harmony_metrics import compute_harmony_metrics
 from experiment.compute_global_metrics import compute_global_metrics
 from experiment.compute_rhythm_metrics import compute_rhythm_metrics
 from experiment.compute_melody_metrics import compute_melody_metrics
+from experiment.consolidate_results import consolidate_results
 from experiment.evaluate_robustness import evaluate_robustness
 from experiment.evaluate_interpretability import evaluate_interpretability
 from experiment.run_similarity_experiment import run_similarity_experiment
@@ -95,6 +96,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_evaluate_robustness(config)
     elif args.command == "evaluate_interpretability":
         _run_evaluate_interpretability(config)
+    elif args.command == "consolidate_results":
+        _run_consolidate_results(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -211,6 +214,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "evaluate_interpretability",
         help="Avalia a interpretabilidade das métricas de similaridade.",
+    )
+    subparsers.add_parser(
+        "consolidate_results",
+        help="Consolida os resultados já produzidos pelo experimento.",
     )
     subparsers.add_parser(
         "all",
@@ -505,6 +512,17 @@ def _run_evaluate_interpretability(config: dict) -> Path:
         similarity_results_path=Path(config["paths"]["experiment_results"]) / "similarity_results.csv",
         transformations_root=Path(config["paths"]["transformations"]),
         output_path=Path(config["paths"]["results"]) / "evaluation" / "interpretability",
+    )
+
+
+def _run_consolidate_results(config: dict) -> Path:
+    """Executa o pipeline de consolidacao dos resultados."""
+
+    return consolidate_results(
+        similarity_results_path=Path(config["paths"]["experiment_results"]) / "similarity_results.csv",
+        robustness_results_path=Path(config["paths"]["results"]) / "evaluation" / "robustness_metrics.csv",
+        interpretability_results_path=Path(config["paths"]["results"]) / "evaluation" / "interpretability" / "interpretability_results.csv",
+        output_path=Path(config["paths"]["results"]) / "consolidated",
     )
 
 
