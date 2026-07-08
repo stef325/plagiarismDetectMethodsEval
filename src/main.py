@@ -7,6 +7,10 @@ from collections.abc import Callable
 from pathlib import Path
 import sys
 
+SRC_ROOT = Path(__file__).resolve().parent
+if str(SRC_ROOT) not in sys.path:
+    sys.path.insert(0, str(SRC_ROOT))
+
 import yaml
 
 from experiment.clean_dataset import clean_dataset
@@ -15,6 +19,7 @@ from experiment.compute_harmony_metrics import compute_harmony_metrics
 from experiment.compute_global_metrics import compute_global_metrics
 from experiment.compute_rhythm_metrics import compute_rhythm_metrics
 from experiment.compute_melody_metrics import compute_melody_metrics
+from experiment.run_similarity_experiment import run_similarity_experiment
 from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
 from experiment.inspect_dataset import inspect_dataset
@@ -82,6 +87,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_validate_metrics(config)
     elif args.command == "build_experiment_pairs":
         _run_build_experiment_pairs(config)
+    elif args.command == "run_experiment":
+        _run_similarity_experiment(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -186,6 +193,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "build_experiment_pairs",
         help="Forma os pares experimentais positivos e negativos.",
+    )
+    subparsers.add_parser(
+        "run_experiment",
+        help="Executa as métricas de similaridade sobre os pares experimentais.",
     )
     subparsers.add_parser(
         "all",
@@ -447,6 +458,20 @@ def _run_build_experiment_pairs(config: dict) -> Path:
     )
 
 
+def _run_similarity_experiment(config: dict) -> Path:
+    """Executa o pipeline de similaridade sobre os pares experimentais."""
+
+    return run_similarity_experiment(
+        experiment_pairs_path=Path(config["paths"]["experiment_pairs"]),
+        representations_root=Path(config["paths"]["representations"]),
+        output_path=Path(config["paths"]["experiment_results"]),
+        interval_ngram_n=int(config["metrics"]["melody"]["interval_ngram_n"]),
+        chord_ngram_n=int(config["metrics"]["harmony"]["chord_ngram_n"]),
+        rhythm_ngram_n=int(config["metrics"]["rhythm"]["rhythm_ngram_n"]),
+        global_weights=dict(config["metrics"]["global"]["weights"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -477,6 +502,10 @@ def _run_all(config: dict) -> None:
     _run_compute_rhythm_metrics(config)
     print()
     _run_compute_global_metrics(config)
+    print()
+    _run_build_experiment_pairs(config)
+    print()
+    _run_similarity_experiment(config)
     print()
     _run_validate_metrics(config)
     print()

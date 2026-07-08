@@ -137,6 +137,19 @@ def build_experiment_pairs(
             "pairs": [_pair_to_dict(pair) for pair in all_pairs],
         },
     )
+    _write_csv(output_root.parent / "experiment_pairs.csv", all_pairs)
+    _write_json(
+        output_root.parent / "experiment_pairs.json",
+        summary={
+            "seed": random_seed,
+            "fingerprint": source_fingerprint,
+            "generated_at": inspection_date.isoformat(),
+            "positives_found": len(positive_pairs),
+            "negatives_generated": len(negative_pairs),
+            "total_pairs": len(all_pairs),
+            "pairs": [_pair_to_dict(pair) for pair in all_pairs],
+        },
+    )
     _write_cache(
         cache_path=cache_path,
         fingerprint=source_fingerprint,
