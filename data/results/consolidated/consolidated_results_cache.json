@@ -1,0 +1,12 @@
+{
+  "experiment_count": 4,
+  "experiment_summary_csv": "data/results/consolidated/experiment_summary.csv",
+  "fingerprint": "bdc5c1bced6da8fb092a75f38af51d54576e07ec1bc6495c1ef12da505930455",
+  "interpretability_csv": "data/results/consolidated/consolidated_interpretability.csv",
+  "json_path": "data/results/consolidated/consolidated_results.json",
+  "report_path": "data/results/consolidated/consolidated_results.md",
+  "robustness_csv": "data/results/consolidated/consolidated_robustness.csv",
+  "similarity_csv": "data/results/consolidated/consolidated_similarity.csv",
+  "statistics_summary_csv": "data/results/consolidated/statistics_summary.csv",
+  "total_pairs": 5600
+}

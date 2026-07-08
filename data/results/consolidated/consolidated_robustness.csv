@@ -1,0 +1,12 @@
+metric,precision,recall,f1_score,false_negative_rate
+interval_ngram_similarity,0.996059,0.361071,0.530013,0.638929
+lcs_similarity,0.997022,0.478214,0.646392,0.521786
+edit_distance_similarity,0.997015,0.477143,0.645411,0.522857
+chord_ngram_similarity,1.000000,0.091786,0.168139,0.908214
+harmonic_edit_distance,1.000000,0.497857,0.664759,0.502143
+pitch_class_similarity,1.000000,0.497857,0.664759,0.502143
+rhythm_ngram_similarity,1.000000,0.071429,0.133333,0.928571
+ioi_similarity,1.000000,0.358571,0.527865,0.641429
+rhythmic_edit_distance,1.000000,0.071429,0.133333,0.928571
+simple_average,1.000000,0.142500,0.249453,0.857500
+weighted_average,1.000000,0.278214,0.435317,0.721786
