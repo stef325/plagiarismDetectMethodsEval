@@ -1,0 +1,5 @@
+experiment,pair_count,mean_melody_score,mean_harmony_score,mean_rhythm_score,mean_global_score,precision,recall,f1_score,false_negative_rate,interpretability_pairs,interpretability_mean_global
+Outros,3600,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,200,0.067327
+Transformações Harmônicas,400,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,791,0.123740
+Transformações Melódicas,1000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1893,0.164385
+Transformações Rítmicas,600,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,0.000000,1150,0.029396
