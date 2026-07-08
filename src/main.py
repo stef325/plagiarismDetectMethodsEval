@@ -20,6 +20,7 @@ from experiment.compute_global_metrics import compute_global_metrics
 from experiment.compute_rhythm_metrics import compute_rhythm_metrics
 from experiment.compute_melody_metrics import compute_melody_metrics
 from experiment.consolidate_results import consolidate_results
+from experiment.generate_visualizations import generate_visualizations
 from experiment.evaluate_robustness import evaluate_robustness
 from experiment.evaluate_interpretability import evaluate_interpretability
 from experiment.run_similarity_experiment import run_similarity_experiment
@@ -98,6 +99,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_evaluate_interpretability(config)
     elif args.command == "consolidate_results":
         _run_consolidate_results(config)
+    elif args.command == "generate_visualizations":
+        _run_generate_visualizations(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -218,6 +221,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "consolidate_results",
         help="Consolida os resultados já produzidos pelo experimento.",
+    )
+    subparsers.add_parser(
+        "generate_visualizations",
+        help="Gera as visualizacoes a partir dos resultados consolidados.",
     )
     subparsers.add_parser(
         "all",
@@ -526,6 +533,15 @@ def _run_consolidate_results(config: dict) -> Path:
     )
 
 
+def _run_generate_visualizations(config: dict) -> Path:
+    """Executa o pipeline de geracao das visualizacoes."""
+
+    return generate_visualizations(
+        consolidated_root=Path(config["paths"]["results"]) / "consolidated",
+        output_path=Path(config["paths"]["results"]) / "figures",
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -564,6 +580,10 @@ def _run_all(config: dict) -> None:
     _run_evaluate_robustness(config)
     print()
     _run_evaluate_interpretability(config)
+    print()
+    _run_consolidate_results(config)
+    print()
+    _run_generate_visualizations(config)
     print()
     _run_validate_metrics(config)
     print()
