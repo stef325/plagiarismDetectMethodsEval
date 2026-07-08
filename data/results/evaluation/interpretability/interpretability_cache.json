@@ -1,0 +1,9 @@
+{
+  "csv_path": "data/results/evaluation/interpretability/interpretability_results.csv",
+  "fingerprint": "f630f12eb504369ac457dd39b107ab7eeb40f2a7084b45dd854a5c9a6d72dae7",
+  "json_path": "data/results/evaluation/interpretability/interpretability_results.json",
+  "negative_pairs": 2800,
+  "positive_pairs": 2800,
+  "report_path": "data/results/evaluation/interpretability/interpretability_report.md",
+  "total_pairs": 5600
+}
