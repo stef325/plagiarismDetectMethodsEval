@@ -186,10 +186,10 @@
 
 ## 5.2 Execução das métricas
 
-* [ ] Calcular similaridade melódica
-* [ ] Calcular similaridade harmônica
-* [ ] Calcular similaridade rítmica
-* [ ] Calcular similaridade global
+* [x] Calcular similaridade melódica
+* [x] Calcular similaridade harmônica
+* [x] Calcular similaridade rítmica
+* [x] Calcular similaridade global
 
 ## 5.3 Avaliação da robustez
 
