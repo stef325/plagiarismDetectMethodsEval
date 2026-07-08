@@ -1,0 +1,10 @@
+{
+  "csv_path": "data/results/evaluation/robustness_metrics.csv",
+  "fingerprint": "baea6576c87bb1c2c9378655f7867faa3439ae23eb564a43d2359f461aca42bf",
+  "json_path": "data/results/evaluation/robustness_metrics.json",
+  "negative_pairs": 2800,
+  "positive_pairs": 2800,
+  "report_path": "data/results/evaluation/robustness_report.md",
+  "threshold": 0.7,
+  "total_pairs": 5600
+}

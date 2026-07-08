@@ -1,0 +1,263 @@
+{
+  "fingerprint": "baea6576c87bb1c2c9378655f7867faa3439ae23eb564a43d2359f461aca42bf",
+  "generated_at": "2026-07-08T00:46:43.215377",
+  "metrics": [
+    {
+      "f1_score": 0.5300131061598952,
+      "false_negative_rate": 0.6389285714285714,
+      "false_negatives": 1789,
+      "false_positives": 4,
+      "mean_similarity_drop": 0.5484460592857143,
+      "metric_name": "interval_ngram_similarity",
+      "precision": 0.9960591133004926,
+      "recall": 0.3610714285714286,
+      "threshold": 0.7,
+      "true_negatives": 2796,
+      "true_positives": 1011
+    },
+    {
+      "f1_score": 0.6463915037412503,
+      "false_negative_rate": 0.5217857142857143,
+      "false_negatives": 1461,
+      "false_positives": 4,
+      "mean_similarity_drop": 0.4924500371428572,
+      "metric_name": "lcs_similarity",
+      "precision": 0.9970215934475056,
+      "recall": 0.4782142857142857,
+      "threshold": 0.7,
+      "true_negatives": 2796,
+      "true_positives": 1339
+    },
+    {
+      "f1_score": 0.6454106280193237,
+      "false_negative_rate": 0.5228571428571429,
+      "false_negatives": 1464,
+      "false_positives": 4,
+      "mean_similarity_drop": 0.4931759139285714,
+      "metric_name": "edit_distance_similarity",
+      "precision": 0.9970149253731343,
+      "recall": 0.47714285714285715,
+      "threshold": 0.7,
+      "true_negatives": 2796,
+      "true_positives": 1336
+    },
+    {
+      "f1_score": 0.16813869807000326,
+      "false_negative_rate": 0.9082142857142858,
+      "false_negatives": 2543,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.7232046853571429,
+      "metric_name": "chord_ngram_similarity",
+      "precision": 1.0,
+      "recall": 0.09178571428571429,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 257
+    },
+    {
+      "f1_score": 0.664759179780639,
+      "false_negative_rate": 0.5021428571428571,
+      "false_negatives": 1406,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.6006340864285715,
+      "metric_name": "harmonic_edit_distance",
+      "precision": 1.0,
+      "recall": 0.49785714285714283,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 1394
+    },
+    {
+      "f1_score": 0.664759179780639,
+      "false_negative_rate": 0.5021428571428571,
+      "false_negatives": 1406,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.5896993814285714,
+      "metric_name": "pitch_class_similarity",
+      "precision": 1.0,
+      "recall": 0.49785714285714283,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 1394
+    },
+    {
+      "f1_score": 0.13333333333333333,
+      "false_negative_rate": 0.9285714285714286,
+      "false_negatives": 2600,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.9285051942857142,
+      "metric_name": "rhythm_ngram_similarity",
+      "precision": 1.0,
+      "recall": 0.07142857142857142,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 200
+    },
+    {
+      "f1_score": 0.5278654048370137,
+      "false_negative_rate": 0.6414285714285715,
+      "false_negatives": 1796,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.6097197146428571,
+      "metric_name": "ioi_similarity",
+      "precision": 1.0,
+      "recall": 0.3585714285714286,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 1004
+    },
+    {
+      "f1_score": 0.13333333333333333,
+      "false_negative_rate": 0.9285714285714286,
+      "false_negatives": 2600,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.9271507842857143,
+      "metric_name": "rhythmic_edit_distance",
+      "precision": 1.0,
+      "recall": 0.07142857142857142,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 200
+    },
+    {
+      "f1_score": 0.24945295404814,
+      "false_negative_rate": 0.8575,
+      "false_negatives": 2401,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.6569984342857144,
+      "metric_name": "simple_average",
+      "precision": 1.0,
+      "recall": 0.1425,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 399
+    },
+    {
+      "f1_score": 0.43531712768929864,
+      "false_negative_rate": 0.7217857142857143,
+      "false_negatives": 2021,
+      "false_positives": 0,
+      "mean_similarity_drop": 0.6332370692857142,
+      "metric_name": "weighted_average",
+      "precision": 1.0,
+      "recall": 0.2782142857142857,
+      "threshold": 0.7,
+      "true_negatives": 2800,
+      "true_positives": 779
+    }
+  ],
+  "pairs_path": "data/results/experiment/pairs/experiment_pairs.json",
+  "similarity_results_path": "data/results/experiment/similarity_results.csv",
+  "summary": {
+    "execution_time_seconds": 1.1560979209971265,
+    "metric_count": 11,
+    "negative_pairs": 2800,
+    "positive_pairs": 2800,
+    "total_pairs": 5600
+  },
+  "threshold": 0.7,
+  "transformation_drops": [
+    {
+      "category": "Harmonia",
+      "mean_similarity_drop": 0.782162535,
+      "pair_count": 200,
+      "transformation_name": "chord_substitution"
+    },
+    {
+      "category": "Ritmo",
+      "mean_similarity_drop": 0.9728347731818181,
+      "pair_count": 200,
+      "transformation_name": "duration_scaling"
+    },
+    {
+      "category": "Transformacoes combinadas",
+      "mean_similarity_drop": 0.33531461136363633,
+      "pair_count": 200,
+      "transformation_name": "harmony_rhythm"
+    },
+    {
+      "category": "Melodia",
+      "mean_similarity_drop": 0.7806331545454546,
+      "pair_count": 200,
+      "transformation_name": "interval_modification"
+    },
+    {
+      "category": "Transformacoes combinadas",
+      "mean_similarity_drop": 0.11870799136363636,
+      "pair_count": 200,
+      "transformation_name": "melody_harmony"
+    },
+    {
+      "category": "Transformacoes combinadas",
+      "mean_similarity_drop": 0.33531461136363633,
+      "pair_count": 200,
+      "transformation_name": "melody_harmony_rhythm"
+    },
+    {
+      "category": "Transformacoes combinadas",
+      "mean_similarity_drop": 0.21660663772727273,
+      "pair_count": 200,
+      "transformation_name": "melody_rhythm"
+    },
+    {
+      "category": "Melodia",
+      "mean_similarity_drop": 0.7852717672727273,
+      "pair_count": 200,
+      "transformation_name": "ornamentation"
+    },
+    {
+      "category": "Ritmo",
+      "mean_similarity_drop": 0.9733956972727273,
+      "pair_count": 200,
+      "transformation_name": "partial_rhythm_modification"
+    },
+    {
+      "category": "Harmonia",
+      "mean_similarity_drop": 0.7697848731818182,
+      "pair_count": 200,
+      "transformation_name": "reharmonization"
+    },
+    {
+      "category": "Melodia",
+      "mean_similarity_drop": 0.7739757086363636,
+      "pair_count": 400,
+      "transformation_name": "simplification"
+    },
+    {
+      "category": "Ritmo",
+      "mean_similarity_drop": 0.8891521163636363,
+      "pair_count": 200,
+      "transformation_name": "tempo_change"
+    },
+    {
+      "category": "Melodia",
+      "mean_similarity_drop": 0.660606090909091,
+      "pair_count": 200,
+      "transformation_name": "transpose"
+    },
+    {
+      "category": "Harmonia",
+      "mean_similarity_drop": 0.7601484195454545,
+      "pair_count": 600,
+      "transformation_name": "Harmonia"
+    },
+    {
+      "category": "Melodia",
+      "mean_similarity_drop": 0.7614911448863637,
+      "pair_count": 800,
+      "transformation_name": "Melodia"
+    },
+    {
+      "category": "Ritmo",
+      "mean_similarity_drop": 0.9451275289393939,
+      "pair_count": 600,
+      "transformation_name": "Ritmo"
+    },
+    {
+      "category": "Transformacoes combinadas",
+      "mean_similarity_drop": 0.25148596295454545,
+      "pair_count": 800,
+      "transformation_name": "Transformacoes combinadas"
+    }
+  ]
+}

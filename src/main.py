@@ -19,6 +19,7 @@ from experiment.compute_harmony_metrics import compute_harmony_metrics
 from experiment.compute_global_metrics import compute_global_metrics
 from experiment.compute_rhythm_metrics import compute_rhythm_metrics
 from experiment.compute_melody_metrics import compute_melody_metrics
+from experiment.evaluate_robustness import evaluate_robustness
 from experiment.run_similarity_experiment import run_similarity_experiment
 from experiment.extract_representations import extract_representations
 from experiment.extract_segments import extract_segments
@@ -89,6 +90,8 @@ def main(argv: list[str] | None = None) -> int:
         _run_build_experiment_pairs(config)
     elif args.command == "run_experiment":
         _run_similarity_experiment(config)
+    elif args.command == "evaluate_robustness":
+        _run_evaluate_robustness(config)
     elif args.command == "all":
         _run_all(config)
     else:
@@ -197,6 +200,10 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser(
         "run_experiment",
         help="Executa as métricas de similaridade sobre os pares experimentais.",
+    )
+    subparsers.add_parser(
+        "evaluate_robustness",
+        help="Avalia a robustez das métricas de similaridade.",
     )
     subparsers.add_parser(
         "all",
@@ -472,6 +479,17 @@ def _run_similarity_experiment(config: dict) -> Path:
     )
 
 
+def _run_evaluate_robustness(config: dict) -> Path:
+    """Executa o pipeline de avaliacao da robustez das metricas."""
+
+    return evaluate_robustness(
+        experiment_pairs_path=Path(config["paths"]["experiment_pairs"]),
+        similarity_results_path=Path(config["paths"]["experiment_results"]) / "similarity_results.csv",
+        output_path=Path(config["paths"]["results"]) / "evaluation",
+        similarity_threshold=float(config["evaluation"]["similarity_threshold"]),
+    )
+
+
 def _run_all(config: dict) -> None:
     """Executa todas as etapas do experimento."""
 
@@ -506,6 +524,8 @@ def _run_all(config: dict) -> None:
     _run_build_experiment_pairs(config)
     print()
     _run_similarity_experiment(config)
+    print()
+    _run_evaluate_robustness(config)
     print()
     _run_validate_metrics(config)
     print()
