@@ -1,0 +1,127 @@
+{
+  "figures": [
+    {
+      "category": "distributions",
+      "name": "distribution_interval_ngram_similarity",
+      "png_path": "data/results/figures/distributions/distribution_interval_ngram_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_interval_ngram_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_lcs_similarity",
+      "png_path": "data/results/figures/distributions/distribution_lcs_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_lcs_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_edit_distance_similarity",
+      "png_path": "data/results/figures/distributions/distribution_edit_distance_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_edit_distance_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_chord_ngram_similarity",
+      "png_path": "data/results/figures/distributions/distribution_chord_ngram_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_chord_ngram_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_harmonic_edit_distance",
+      "png_path": "data/results/figures/distributions/distribution_harmonic_edit_distance.png",
+      "svg_path": "data/results/figures/distributions/distribution_harmonic_edit_distance.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_pitch_class_similarity",
+      "png_path": "data/results/figures/distributions/distribution_pitch_class_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_pitch_class_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_rhythm_ngram_similarity",
+      "png_path": "data/results/figures/distributions/distribution_rhythm_ngram_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_rhythm_ngram_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_ioi_similarity",
+      "png_path": "data/results/figures/distributions/distribution_ioi_similarity.png",
+      "svg_path": "data/results/figures/distributions/distribution_ioi_similarity.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_rhythmic_edit_distance",
+      "png_path": "data/results/figures/distributions/distribution_rhythmic_edit_distance.png",
+      "svg_path": "data/results/figures/distributions/distribution_rhythmic_edit_distance.svg"
+    },
+    {
+      "category": "distributions",
+      "name": "distribution_score_global",
+      "png_path": "data/results/figures/distributions/distribution_score_global.png",
+      "svg_path": "data/results/figures/distributions/distribution_score_global.svg"
+    },
+    {
+      "category": "comparisons",
+      "name": "comparison_metric_families",
+      "png_path": "data/results/figures/comparisons/comparison_metric_families.png",
+      "svg_path": "data/results/figures/comparisons/comparison_metric_families.svg"
+    },
+    {
+      "category": "comparisons",
+      "name": "comparison_individual_vs_global",
+      "png_path": "data/results/figures/comparisons/comparison_individual_vs_global.png",
+      "svg_path": "data/results/figures/comparisons/comparison_individual_vs_global.svg"
+    },
+    {
+      "category": "comparisons",
+      "name": "comparison_global_by_experiment",
+      "png_path": "data/results/figures/comparisons/comparison_global_by_experiment.png",
+      "svg_path": "data/results/figures/comparisons/comparison_global_by_experiment.svg"
+    },
+    {
+      "category": "heatmaps",
+      "name": "heatmap_metric_correlation",
+      "png_path": "data/results/figures/heatmaps/heatmap_metric_correlation.png",
+      "svg_path": "data/results/figures/heatmaps/heatmap_metric_correlation.svg"
+    },
+    {
+      "category": "heatmaps",
+      "name": "heatmap_performance_by_transformation",
+      "png_path": "data/results/figures/heatmaps/heatmap_performance_by_transformation.png",
+      "svg_path": "data/results/figures/heatmaps/heatmap_performance_by_transformation.svg"
+    },
+    {
+      "category": "heatmaps",
+      "name": "heatmap_performance_by_component",
+      "png_path": "data/results/figures/heatmaps/heatmap_performance_by_component.png",
+      "svg_path": "data/results/figures/heatmaps/heatmap_performance_by_component.svg"
+    },
+    {
+      "category": "boxplots",
+      "name": "boxplot_all_metrics",
+      "png_path": "data/results/figures/boxplots/boxplot_all_metrics.png",
+      "svg_path": "data/results/figures/boxplots/boxplot_all_metrics.svg"
+    },
+    {
+      "category": "boxplots",
+      "name": "boxplot_global_by_transformation",
+      "png_path": "data/results/figures/boxplots/boxplot_global_by_transformation.png",
+      "svg_path": "data/results/figures/boxplots/boxplot_global_by_transformation.svg"
+    },
+    {
+      "category": "boxplots",
+      "name": "boxplot_global_by_pair_type",
+      "png_path": "data/results/figures/boxplots/boxplot_global_by_pair_type.png",
+      "svg_path": "data/results/figures/boxplots/boxplot_global_by_pair_type.svg"
+    },
+    {
+      "category": "boxplots",
+      "name": "boxplot_global_by_transformation_name",
+      "png_path": "data/results/figures/boxplots/boxplot_global_by_transformation_name.png",
+      "svg_path": "data/results/figures/boxplots/boxplot_global_by_transformation_name.svg"
+    }
+  ],
+  "figures_generated": 20,
+  "fingerprint": "2f6619ef62c776df38d0dcd85246aeace1ed549377ae0e3e4f9652e7f8a9133d",
+  "report_path": "data/results/figures/visualizations.md"
+}

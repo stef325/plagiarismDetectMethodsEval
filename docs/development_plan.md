@@ -217,10 +217,10 @@
 
 ## 6.2 Visualização
 
-* [ ] Gráficos de distribuição
-* [ ] Comparação entre métricas
-* [ ] Heatmaps
-* [ ] Boxplots
+* [x] Gráficos de distribuição
+* [x] Comparação entre métricas
+* [x] Heatmaps
+* [x] Boxplots
 
 ## 6.3 Análise estatística
 

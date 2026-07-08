@@ -5,6 +5,7 @@ pandas
 scipy
 scikit-learn
 matplotlib
+seaborn
 jupyter
 notebook
 tqdm

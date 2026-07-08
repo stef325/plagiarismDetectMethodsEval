@@ -243,15 +243,49 @@ def _build_similarity_consolidation(
     for row in rows:
         if row.get("record_type") == "metric_summary":
             continue
+        melody_score = _mean(
+            [
+                float(row[column])
+                for column in SIMILARITY_METRICS["melody"]
+                if row.get(column)
+            ]
+        )
+        harmony_score = _mean(
+            [
+                float(row[column])
+                for column in SIMILARITY_METRICS["harmony"]
+                if row.get(column)
+            ]
+        )
+        rhythm_score = _mean(
+            [
+                float(row[column])
+                for column in SIMILARITY_METRICS["rhythm"]
+                if row.get(column)
+            ]
+        )
         consolidated.append(
             {
                 "pair_id": row.get("pair_id", ""),
                 "pair_type": row.get("pair_type", ""),
                 "transformation": row.get("transformation", ""),
-                "score_melody": row.get("score_melody", ""),
-                "score_harmony": row.get("score_harmony", ""),
-                "score_rhythm": row.get("score_rhythm", ""),
-                "score_global": row.get("score_global", ""),
+                "interval_ngram_similarity": row.get("interval_ngram_similarity", ""),
+                "lcs_similarity": row.get("lcs_similarity", ""),
+                "edit_distance_similarity": row.get("edit_distance_similarity", ""),
+                "chord_ngram_similarity": row.get("chord_ngram_similarity", ""),
+                "harmonic_edit_distance": row.get("harmonic_edit_distance", ""),
+                "pitch_class_similarity": row.get("pitch_class_similarity", ""),
+                "rhythm_ngram_similarity": row.get("rhythm_ngram_similarity", ""),
+                "ioi_similarity": row.get("ioi_similarity", ""),
+                "rhythmic_edit_distance": row.get("rhythmic_edit_distance", ""),
+                "score_melody": f"{melody_score:.6f}",
+                "score_harmony": f"{harmony_score:.6f}",
+                "score_rhythm": f"{rhythm_score:.6f}",
+                "score_global": row.get("weighted_average", ""),
+                "simple_average": row.get("simple_average", ""),
+                "weighted_average": row.get("weighted_average", ""),
+                "comparison_representation": row.get("comparison_representation", ""),
+                "experiment_category": _infer_experiment_category(row),
             }
         )
     return consolidated
@@ -310,6 +344,8 @@ def _build_experiment_summary(
 
     experiment_rows: list[dict[str, str]] = []
     for category, rows in sorted(similarity_groups.items()):
+        if category == "Outros":
+            continue
         melody_scores = [float(row["score_melody"]) for row in rows if row["score_melody"]]
         harmony_scores = [float(row["score_harmony"]) for row in rows if row["score_harmony"]]
         rhythm_scores = [float(row["score_rhythm"]) for row in rows if row["score_rhythm"]]
@@ -359,9 +395,9 @@ def _build_statistics_summary(rows: list[dict[str, str]]) -> list[dict[str, str]
         )
 
     global_values = [
-        float(row["score_global"])
+        float(row["weighted_average"])
         for row in rows
-        if row.get("score_global")
+        if row.get("weighted_average")
     ]
     summary_rows.append(
         {
@@ -758,5 +794,7 @@ def _compute_fingerprint(
 
     digest = hashlib.sha256()
     for path in (similarity_path, robustness_path, interpretability_path):
+        digest.update(path.as_posix().encode("utf-8"))
         digest.update(path.read_bytes())
+    digest.update(Path(__file__).read_bytes())
     return digest.hexdigest()
