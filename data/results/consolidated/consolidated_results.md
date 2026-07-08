@@ -1,37 +1,37 @@
 # Relatório de Consolidação dos Resultados
 
-Data: 2026-07-08 01:18:06
+Data: 2026-07-07 22:29:15
 
 ## Resumo do experimento
 
 - Quantidade total de pares: 5600
 - Quantidade de experimentos executados: 4
-- Tempo de execução: 0.860 segundos
+- Tempo de execução: 1.108 segundos
 
 ## Tabela de Similaridade
 
 | pair_id | pair_type | transformação | score melódico | score harmônico | score rítmico | score global |
 | --- | --- | --- | --- | --- | --- | --- |
-| pair_000001 | positive |  |  |  |  |  |
-| pair_000002 | positive |  |  |  |  |  |
-| pair_000003 | positive |  |  |  |  |  |
-| pair_000004 | positive |  |  |  |  |  |
-| pair_000005 | positive | chord_substitution |  |  |  |  |
-| pair_000006 | positive | duration_scaling |  |  |  |  |
-| pair_000007 | positive | interval_modification |  |  |  |  |
-| pair_000008 | positive | ornamentation |  |  |  |  |
-| pair_000009 | positive | partial_rhythm_modification |  |  |  |  |
-| pair_000010 | positive | reharmonization |  |  |  |  |
-| pair_000011 | positive | simplification |  |  |  |  |
-| pair_000012 | positive | simplification |  |  |  |  |
-| pair_000013 | positive | tempo_change |  |  |  |  |
-| pair_000014 | positive | transpose |  |  |  |  |
-| pair_000015 | positive |  |  |  |  |  |
-| pair_000016 | positive |  |  |  |  |  |
-| pair_000017 | positive |  |  |  |  |  |
-| pair_000018 | positive |  |  |  |  |  |
-| pair_000019 | positive | chord_substitution |  |  |  |  |
-| pair_000020 | positive | duration_scaling |  |  |  |  |
+| pair_000001 | positive |  | 1.000000 | 0.645113 | 0.333333 | 0.709123 |
+| pair_000002 | positive |  | 1.000000 | 0.645113 | 1.000000 | 0.875789 |
+| pair_000003 | positive |  | 1.000000 | 0.645113 | 0.333333 | 0.709123 |
+| pair_000004 | positive |  | 1.000000 | 1.000000 | 0.333333 | 0.833333 |
+| pair_000005 | positive | chord_substitution | 0.000000 | 0.645113 | 0.000000 | 0.225789 |
+| pair_000006 | positive | duration_scaling | 0.000000 | 0.000000 | 0.073353 | 0.018338 |
+| pair_000007 | positive | interval_modification | 0.641308 | 0.000000 | 0.000000 | 0.256523 |
+| pair_000008 | positive | ornamentation | 0.633013 | 0.000000 | 0.000000 | 0.253205 |
+| pair_000009 | positive | partial_rhythm_modification | 0.000000 | 0.000000 | 0.067195 | 0.016799 |
+| pair_000010 | positive | reharmonization | 0.000000 | 0.680952 | 0.000000 | 0.238333 |
+| pair_000011 | positive | simplification | 0.000000 | 0.836309 | 0.000000 | 0.292708 |
+| pair_000012 | positive | simplification | 0.540965 | 0.000000 | 0.000000 | 0.216386 |
+| pair_000013 | positive | tempo_change | 0.000000 | 0.000000 | 0.333333 | 0.083333 |
+| pair_000014 | positive | transpose | 1.000000 | 0.000000 | 0.000000 | 0.400000 |
+| pair_000015 | positive |  | 1.000000 | 0.632710 | 0.333333 | 0.704782 |
+| pair_000016 | positive |  | 1.000000 | 0.632710 | 1.000000 | 0.871448 |
+| pair_000017 | positive |  | 1.000000 | 0.632710 | 0.333333 | 0.704782 |
+| pair_000018 | positive |  | 1.000000 | 1.000000 | 0.333333 | 0.833333 |
+| pair_000019 | positive | chord_substitution | 0.000000 | 0.632710 | 0.000000 | 0.221448 |
+| pair_000020 | positive | duration_scaling | 0.000000 | 0.000000 | 0.064160 | 0.016040 |
 
 ## Tabela de Robustez
 
@@ -78,10 +78,10 @@ Data: 2026-07-08 01:18:06
 
 | experimento | quantidade de pares | média melódica | média harmônica | média rítmica | média global |
 | --- | --- | --- | --- | --- | --- |
-| Outros | 3600 | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
-| Transformações Harmônicas | 400 | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
-| Transformações Melódicas | 1000 | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
-| Transformações Rítmicas | 600 | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
+| Transformações Combinadas | 1566 | 0.559427 | 0.388432 | 0.293772 | 0.433165 |
+| Transformações Harmônicas | 1153 | 0.003469 | 0.382713 | 0.000000 | 0.135337 |
+| Transformações Melódicas | 1531 | 0.413152 | 0.000000 | 0.000000 | 0.165261 |
+| Transformações Rítmicas | 1150 | 0.005217 | 0.000000 | 0.109235 | 0.029396 |
 
 ## Estatísticas gerais
 
@@ -90,7 +90,7 @@ Data: 2026-07-08 01:18:06
 | melody | 0.274688 | 0.040541 | 0.388629 | 0.000000 | 0.000000 | 0.550000 | 1.000000 |
 | harmony | 0.188341 | 0.000000 | 0.324852 | 0.000000 | 0.000000 | 0.218954 | 1.000000 |
 | rhythm | 0.107296 | 0.000000 | 0.280425 | 0.000000 | 0.000000 | 0.000000 | 1.000000 |
-| global | 0.000000 | 0.000000 | 0.000000 | 0.000000 | 0.000000 | 0.000000 | 0.000000 |
+| global | 0.202619 | 0.074472 | 0.260388 | 0.000000 | 0.021781 | 0.254503 | 0.901481 |
 
 ## Principais resultados
 
