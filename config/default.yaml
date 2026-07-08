@@ -22,6 +22,9 @@ paths:
 experiment:
   random_seed: 42
 
+evaluation:
+  similarity_threshold: 0.70
+
 metrics:
   melody:
     interval_ngram_n: 2

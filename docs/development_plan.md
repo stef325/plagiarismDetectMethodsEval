@@ -193,11 +193,11 @@
 
 ## 5.3 Avaliação da robustez
 
-* [ ] Precision
-* [ ] Recall
-* [ ] F1-score
-* [ ] False Negative Rate
-* [ ] Queda de similaridade
+* [x] Precision
+* [x] Recall
+* [x] F1-score
+* [x] False Negative Rate
+* [x] Queda de similaridade
 
 ## 5.4 Avaliação da interpretabilidade
 
