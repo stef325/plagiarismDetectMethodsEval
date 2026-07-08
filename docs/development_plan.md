@@ -201,9 +201,9 @@
 
 ## 5.4 Avaliação da interpretabilidade
 
-* [ ] Comparação entre componente transformado e escores
-* [ ] Comparação entre métricas individuais e global
-* [ ] Registro das evidências interpretativas
+* [x] Comparação entre componente transformado e escores
+* [x] Comparação entre métricas individuais e global
+* [x] Registro das evidências interpretativas
 
 ---
 
