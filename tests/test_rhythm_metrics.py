@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,7 +13,9 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.compute_rhythm_metrics import compute_rhythm_metrics
+compute_rhythm_metrics = import_module(
+    "experiment.15_compute_rhythm_metrics"
+).compute_rhythm_metrics
 from metrics.rhythm.ioi_similarity import IoISimilarityMetric
 from metrics.rhythm.rhythm_ngram_similarity import RhythmNGramSimilarityMetric
 from metrics.rhythm.rhythmic_edit_distance import RhythmicEditDistanceMetric
@@ -234,11 +237,11 @@ class ComputeRhythmMetricsPipelineTestCase(unittest.TestCase):
             )
 
             with patch(
-                "experiment.compute_rhythm_metrics.RhythmNGramSimilarityMetric.compute"
+                "experiment.15_compute_rhythm_metrics.RhythmNGramSimilarityMetric.compute"
             ) as mocked_ngram, patch(
-                "experiment.compute_rhythm_metrics.IoISimilarityMetric.compute"
+                "experiment.15_compute_rhythm_metrics.IoISimilarityMetric.compute"
             ) as mocked_ioi, patch(
-                "experiment.compute_rhythm_metrics.RhythmicEditDistanceMetric.compute"
+                "experiment.15_compute_rhythm_metrics.RhythmicEditDistanceMetric.compute"
             ) as mocked_edit:
                 compute_rhythm_metrics(
                     transformations_path=transformations_root,

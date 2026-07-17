@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,7 +13,9 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.compute_melody_metrics import compute_melody_metrics
+compute_melody_metrics = import_module(
+    "experiment.13_compute_melody_metrics"
+).compute_melody_metrics
 from metrics.melody.edit_distance import EditDistanceMetric
 from metrics.melody.interval_ngram_similarity import IntervalNGramSimilarityMetric
 from metrics.melody.longest_common_subsequence import LongestCommonSubsequenceMetric
@@ -257,11 +260,11 @@ class ComputeMelodyMetricsPipelineTestCase(unittest.TestCase):
             )
 
             with patch(
-                "experiment.compute_melody_metrics.IntervalNGramSimilarityMetric.compute"
+                "experiment.13_compute_melody_metrics.IntervalNGramSimilarityMetric.compute"
             ) as mocked_interval, patch(
-                "experiment.compute_melody_metrics.LongestCommonSubsequenceMetric.compute"
+                "experiment.13_compute_melody_metrics.LongestCommonSubsequenceMetric.compute"
             ) as mocked_lcs, patch(
-                "experiment.compute_melody_metrics.EditDistanceMetric.compute"
+                "experiment.13_compute_melody_metrics.EditDistanceMetric.compute"
             ) as mocked_edit:
                 compute_melody_metrics(
                     transformations_path=transformations_root,

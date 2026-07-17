@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 from collections.abc import Callable
+from importlib import import_module
 from pathlib import Path
 import sys
 
@@ -13,32 +14,66 @@ if str(SRC_ROOT) not in sys.path:
 
 import yaml
 
-from experiment.clean_dataset import clean_dataset
-from experiment.build_experiment_pairs import build_experiment_pairs
-from experiment.compute_harmony_metrics import compute_harmony_metrics
-from experiment.compute_global_metrics import compute_global_metrics
-from experiment.compute_rhythm_metrics import compute_rhythm_metrics
-from experiment.compute_melody_metrics import compute_melody_metrics
-from experiment.consolidate_results import consolidate_results
-from experiment.generate_visualizations import generate_visualizations
-from experiment.evaluate_robustness import evaluate_robustness
-from experiment.evaluate_interpretability import evaluate_interpretability
-from experiment.run_similarity_experiment import run_similarity_experiment
-from experiment.extract_representations import extract_representations
-from experiment.extract_segments import extract_segments
-from experiment.inspect_dataset import inspect_dataset
-from experiment.select_subset import select_subset
-from experiment.transform_combined import transform_combined
-from experiment.transform_harmonies import transform_harmonies
-from experiment.transform_melodies import transform_melodies
-from experiment.transform_rhythms import transform_rhythms
-from experiment.validate_transformations import validate_transformations
-from experiment.validate_representations import validate_representations
-from experiment.validate_dataset import validate_dataset
-from experiment.validate_metrics import validate_metrics
-
 
 DEFAULT_CONFIG_PATH = Path("config/default.yaml")
+
+inspect_dataset = import_module("experiment.01_inspect_dataset").inspect_dataset
+clean_dataset = import_module("experiment.02_clean_dataset").clean_dataset
+validate_dataset = import_module("experiment.03_validate_dataset").validate_dataset
+select_subset = import_module("experiment.04_select_subset").select_subset
+extract_segments = import_module("experiment.05_extract_segments").extract_segments
+extract_representations = import_module(
+    "experiment.06_extract_representations"
+).extract_representations
+transform_melodies = import_module(
+    "experiment.07_transform_melodies"
+).transform_melodies
+transform_harmonies = import_module(
+    "experiment.08_transform_harmonies"
+).transform_harmonies
+transform_rhythms = import_module(
+    "experiment.09_transform_rhythms"
+).transform_rhythms
+transform_combined = import_module(
+    "experiment.10_transform_combined"
+).transform_combined
+validate_representations = import_module(
+    "experiment.11_validate_representations"
+).validate_representations
+validate_transformations = import_module(
+    "experiment.12_validate_transformations"
+).validate_transformations
+compute_melody_metrics = import_module(
+    "experiment.13_compute_melody_metrics"
+).compute_melody_metrics
+compute_harmony_metrics = import_module(
+    "experiment.14_compute_harmony_metrics"
+).compute_harmony_metrics
+compute_rhythm_metrics = import_module(
+    "experiment.15_compute_rhythm_metrics"
+).compute_rhythm_metrics
+compute_global_metrics = import_module(
+    "experiment.16_compute_global_metrics"
+).compute_global_metrics
+validate_metrics = import_module("experiment.17_validate_metrics").validate_metrics
+build_experiment_pairs = import_module(
+    "experiment.18_build_experiment_pairs"
+).build_experiment_pairs
+run_similarity_experiment = import_module(
+    "experiment.19_run_similarity_experiment"
+).run_similarity_experiment
+evaluate_robustness = import_module(
+    "experiment.20_evaluate_robustness"
+).evaluate_robustness
+evaluate_interpretability = import_module(
+    "experiment.21_evaluate_interpretability"
+).evaluate_interpretability
+consolidate_results = import_module(
+    "experiment.22_consolidate_results"
+).consolidate_results
+generate_visualizations = import_module(
+    "experiment.23_generate_visualizations"
+).generate_visualizations
 
 
 def main(argv: list[str] | None = None) -> int:

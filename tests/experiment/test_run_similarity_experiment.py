@@ -3,12 +3,15 @@ from __future__ import annotations
 import csv
 import json
 import tempfile
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
 import pytest
 
-from experiment.run_similarity_experiment import run_similarity_experiment
+run_similarity_experiment = import_module(
+    "experiment.19_run_similarity_experiment"
+).run_similarity_experiment
 
 
 def _write_json(path: Path, payload: dict[str, object]) -> None:
@@ -248,27 +251,27 @@ def test_run_similarity_experiment_reuses_existing_results() -> None:
         )
 
         with patch(
-            "experiment.run_similarity_experiment.IntervalNGramSimilarityMetric.compute"
+            "experiment.19_run_similarity_experiment.IntervalNGramSimilarityMetric.compute"
         ) as mocked_interval, patch(
-            "experiment.run_similarity_experiment.LongestCommonSubsequenceMetric.compute"
+            "experiment.19_run_similarity_experiment.LongestCommonSubsequenceMetric.compute"
         ) as mocked_lcs, patch(
-            "experiment.run_similarity_experiment.EditDistanceMetric.compute"
+            "experiment.19_run_similarity_experiment.EditDistanceMetric.compute"
         ) as mocked_edit, patch(
-            "experiment.run_similarity_experiment.ChordNGramSimilarityMetric.compute"
+            "experiment.19_run_similarity_experiment.ChordNGramSimilarityMetric.compute"
         ) as mocked_chord, patch(
-            "experiment.run_similarity_experiment.HarmonicEditDistanceMetric.compute"
+            "experiment.19_run_similarity_experiment.HarmonicEditDistanceMetric.compute"
         ) as mocked_harmonic_edit, patch(
-            "experiment.run_similarity_experiment.PitchClassSimilarityMetric.compute"
+            "experiment.19_run_similarity_experiment.PitchClassSimilarityMetric.compute"
         ) as mocked_pitch, patch(
-            "experiment.run_similarity_experiment.RhythmNGramSimilarityMetric.compute"
+            "experiment.19_run_similarity_experiment.RhythmNGramSimilarityMetric.compute"
         ) as mocked_rhythm_ngram, patch(
-            "experiment.run_similarity_experiment.IoISimilarityMetric.compute"
+            "experiment.19_run_similarity_experiment.IoISimilarityMetric.compute"
         ) as mocked_ioi, patch(
-            "experiment.run_similarity_experiment.RhythmicEditDistanceMetric.compute"
+            "experiment.19_run_similarity_experiment.RhythmicEditDistanceMetric.compute"
         ) as mocked_rhythm_edit, patch(
-            "experiment.run_similarity_experiment.SimpleAverageMetric.compute"
+            "experiment.19_run_similarity_experiment.SimpleAverageMetric.compute"
         ) as mocked_simple, patch(
-            "experiment.run_similarity_experiment.WeightedAverageMetric.compute"
+            "experiment.19_run_similarity_experiment.WeightedAverageMetric.compute"
         ) as mocked_weighted:
             run_similarity_experiment(
                 experiment_pairs_path=experiment_root / "experiment_pairs.json",
@@ -290,4 +293,3 @@ def test_run_similarity_experiment_reuses_existing_results() -> None:
         mocked_rhythm_edit.assert_not_called()
         mocked_simple.assert_not_called()
         mocked_weighted.assert_not_called()
-

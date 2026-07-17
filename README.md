@@ -273,6 +273,9 @@ docker compose run --rm app python src/main.py --config config/default.yaml all
 * `src/transformations/`: transformações musicais controladas.
 * `src/metrics/`: métricas de similaridade musical.
 * `tests/`: testes automatizados do projeto.
+* `notebooks/00_full_experiment_colab.ipynb`: notebook principal obrigatório para reprodução completa, inclusive em ambiente Google Colab.
+* `notebooks/01_step_by_step_execution.ipynb`: notebook para execução passo a passo das etapas do experimento.
+* `notebooks/02_results_analysis.ipynb`: notebook para inspeção dos resultados já gerados.
 
 ### Arquivos principais
 
@@ -310,6 +313,16 @@ docker compose run --rm app python src/main.py --config config/default.yaml all
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## Ordem dos notebooks
+
+Os notebooks também seguem uma ordem explícita para apoiar a reprodução e a análise:
+
+1. `24_full_experiment_colab.ipynb`: execução completa do experimento em ambiente interativo, com foco em Google Colab.
+2. `25_step_by_step_execution.ipynb`: execução modular por etapas, útil para depuração, repetição parcial e acompanhamento do pipeline.
+3. `26_results_analysis.ipynb`: leitura e inspeção dos artefatos finais já gerados.
 
 ---
 

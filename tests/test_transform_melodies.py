@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,7 +13,7 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.transform_melodies import transform_melodies
+transform_melodies = import_module("experiment.07_transform_melodies").transform_melodies
 
 
 def _create_representations_dataset(root: Path, count: int) -> Path:
@@ -85,7 +86,7 @@ class TransformMelodiesTestCase(unittest.TestCase):
             existing_content = existing_json.read_text(encoding="utf-8")
 
             with patch(
-                "experiment.transform_melodies.TranspositionTransformation.transform"
+                "experiment.07_transform_melodies.TranspositionTransformation.transform"
             ) as mocked_transform:
                 second_result = transform_melodies(
                     source_path,

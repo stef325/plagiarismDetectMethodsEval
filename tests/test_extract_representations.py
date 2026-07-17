@@ -4,6 +4,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -14,7 +15,9 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.extract_representations import extract_representations
+extract_representations = import_module(
+    "experiment.06_extract_representations"
+).extract_representations
 
 
 def _write_midi(path: Path) -> None:
@@ -82,7 +85,7 @@ class ExtractRepresentationsTestCase(unittest.TestCase):
             output_path = root / "data" / "processed" / "representations"
 
             with patch(
-                "experiment.extract_representations.POP909Loader.load_midi_file",
+                "experiment.06_extract_representations.POP909Loader.load_midi_file",
                 return_value=_build_loaded_segment(),
             ):
                 result = extract_representations(source_path, output_path)
@@ -109,7 +112,7 @@ class ExtractRepresentationsTestCase(unittest.TestCase):
             existing_json.write_text("{\"existing\": true}", encoding="utf-8")
 
             with patch(
-                "experiment.extract_representations.POP909Loader.load_midi_file"
+                "experiment.06_extract_representations.POP909Loader.load_midi_file"
             ) as mocked_load:
                 extract_representations(source_path, output_path)
 

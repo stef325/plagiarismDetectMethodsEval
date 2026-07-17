@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,7 +13,9 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.validate_transformations import validate_transformations
+validate_transformations = import_module(
+    "experiment.12_validate_transformations"
+).validate_transformations
 from preprocessing.representation.combined_representation import CombinedRepresentation
 from preprocessing.representation.harmony_representation import HarmonyRepresentation
 from preprocessing.representation.melody_representation import MelodyRepresentation
@@ -477,7 +480,7 @@ class ValidateTransformationsPipelineTestCase(unittest.TestCase):
                 output_path=validation_root,
             )
 
-            with patch("experiment.validate_transformations.MelodyValidator.validate") as mocked_validate:
+            with patch("experiment.12_validate_transformations.MelodyValidator.validate") as mocked_validate:
                 validate_transformations(
                     transformations_path=transformations_root,
                     representations_path=representations_root,
