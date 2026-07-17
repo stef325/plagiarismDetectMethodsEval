@@ -1,124 +1,154 @@
 # Musical Plagiarism Detection Metrics Evaluation
 
-## Sobre o projeto
+## Descrição do projeto
 
-Este repositório contém o desenvolvimento do experimento proposto no artigo **"Avaliação da Robustez e Interpretabilidade de Métricas de Similaridade Musical para Detecção de Plágio em Músicas Geradas por IA"**.
+Este repositório reúne a implementação experimental do artigo **"Avaliação da Robustez e Interpretabilidade de Métricas de Similaridade Musical para Detecção de Plágio Musical"**.
 
-O objetivo do projeto é investigar como diferentes métricas de similaridade musical se comportam na detecção de similaridade suspeita entre músicas representadas simbolicamente em formato MIDI. O experimento utiliza o dataset **POP909** e avalia métricas melódicas, harmônicas, rítmicas e uma métrica global sob diferentes transformações musicais controladas.
+O projeto investiga como métricas de similaridade musical se comportam ao comparar músicas em formato simbólico MIDI, com foco especial em:
 
-Além da implementação do experimento, este repositório busca garantir **reprodutibilidade**, documentando etapas, ambiente de execução e parâmetros utilizados.
+* robustez a transformações musicais controladas;
+* interpretabilidade dos escores produzidos;
+* comparação entre métricas melódicas, harmônicas, rítmicas e globais.
 
----
-
-## Estado atual
-
-Até o momento, o projeto já possui:
-
-* Estrutura de diretórios do repositório.
-* Ambiente Docker para execução reproduzível.
-* Configuração central em YAML.
-* Documentação do dataset POP909 em `docs/datasets.md`.
-* `POP909Inspector` para inspecionar a estrutura do dataset.
-* `POP909Loader` para carregar arquivos MIDI com `pretty_midi`.
-* Pipelines do protocolo experimental, da inspeção do dataset até a consolidação e visualização dos resultados.
-* Interface de linha de comando com `argparse` para executar cada etapa do experimento.
-* Testes unitários para os componentes e pipelines implementados.
+O dataset utilizado é o **POP909**, e toda a estrutura do projeto foi organizada para favorecer **reprodutibilidade científica**.
 
 ---
 
-## Tecnologias utilizadas
+## Objetivo do experimento
 
-* Python
-* Docker
-* Git
-* GitHub
+O objetivo do experimento é avaliar se diferentes métricas de similaridade:
 
-Bibliotecas Python utilizadas:
+* distinguem adequadamente pares positivos e negativos;
+* respondem de forma coerente ao componente musical transformado;
+* mantêm comportamento interpretável sob diferentes manipulações musicais.
 
-* music21
-* pretty_midi
-* numpy
-* pandas
-* scipy
-* scikit-learn
-* matplotlib
-* seaborn
-* jupyter
-* notebook
-* pyyaml
-* tqdm
+Este estudo trata os resultados como **indicadores computacionais de similaridade suspeita**, e não como determinação jurídica ou pericial de plágio.
 
 ---
 
-## Estrutura atual do experimento
+## Perguntas de pesquisa
 
-O arquivo `src/main.py` funciona como ponto de entrada da aplicação e expõe comandos para executar cada etapa separadamente ou o fluxo completo.
+O experimento é orientado pelas seguintes perguntas:
 
-Comandos atualmente disponíveis:
-
-* `inspect`: inspeciona a estrutura do dataset bruto.
-* `clean`: copia apenas os MIDI principais para a área processada.
-* `validate`: valida se os arquivos MIDI do dataset podem ser carregados.
-* `subset`: seleciona um subconjunto reproduzível do dataset processado.
-* `segments`: extrai segmentos aleatórios em compassos.
-* `representations`: extrai representações melódicas, harmônicas e rítmicas.
-* `melody_transform`: aplica transformações melódicas.
-* `harmony_transform`: aplica transformações harmônicas.
-* `rhythm_transform`: aplica transformações rítmicas.
-* `combined_transform`: aplica transformações combinadas.
-* `validate_representations`: valida as representações extraídas.
-* `validate_transformations`: valida as transformações geradas.
-* `compute_melody_metrics`: calcula as métricas de similaridade melódica.
-* `compute_harmony_metrics`: calcula as métricas de similaridade harmônica.
-* `compute_rhythm_metrics`: calcula as métricas de similaridade rítmica.
-* `compute_global_metrics`: calcula a métrica global.
-* `validate_metrics`: executa a validação automatizada das métricas.
-* `build_experiment_pairs`: forma os pares experimentais positivos e negativos.
-* `run_experiment`: executa as métricas sobre os pares experimentais.
-* `evaluate_robustness`: avalia a robustez das métricas.
-* `evaluate_interpretability`: avalia a interpretabilidade das métricas.
-* `consolidate_results`: consolida os resultados produzidos.
-* `generate_visualizations`: gera as figuras do experimento.
-* `all`: executa o fluxo completo em sequência.
+* `RQ1`: métricas de similaridade musical conseguem detectar possível plágio em versões transformadas de trechos do POP909 após alterações em melodia, harmonia e ritmo?
+* `RQ2`: quais componentes musicais, quando transformados, reduzem a robustez das métricas de similaridade?
+* `RQ3`: métricas separadas por componente musical tornam a análise de similaridade mais interpretável do que métricas globais?
 
 ---
 
-## Estrutura do projeto
+## Hipóteses
 
-```text
-.
-├── config/
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── results/
-├── docs/
-├── notebooks/
-├── src/
-│   ├── experiment/
-│   ├── metrics/
-│   ├── preprocessing/
-│   ├── transformations/
-│   └── main.py
-├── tests/
-├── Dockerfile
-├── docker-compose.yaml
-├── LICENSE
-├── requirements.txt
-└── README.md
-```
+As hipóteses avaliadas no artigo são:
+
+* `H1`: transformações melódicas causam maior queda na detecção de similaridade suspeita do que transformações harmônicas ou rítmicas.
+* `H2`: métricas específicas por componente musical são mais interpretáveis do que métricas globais.
+* `H3`: uma abordagem combinada, agregando similaridade melódica, harmônica e rítmica, é mais robusta para detectar possível plágio do que métricas isoladas.
 
 ---
 
-## Como executar
+## Escopo e delimitações
 
-### Pré-requisitos
+Este repositório documenta um experimento controlado com as seguintes características:
 
-* Docker e Docker Compose v2.
-* Dataset POP909 extraído em `data/raw/POP909`.
-* Arquivos de integridade do dataset conforme descrito em `docs/datasets.md`.
+* utiliza o POP909 como dataset principal;
+* trabalha com representações simbólicas em MIDI;
+* avalia pares positivos e negativos formados a partir de trechos musicais;
+* utiliza transformações controladas em melodia, harmonia, ritmo e combinações;
+* não utiliza músicas geradas por IA como dados experimentais;
+* não tem como objetivo emitir decisão jurídica sobre plágio.
 
-### Execução recomendada com Docker Compose
+A geração musical por IA aparece no trabalho como **contexto de aplicação e motivação do problema**, mas o experimento em si usa versões transformadas controladamente a partir do POP909.
+
+---
+
+## Visão geral do experimento
+
+O protocolo experimental segue, em alto nível, o fluxo abaixo:
+
+1. inspecionar e validar o dataset;
+2. preparar uma versão processada com os arquivos principais;
+3. selecionar um subconjunto reproduzível;
+4. extrair segmentos musicais;
+5. gerar representações melódicas, harmônicas e rítmicas;
+6. aplicar transformações musicais controladas;
+7. formar pares experimentais positivos e negativos;
+8. calcular métricas de similaridade;
+9. avaliar robustez e interpretabilidade;
+10. consolidar resultados e gerar visualizações.
+
+### Pares experimentais
+
+* par positivo: trecho original comparado com uma versão transformada derivada do mesmo segmento;
+* par negativo: trecho original comparado com outro trecho sem relação conhecida.
+
+---
+
+## Métricas e critérios de avaliação
+
+As famílias de métricas avaliadas são:
+
+* melódicas: n-gramas intervalares, maior subsequência comum e distância de edição melódica;
+* harmônicas: n-gramas de acordes, distância de edição harmônica e similaridade por classes de altura;
+* rítmicas: n-gramas rítmicos, similaridade IOI e distância de edição rítmica;
+* globais: média simples e média ponderada entre os componentes.
+
+Os principais critérios de avaliação utilizados são:
+
+* precisão;
+* revocação;
+* F1-score;
+* taxa de falsos negativos;
+* queda de similaridade;
+* interpretabilidade por componente musical.
+
+---
+
+## Principais resultados
+
+De acordo com os resultados consolidados no artigo:
+
+* 909 músicas do POP909 foram inspecionadas;
+* 2.898 arquivos MIDI foram carregados com sucesso;
+* 200 representações musicais válidas foram consideradas na análise;
+* 5.600 pares foram comparados, sendo 2.800 positivos e 2.800 negativos;
+* as métricas apresentaram alta precisão para rejeitar pares negativos;
+* a revocação foi baixa sob o limiar adotado, indicando sensibilidade limitada para parte dos pares positivos transformados;
+* as transformações rítmicas produziram a maior queda média de similaridade;
+* os escores por componente mostraram-se mais interpretáveis do que a métrica global isolada.
+
+Esses resultados sugerem que as métricas são promissoras para triagem computacional de similaridade suspeita, mas ainda exigem calibração e análise conjunta por componente.
+
+---
+
+## Documentação complementar
+
+Para conhecer melhor o artigo, o desenho experimental e os artefatos de reprodução antes da execução, a documentação detalhada foi organizada em arquivos específicos:
+
+* [Sumário da documentação](docs/README.md)
+* [Visão geral do projeto](docs/project_overview.md)
+* [Protocolo experimental](docs/experimental_protocol.md)
+* [Reprodutibilidade](docs/reproducibility.md)
+* [Arquitetura do projeto](docs/architecture.md)
+* [Datasets](docs/datasets.md)
+* [Guia dos resultados](docs/results_guide.md)
+* [Plano de desenvolvimento](docs/development_plan.md)
+
+---
+
+## Links importantes
+
+* Projeto no OSF: <https://doi.org/10.17605/OSF.IO/FUAVC>
+* Sumário da documentação: [docs/README.md](docs/README.md)
+* Documentação do dataset POP909: [docs/datasets.md](docs/datasets.md)
+* Protocolo experimental: [docs/experimental_protocol.md](docs/experimental_protocol.md)
+* Reprodutibilidade: [docs/reproducibility.md](docs/reproducibility.md)
+* Guia dos resultados: [docs/results_guide.md](docs/results_guide.md)
+
+---
+
+## Como instalar as dependências
+
+### Opção recomendada com Docker
 
 Construir a imagem:
 
@@ -126,72 +156,63 @@ Construir a imagem:
 docker compose build
 ```
 
-Listar a ajuda do programa:
+Essa é a forma recomendada para manter o ambiente alinhado ao experimento.
+
+### Instalação local com Python
+
+Pré-requisitos:
+
+* Python compatível com o projeto;
+* `pip` disponível no ambiente.
+
+Instalação:
 
 ```bash
-docker compose run --rm app python src/main.py --help
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 ```
 
-Executar o experimento completo:
+As principais bibliotecas utilizadas incluem:
+
+* `music21`
+* `pretty_midi`
+* `numpy`
+* `pandas`
+* `scipy`
+* `scikit-learn`
+* `matplotlib`
+* `seaborn`
+* `pyyaml`
+* `tqdm`
+
+---
+
+## Como executar a análise
+
+### Pré-requisitos de dados
+
+Antes da execução, é necessário:
+
+* disponibilizar o dataset POP909 em `data/raw/POP909`;
+* manter os arquivos de integridade do dataset conforme descrito em `docs/datasets.md`.
+
+### Execução completa
+
+Com Docker:
 
 ```bash
 docker compose run --rm app python src/main.py all
 ```
 
-Executar uma etapa específica:
+Sem Docker:
 
 ```bash
-docker compose run --rm app python src/main.py inspect
-docker compose run --rm app python src/main.py clean
-docker compose run --rm app python src/main.py validate
-docker compose run --rm app python src/main.py subset
-docker compose run --rm app python src/main.py segments
-docker compose run --rm app python src/main.py representations
-docker compose run --rm app python src/main.py melody_transform
-docker compose run --rm app python src/main.py harmony_transform
-docker compose run --rm app python src/main.py rhythm_transform
-docker compose run --rm app python src/main.py combined_transform
-docker compose run --rm app python src/main.py validate_representations
-docker compose run --rm app python src/main.py validate_transformations
-docker compose run --rm app python src/main.py compute_melody_metrics
-docker compose run --rm app python src/main.py compute_harmony_metrics
-docker compose run --rm app python src/main.py compute_rhythm_metrics
-docker compose run --rm app python src/main.py compute_global_metrics
-docker compose run --rm app python src/main.py validate_metrics
-docker compose run --rm app python src/main.py build_experiment_pairs
-docker compose run --rm app python src/main.py run_experiment
-docker compose run --rm app python src/main.py evaluate_robustness
-docker compose run --rm app python src/main.py evaluate_interpretability
-docker compose run --rm app python src/main.py consolidate_results
-docker compose run --rm app python src/main.py generate_visualizations
-```
-
-### Execução com arquivo de configuração alternativo
-
-O projeto utiliza `config/default.yaml` por padrão. Para usar outro arquivo:
-
-```bash
-docker compose run --rm app python src/main.py --config config/default.yaml inspect
-```
-
-Exemplo com o fluxo completo:
-
-```bash
-docker compose run --rm app python src/main.py --config config/default.yaml all
-```
-
-### Execução local sem Docker
-
-Também é possível executar localmente, desde que as dependências de `requirements.txt` estejam instaladas:
-
-```bash
-python src/main.py inspect
 python src/main.py all
 ```
 
-### Fluxo sugerido do protocolo experimental
+### Ordem dos scripts
 
-Para executar o experimento passo a passo, a ordem recomendada é:
+Se a análise for executada passo a passo, a ordem recomendada é:
 
 1. `inspect`
 2. `clean`
@@ -217,62 +238,138 @@ Para executar o experimento passo a passo, a ordem recomendada é:
 22. `consolidate_results`
 23. `generate_visualizations`
 
-### Principais saídas geradas
+### Exemplos de execução por etapa
 
-* Inspeção do dataset: `data/results/inspect_dataset/`
-* Limpeza do dataset: `data/processed/POP909/`
-* Validação dos arquivos MIDI: `data/results/validate_dataset/`
-* Subconjunto processado: `data/processed/subset/`
-* Segmentos extraídos: `data/processed/segments/`
-* Representações extraídas: `data/processed/representations/`
-* Transformações: `data/processed/transformations/`
-* Pares experimentais: `data/results/experiment/pairs/`
-* Similaridades do experimento: `data/results/experiment/`
-* Avaliações: `data/results/evaluation/`
-* Consolidação: `data/results/consolidated/`
-* Figuras: `data/results/figures/`
-
----
-
-## Configuração do experimento
-
-Os principais parâmetros do experimento ficam em `config/default.yaml`, incluindo:
-
-* caminho do dataset;
-* seed aleatória;
-* tamanho do subconjunto;
-* quantidade de compassos por segmento;
-* quantidade de segmentos por música;
-* transformações habilitadas;
-* parâmetros das transformações;
-* parâmetros das métricas;
-* pesos da métrica global;
-* limiar de avaliação.
-
----
-
-## Documentação
-
-A documentação do projeto encontra-se na pasta `docs`.
-
-Os principais documentos são:
-
-* [Plano de desenvolvimento](docs/development_plan.md)
-* [Datasets e validação de integridade](docs/datasets.md)
-
----
-
-## Plano de desenvolvimento
-
-O desenvolvimento do projeto está organizado em etapas independentes.
-
-O acompanhamento das tarefas pode ser encontrado em:
-
-```text
-docs/development_plan.md
+```bash
+docker compose run --rm app python src/main.py inspect
+docker compose run --rm app python src/main.py validate
+docker compose run --rm app python src/main.py run_experiment
+docker compose run --rm app python src/main.py consolidate_results
 ```
 
-Cada etapa implementada corresponde a uma funcionalidade documentada e versionada no repositório.
+### Executar com outro arquivo de configuração
+
+O projeto utiliza `config/default.yaml` por padrão. Para usar outro arquivo:
+
+```bash
+docker compose run --rm app python src/main.py --config config/default.yaml all
+```
+
+---
+
+## O que cada pasta e arquivo principal faz
+
+### Pastas principais
+
+* `config/`: arquivos de configuração do experimento, incluindo seeds, parâmetros e caminhos.
+* `data/raw/`: dados brutos originais do projeto, incluindo o dataset POP909.
+* `data/processed/`: artefatos intermediários gerados ao longo do pré-processamento e das transformações.
+* `data/results/`: resultados finais e relatórios do experimento.
+* `docs/`: documentação detalhada do projeto, protocolo, arquitetura e reprodutibilidade.
+* `notebooks/`: espaço para análises exploratórias e estudos complementares.
+* `src/`: código-fonte principal do projeto.
+* `src/experiment/`: pipelines que implementam cada etapa do protocolo experimental.
+* `src/preprocessing/`: componentes reutilizáveis de pré-processamento e carregamento de dados.
+* `src/transformations/`: transformações musicais controladas.
+* `src/metrics/`: métricas de similaridade musical.
+* `tests/`: testes automatizados do projeto.
+
+### Arquivos principais
+
+* `src/main.py`: ponto de entrada da aplicação e interface de linha de comando.
+* `config/default.yaml`: configuração padrão do experimento.
+* `requirements.txt`: dependências Python do projeto.
+* `Dockerfile`: definição da imagem do ambiente.
+* `docker-compose.yaml`: configuração do serviço principal para execução reproduzível.
+* `README.md`: visão geral do projeto e instruções principais de uso.
+* `pytest.ini`: configuração da suíte de testes.
+* `LICENSE`: informações de licenciamento do repositório.
+
+---
+
+## Estrutura principal do repositório
+
+```text
+.
+├── config/
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── results/
+├── docs/
+├── notebooks/
+├── src/
+│   ├── experiment/
+│   ├── metrics/
+│   ├── preprocessing/
+│   ├── transformations/
+│   └── main.py
+├── tests/
+├── Dockerfile
+├── docker-compose.yaml
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Principais saídas geradas
+
+* inspeção do dataset: `data/results/inspect_dataset/`
+* dataset processado: `data/processed/POP909/`
+* representações extraídas: `data/processed/representations/`
+* transformações: `data/processed/transformations/`
+* pares experimentais: `data/results/experiment/pairs/`
+* resultados de similaridade: `data/results/experiment/`
+* avaliações: `data/results/evaluation/`
+* consolidação: `data/results/consolidated/`
+* figuras: `data/results/figures/`
+
+---
+
+## Contato
+
+**Autora:** Bruna Stefany da Silva Reinaldo  
+**E-mail:** `brunastefany.academico@gmail.com`  
+**Instituição:** Universidade Federal de Campina Grande  
+**Local:** Campina Grande, Paraíba, Brasil
+
+Para dúvidas, sugestões ou relato de problemas, também é possível utilizar as *issues* deste repositório.
+
+---
+
+## Como citar
+
+Se você utilizar este repositório ou os resultados dele, prefira citar o artigo correspondente.
+
+Referência conforme o manuscrito atual:
+
+```text
+Bruna Stefany da Silva Reinaldo. 2026. Avaliação da Robustez e Interpretabilidade de Métricas de Similaridade Musical para Detecção de Plágio Musical. In Proceedings of Reprodutibilidade em Pesquisa em Ciência da Computação (RPCC '26). RPCC, Campina Grande, PB, BR, 10 pages. https://doi.org/10.17605/OSF.IO/FUAVC
+```
+
+Como artefato de reprodutibilidade, o projeto também pode ser referenciado pelo DOI do OSF:
+
+```text
+Reinaldo, Bruna Stefany da Silva. 2026. Musical Plagiarism Detection Metrics Evaluation. OSF. https://doi.org/10.17605/OSF.IO/FUAVC
+```
+
+---
+
+## Ambiente utilizado
+
+As execuções do experimento foram realizadas em ambiente conteinerizado com:
+
+* Docker `29.6.1` (`docker --version` em 17 de julho de 2026);
+
+Ambiente hospedeiro utilizado na execução do Docker:
+
+* sistema operacional hospedeiro: Windows 11;
+* processador: 11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz;
+* memória RAM instalada: 32,0 GB;
+* placa gráfica: Intel(R) UHD Graphics (128 MB).
+
+Essas informações ajudam a contextualizar o ambiente computacional empregado na reprodução do experimento.
 
 ---
 
