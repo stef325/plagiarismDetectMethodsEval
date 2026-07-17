@@ -210,6 +210,16 @@ Sem Docker:
 python src/main.py all
 ```
 
+### Execução alternativa com notebooks
+
+Se preferir, o usuário também pode executar o experimento por meio dos notebooks do projeto, em vez de usar apenas a linha de comando.
+
+Ordem recomendada dos notebooks:
+
+1. `24_full_experiment_colab.ipynb`: notebook principal para execução completa, inclusive em Google Colab.
+2. `25_step_by_step_execution.ipynb`: notebook para execução por etapas.
+3. `26_results_analysis.ipynb`: notebook para inspeção dos resultados já produzidos.
+
 ### Ordem dos scripts
 
 Se a análise for executada passo a passo, a ordem recomendada é:
@@ -266,16 +276,16 @@ docker compose run --rm app python src/main.py --config config/default.yaml all
 * `data/processed/`: artefatos intermediários gerados ao longo do pré-processamento e das transformações.
 * `data/results/`: resultados finais e relatórios do experimento.
 * `docs/`: documentação detalhada do projeto, protocolo, arquitetura e reprodutibilidade.
-* `notebooks/`: espaço para análises exploratórias e estudos complementares.
+* `notebooks/`: espaço para execução interativa do experimento, reprodução em notebook e análises complementares.
 * `src/`: código-fonte principal do projeto.
 * `src/experiment/`: pipelines que implementam cada etapa do protocolo experimental.
 * `src/preprocessing/`: componentes reutilizáveis de pré-processamento e carregamento de dados.
 * `src/transformations/`: transformações musicais controladas.
 * `src/metrics/`: métricas de similaridade musical.
 * `tests/`: testes automatizados do projeto.
-* `notebooks/00_full_experiment_colab.ipynb`: notebook principal obrigatório para reprodução completa, inclusive em ambiente Google Colab.
-* `notebooks/01_step_by_step_execution.ipynb`: notebook para execução passo a passo das etapas do experimento.
-* `notebooks/02_results_analysis.ipynb`: notebook para inspeção dos resultados já gerados.
+* `notebooks/24_full_experiment_colab.ipynb`: notebook principal obrigatório para reprodução completa, inclusive em ambiente Google Colab.
+* `notebooks/25_step_by_step_execution.ipynb`: notebook para execução passo a passo das etapas do experimento.
+* `notebooks/26_results_analysis.ipynb`: notebook para inspeção dos resultados já gerados.
 
 ### Arquivos principais
 
@@ -320,9 +330,9 @@ docker compose run --rm app python src/main.py --config config/default.yaml all
 
 Os notebooks também seguem uma ordem explícita para apoiar a reprodução e a análise:
 
-1. `24_full_experiment_colab.ipynb`: execução completa do experimento em ambiente interativo, com foco em Google Colab.
-2. `25_step_by_step_execution.ipynb`: execução modular por etapas, útil para depuração, repetição parcial e acompanhamento do pipeline.
-3. `26_results_analysis.ipynb`: leitura e inspeção dos artefatos finais já gerados.
+1. `00_full_experiment_colab.ipynb`: execução completa do experimento em ambiente interativo, com foco em Google Colab.
+2. `01_step_by_step_execution.ipynb`: execução modular por etapas, útil para depuração, repetição parcial e acompanhamento do pipeline.
+3. `02_results_analysis.ipynb`: leitura e inspeção dos artefatos finais já gerados.
 
 ---
 
