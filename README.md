@@ -411,6 +411,16 @@ Essas informações ajudam a contextualizar o ambiente computacional empregado n
 
 ---
 
+## Declaração de utilização de IA
+
+Em conformidade com a Portaria CNPq nº 2.664/2026, declara-se que ferramentas de Inteligência Artificial generativa foram utilizadas como apoio ao desenvolvimento deste trabalho. O *Prism*, com os modelos 5.5 e 5.6-SOL, foi utilizado para apoio à escrita, à organização do trabalho e ao gerenciamento das fontes. O *NotebookLM*, com o modelo Gemini 3.5, foi utilizado para apoio à organização das fontes, incluindo consultas e perguntas sobre os materiais bibliográficos analisados. O *Codex*, nos modelos 5.4 e 5.4-mini, foi utilizado para apoio à criação, estruturação e documentação do código do experimento. O *ChatGPT* na versão Go, com o modelo GPT-5.2 Instant, foi utilizado para apoio à organização do experimento.
+
+O uso dessas ferramentas teve caráter auxiliar. A autora revisou criticamente o conteúdo, as decisões metodológicas, as referências, o código e a versão final do artigo, assumindo responsabilidade integral pela seleção, interpretação e apresentação das informações.
+
+---
+
 ## Licença
 
-Projeto desenvolvido para fins de pesquisa acadêmica.
+Este projeto está licenciado sob a licença MIT.
+
+Consulte o arquivo [LICENSE](LICENSE) para mais detalhes.
