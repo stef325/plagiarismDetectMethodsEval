@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 
 import pretty_midi
@@ -11,7 +12,7 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.select_subset import select_subset
+select_subset = import_module("experiment.04_select_subset").select_subset
 
 
 def _write_midi(path: Path) -> None:

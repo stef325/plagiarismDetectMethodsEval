@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,7 +13,9 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.compute_harmony_metrics import compute_harmony_metrics
+compute_harmony_metrics = import_module(
+    "experiment.14_compute_harmony_metrics"
+).compute_harmony_metrics
 from metrics.harmony.chord_ngram_similarity import ChordNGramSimilarityMetric
 from metrics.harmony.harmonic_edit_distance import HarmonicEditDistanceMetric
 from metrics.harmony.pitch_class_similarity import PitchClassSimilarityMetric
@@ -240,11 +243,11 @@ class ComputeHarmonyMetricsPipelineTestCase(unittest.TestCase):
             )
 
             with patch(
-                "experiment.compute_harmony_metrics.ChordNGramSimilarityMetric.compute"
+                "experiment.14_compute_harmony_metrics.ChordNGramSimilarityMetric.compute"
             ) as mocked_ngram, patch(
-                "experiment.compute_harmony_metrics.HarmonicEditDistanceMetric.compute"
+                "experiment.14_compute_harmony_metrics.HarmonicEditDistanceMetric.compute"
             ) as mocked_edit, patch(
-                "experiment.compute_harmony_metrics.PitchClassSimilarityMetric.compute"
+                "experiment.14_compute_harmony_metrics.PitchClassSimilarityMetric.compute"
             ) as mocked_pitch:
                 compute_harmony_metrics(
                     transformations_path=transformations_root,
@@ -260,4 +263,3 @@ class ComputeHarmonyMetricsPipelineTestCase(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

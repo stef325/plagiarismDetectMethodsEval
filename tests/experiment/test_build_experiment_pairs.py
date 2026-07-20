@@ -3,12 +3,15 @@ from __future__ import annotations
 import csv
 import json
 import tempfile
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
 import pytest
 
-from experiment.build_experiment_pairs import build_experiment_pairs
+build_experiment_pairs = import_module(
+    "experiment.18_build_experiment_pairs"
+).build_experiment_pairs
 
 
 def _write_json(path: Path, payload: dict[str, object]) -> None:
@@ -156,8 +159,8 @@ def test_build_experiment_pairs_is_reproducible_with_same_seed() -> None:
         first_csv = (first_result / "experiment_pairs.csv").read_text(encoding="utf-8")
         first_json = (first_result / "experiment_pairs.json").read_text(encoding="utf-8")
 
-        with patch("experiment.build_experiment_pairs._build_positive_pairs") as mocked_positive, patch(
-            "experiment.build_experiment_pairs._build_negative_pairs"
+        with patch("experiment.18_build_experiment_pairs._build_positive_pairs") as mocked_positive, patch(
+            "experiment.18_build_experiment_pairs._build_negative_pairs"
         ) as mocked_negative:
             second_result = build_experiment_pairs(
                 representations_path=representations_root,
@@ -211,4 +214,3 @@ def test_build_experiment_pairs_rejects_missing_inputs() -> None:
                 output_path=root / "data" / "processed" / "experiment" / "pairs",
                 random_seed=42,
             )
-

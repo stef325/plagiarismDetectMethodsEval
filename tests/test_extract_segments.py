@@ -4,6 +4,7 @@ import sys
 import tempfile
 import unittest
 import csv
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -14,7 +15,7 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.extract_segments import extract_segments
+extract_segments = import_module("experiment.05_extract_segments").extract_segments
 
 
 def _write_midi(path: Path) -> None:
@@ -80,7 +81,7 @@ class ExtractSegmentsTestCase(unittest.TestCase):
             output_path = root / "data" / "processed" / "segments"
 
             with patch(
-                "experiment.extract_segments.POP909Loader.load_midi_file",
+                "experiment.05_extract_segments.POP909Loader.load_midi_file",
                 return_value=_build_loaded_midi(),
             ):
                 result = extract_segments(
@@ -125,7 +126,7 @@ class ExtractSegmentsTestCase(unittest.TestCase):
             second_output = root / "data" / "processed" / "segments_second"
 
             with patch(
-                "experiment.extract_segments.POP909Loader.load_midi_file",
+                "experiment.05_extract_segments.POP909Loader.load_midi_file",
                 return_value=_build_loaded_midi(),
             ):
                 extract_segments(
@@ -137,7 +138,7 @@ class ExtractSegmentsTestCase(unittest.TestCase):
                 )
 
             with patch(
-                "experiment.extract_segments.POP909Loader.load_midi_file",
+                "experiment.05_extract_segments.POP909Loader.load_midi_file",
                 return_value=_build_loaded_midi(),
             ):
                 extract_segments(

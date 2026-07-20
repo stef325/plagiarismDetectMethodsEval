@@ -5,10 +5,13 @@ from __future__ import annotations
 from pathlib import Path
 import csv
 import json
+from importlib import import_module
 
 import pytest
 
-from experiment.evaluate_interpretability import evaluate_interpretability
+evaluate_interpretability = import_module(
+    "experiment.21_evaluate_interpretability"
+).evaluate_interpretability
 
 
 METRIC_COLUMNS = [

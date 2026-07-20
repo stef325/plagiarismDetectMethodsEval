@@ -13,7 +13,9 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-compute_global_metrics = import_module("experiment.compute_global_metrics").compute_global_metrics
+compute_global_metrics = import_module(
+    "experiment.16_compute_global_metrics"
+).compute_global_metrics
 SimpleAverageMetric = import_module("metrics.global.simple_average").SimpleAverageMetric
 WeightedAverageMetric = import_module("metrics.global.weighted_average").WeightedAverageMetric
 
@@ -352,9 +354,9 @@ class ComputeGlobalMetricsPipelineTestCase(unittest.TestCase):
             )
 
             with patch(
-                "experiment.compute_global_metrics.SimpleAverageMetric.compute"
+                "experiment.16_compute_global_metrics.SimpleAverageMetric.compute"
             ) as mocked_simple, patch(
-                "experiment.compute_global_metrics.WeightedAverageMetric.compute"
+                "experiment.16_compute_global_metrics.WeightedAverageMetric.compute"
             ) as mocked_weighted:
                 compute_global_metrics(
                     metrics_path=metrics_root,

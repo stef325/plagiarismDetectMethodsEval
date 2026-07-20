@@ -5,6 +5,7 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -12,7 +13,7 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.transform_combined import transform_combined
+transform_combined = import_module("experiment.10_transform_combined").transform_combined
 
 
 def _create_combined_representations_dataset(root: Path, count: int) -> Path:
@@ -108,7 +109,7 @@ class TransformCombinedTestCase(unittest.TestCase):
             existing_content = existing_json.read_text(encoding="utf-8")
 
             with patch(
-                "experiment.transform_combined.MelodyHarmonyTransformation.transform"
+                "experiment.10_transform_combined.MelodyHarmonyTransformation.transform"
             ) as mocked_transform:
                 second_result = transform_combined(source_path, output_path, section)
 

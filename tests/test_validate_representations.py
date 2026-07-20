@@ -5,13 +5,16 @@ import json
 import sys
 import tempfile
 import unittest
+from importlib import import_module
 from pathlib import Path
 
 PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.validate_representations import validate_representations
+validate_representations = import_module(
+    "experiment.11_validate_representations"
+).validate_representations
 
 
 def _create_segments_metadata(path: Path, rows: list[dict[str, str]]) -> None:

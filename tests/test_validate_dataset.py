@@ -4,6 +4,7 @@ import sys
 import tempfile
 import unittest
 import warnings
+from importlib import import_module
 from pathlib import Path
 from unittest.mock import patch
 
@@ -13,7 +14,7 @@ PROJECT_SRC = Path(__file__).resolve().parents[1] / "src"
 if str(PROJECT_SRC) not in sys.path:
     sys.path.insert(0, str(PROJECT_SRC))
 
-from experiment.validate_dataset import validate_dataset
+validate_dataset = import_module("experiment.03_validate_dataset").validate_dataset
 
 
 def _write_midi(path: Path) -> None:
@@ -84,7 +85,7 @@ class ValidateDatasetTestCase(unittest.TestCase):
             report_path = Path(tmpdir) / "data" / "results" / "report.md"
 
             with patch(
-                "experiment.validate_dataset.POP909Loader.load_music",
+                "experiment.03_validate_dataset.POP909Loader.load_music",
                 side_effect=OSError("MIDI corrompido"),
             ):
                 validate_dataset(dataset_root, report_path)
@@ -107,7 +108,7 @@ class ValidateDatasetTestCase(unittest.TestCase):
             report_path = Path(tmpdir) / "data" / "results" / "report.md"
 
             original_load_music = sys.modules[
-                "experiment.validate_dataset"
+                "experiment.03_validate_dataset"
             ].POP909Loader.load_music
 
             def load_music_with_warning(self: object, song_id: str) -> dict:
@@ -115,7 +116,7 @@ class ValidateDatasetTestCase(unittest.TestCase):
                 return original_load_music(self, song_id)
 
             with patch(
-                "experiment.validate_dataset.POP909Loader.load_music",
+                "experiment.03_validate_dataset.POP909Loader.load_music",
                 new=load_music_with_warning,
             ):
                 validate_dataset(dataset_root, report_path)

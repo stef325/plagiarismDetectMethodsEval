@@ -5,18 +5,20 @@ from __future__ import annotations
 from pathlib import Path
 import csv
 import json
+from importlib import import_module
 
 import pytest
 
-from experiment.evaluate_robustness import (
-    _build_transformation_drop_results,
-    _calculate_confusion_matrix,
-    _false_negative_rate,
-    _f1_score,
-    _precision,
-    _recall,
-    evaluate_robustness,
+evaluate_robustness_module = import_module("experiment.20_evaluate_robustness")
+_build_transformation_drop_results = (
+    evaluate_robustness_module._build_transformation_drop_results
 )
+_calculate_confusion_matrix = evaluate_robustness_module._calculate_confusion_matrix
+_false_negative_rate = evaluate_robustness_module._false_negative_rate
+_f1_score = evaluate_robustness_module._f1_score
+_precision = evaluate_robustness_module._precision
+_recall = evaluate_robustness_module._recall
+evaluate_robustness = evaluate_robustness_module.evaluate_robustness
 
 
 METRIC_NAMES = [

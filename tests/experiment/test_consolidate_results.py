@@ -5,8 +5,11 @@ from __future__ import annotations
 from pathlib import Path
 import csv
 import json
+from importlib import import_module
 
-from experiment.consolidate_results import consolidate_results
+consolidate_results = import_module(
+    "experiment.22_consolidate_results"
+).consolidate_results
 
 
 def test_consolidate_results_creates_expected_outputs(tmp_path: Path) -> None:
