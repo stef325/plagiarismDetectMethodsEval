@@ -1,0 +1,14 @@
+check,expected
+dataset_exists,True
+music_count,1
+invalid_directories_count,0
+inspect_report_exists,True
+cleaned_dataset_exists,True
+cleaned_main_midis,1
+cleaned_contains_001_mid,True
+validation_report_exists,True
+validation_songs_analyzed,1
+validation_midi_files_found,2
+validation_midi_files_loaded,2
+validation_midi_files_with_warning,0
+validation_invalid_files,0

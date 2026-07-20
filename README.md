@@ -126,6 +126,7 @@ Para conhecer melhor o artigo, o desenho experimental e os artefatos de reprodu�
 
 * [Sumário da documentação](docs/README.md)
 * [Visão geral do projeto](docs/project_overview.md)
+* Smoke test: [tests/smoke/README.md](tests/smoke/README.md)
 * [Protocolo experimental](docs/experimental_protocol.md)
 * [Reprodutibilidade](docs/reproducibility.md)
 * [Arquitetura do projeto](docs/architecture.md)
@@ -141,8 +142,10 @@ Para conhecer melhor o artigo, o desenho experimental e os artefatos de reprodu�
 * Sumário da documentação: [docs/README.md](docs/README.md)
 * Documentação do dataset POP909: [docs/datasets.md](docs/datasets.md)
 * Protocolo experimental: [docs/experimental_protocol.md](docs/experimental_protocol.md)
+* Documentação do smoke test: [tests/smoke/README.md](tests/smoke/README.md)
 * Reprodutibilidade: [docs/reproducibility.md](docs/reproducibility.md)
 * Guia dos resultados: [docs/results_guide.md](docs/results_guide.md)
+
 
 ---
 
@@ -195,6 +198,18 @@ Antes da execução, é necessário:
 
 * disponibilizar o dataset POP909 em `data/raw/POP909`;
 * manter os arquivos de integridade do dataset conforme descrito em `docs/datasets.md`.
+
+### Smoke test
+
+Se quiser uma verificação rápida antes da execução completa, o projeto possui um smoke test com dataset mínimo de exemplo e saída esperada.
+
+```bash
+pytest tests/test_smoke_dataset_example.py -q
+```
+
+Detalhes do smoke test:
+
+* [tests/smoke/README.md](tests/smoke/README.md)
 
 ### Execução completa
 
